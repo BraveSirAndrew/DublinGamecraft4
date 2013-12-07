@@ -9,6 +9,7 @@ using OpenTK;
 
 namespace DublinGamecraft4.HUD
 {
+    [Serializable]
     [RequiredComponent(typeof(Transform))]
     public class LogCountDisplay : Component, ICmpUpdatable, ICmpInitializable
     {

@@ -12,8 +12,8 @@ namespace DublinGamecraft4
 	[Serializable]
 	public class SnowSkirt : SpriteRenderer, ICmpUpdatable, ICmpInitializable
 	{
-		private const int MaxPoints = 5000;
-		private const int MaxVertices = 20000;
+		private const int MaxPoints = 1000;
+		private const int MaxVertices = MaxPoints*4;
 
 		[NonSerialized]
 		private Vector3[] _points = new Vector3[MaxPoints];

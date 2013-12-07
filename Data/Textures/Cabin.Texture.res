@@ -3,7 +3,7 @@
   <object dataType="Class" type="Duality.Resources.Texture">
     <anisoFilter dataType="Bool">false</anisoFilter>
     <basePixmap dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Pixmap]]">
-      <contentPath dataType="String">Data\Cabin.Pixmap.res</contentPath>
+      <contentPath dataType="String">Data\Pixmaps\Cabin.Pixmap.res</contentPath>
     </basePixmap>
     <filterMag dataType="Enum" type="OpenTK.Graphics.OpenGL.TextureMagFilter" name="Nearest" value="9728" />
     <filterMin dataType="Enum" type="OpenTK.Graphics.OpenGL.TextureMinFilter" name="LinearMipmapLinear" value="9987" />
