@@ -46,6 +46,8 @@ namespace DublinGamecraft4.Wood
             if (!DualityApp.Keyboard.KeyHit(Key.Space) || _playerWood.CurrentWood >= _player.MaxLogs)
                 return;
 
+	        DualityApp.Sound.PlaySound(GameRes.Data.Sounds.axe_hit_Sound);
+
             var seperation = _player.GameObj.Transform.Pos - GameObj.Transform.Pos;
             if (!(MathF.Abs(seperation.Length) < ChopRadius))
                 return;

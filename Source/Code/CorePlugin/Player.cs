@@ -70,6 +70,7 @@ namespace DublinGamecraft4
 
 		    if (DualityApp.Keyboard.KeyHit(Key.Space) && _woodComponent.CurrentWood < MaxLogs)
 		    {
+			    DualityApp.Sound.PlaySound(GameRes.Data.Sounds.axe_swoosh_Sound);
 			    GameObj.GetComponentsInChildren<Axe>().First(c => c.Active).Chop();
 		    }
 
