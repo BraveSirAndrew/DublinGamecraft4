@@ -149,13 +149,13 @@
               <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
               <parentTransform />
               <pos dataType="Struct" type="OpenTK.Vector3">
-                <X dataType="Float">3.55503583</X>
-                <Y dataType="Float">-1050.00916</Y>
+                <X dataType="Float">218.508316</X>
+                <Y dataType="Float">-998.6075</Y>
                 <Z dataType="Float">-2499.999</Z>
               </pos>
               <posAbs dataType="Struct" type="OpenTK.Vector3">
-                <X dataType="Float">3.55503583</X>
-                <Y dataType="Float">-1050.00916</Y>
+                <X dataType="Float">218.508316</X>
+                <Y dataType="Float">-998.6075</Y>
                 <Z dataType="Float">-2499.999</Z>
               </posAbs>
               <scale dataType="Float">1</scale>
@@ -253,13 +253,13 @@
                       <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
                       <parentTransform />
                       <pos dataType="Struct" type="OpenTK.Vector3">
-                        <X dataType="Float">3.55503654</X>
-                        <Y dataType="Float">-250.009445</Y>
+                        <X dataType="Float">218.508286</X>
+                        <Y dataType="Float">-198.607559</Y>
                         <Z dataType="Float">0</Z>
                       </pos>
                       <posAbs dataType="Struct" type="OpenTK.Vector3">
-                        <X dataType="Float">3.55503654</X>
-                        <Y dataType="Float">-250.009445</Y>
+                        <X dataType="Float">218.508286</X>
+                        <Y dataType="Float">-198.607559</Y>
                         <Z dataType="Float">0</Z>
                       </posAbs>
                       <scale dataType="Float">1</scale>
@@ -275,30 +275,6 @@
                         <Z dataType="Float">0</Z>
                       </velAbs>
                     </object>
-                    <object dataType="Class" type="Duality.Components.Renderers.SpriteRenderer" id="1773840170">
-                      <active dataType="Bool">true</active>
-                      <colorTint dataType="Struct" type="Duality.ColorFormat.ColorRgba">
-                        <A dataType="Byte">255</A>
-                        <B dataType="Byte">255</B>
-                        <G dataType="Byte">255</G>
-                        <R dataType="Byte">255</R>
-                      </colorTint>
-                      <customMat />
-                      <gameobj dataType="ObjectRef">131673602</gameobj>
-                      <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
-                      <offset dataType="Int">0</offset>
-                      <rect dataType="Struct" type="Duality.Rect">
-                        <H dataType="Float">512</H>
-                        <W dataType="Float">256</W>
-                        <X dataType="Float">-128</X>
-                        <Y dataType="Float">-256</Y>
-                      </rect>
-                      <rectMode dataType="Enum" type="Duality.Components.Renderers.SpriteRenderer+UVMode" name="Stretch" value="0" />
-                      <sharedMat dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
-                        <contentPath dataType="String">Default:Material:SolidWhite</contentPath>
-                      </sharedMat>
-                      <visibilityGroup dataType="Enum" type="Duality.VisibilityFlag" name="Group0" value="1" />
-                    </object>
                     <object dataType="Class" type="DublinGamecraft4.Player" id="255751249">
                       <__sbo__BaseSpeed__sbc__k__BackingField dataType="Float">10</__sbo__BaseSpeed__sbc__k__BackingField>
                       <active dataType="Bool">true</active>
@@ -311,22 +287,53 @@
                       <gameobj dataType="ObjectRef">131673602</gameobj>
                       <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
                     </object>
+                    <object dataType="Class" type="Duality.Components.Renderers.AnimSpriteRenderer" id="4134076279">
+                      <active dataType="Bool">true</active>
+                      <animDuration dataType="Float">1</animDuration>
+                      <animFirstFrame dataType="Int">0</animFirstFrame>
+                      <animFrameCount dataType="Int">31</animFrameCount>
+                      <animLoopMode dataType="Enum" type="Duality.Components.Renderers.AnimSpriteRenderer+LoopMode" name="Loop" value="1" />
+                      <animPaused dataType="Bool">true</animPaused>
+                      <animTime dataType="Float">0</animTime>
+                      <colorTint dataType="Struct" type="Duality.ColorFormat.ColorRgba">
+                        <A dataType="Byte">255</A>
+                        <B dataType="Byte">255</B>
+                        <G dataType="Byte">255</G>
+                        <R dataType="Byte">255</R>
+                      </colorTint>
+                      <customFrameSequence />
+                      <customMat />
+                      <gameobj dataType="ObjectRef">131673602</gameobj>
+                      <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
+                      <offset dataType="Int">0</offset>
+                      <rect dataType="Struct" type="Duality.Rect">
+                        <H dataType="Float">400</H>
+                        <W dataType="Float">256</W>
+                        <X dataType="Float">-128</X>
+                        <Y dataType="Float">-200</Y>
+                      </rect>
+                      <rectMode dataType="Enum" type="Duality.Components.Renderers.SpriteRenderer+UVMode" name="Stretch" value="0" />
+                      <sharedMat dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
+                        <contentPath dataType="String">Data\Material\HunterWalk.Material.res</contentPath>
+                      </sharedMat>
+                      <visibilityGroup dataType="Enum" type="Duality.VisibilityFlag" name="Group0" value="1" />
+                    </object>
                   </_items>
                   <_size dataType="Int">4</_size>
-                  <_version dataType="Int">4</_version>
+                  <_version dataType="Int">6</_version>
                 </compList>
                 <compMap dataType="Class" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="641698350" surrogate="true">
                   <header />
                   <body>
                     <keys dataType="Array" type="System.Type[]" id="2217996579" length="4">
                       <object dataType="ObjectRef">665143522</object>
-                      <object dataType="Type" id="2957713506" value="Duality.Components.Renderers.SpriteRenderer" />
+                      <object dataType="Type" id="2957713506" value="Duality.Components.Renderers.AnimSpriteRenderer" />
                       <object dataType="Type" id="187534044" value="DublinGamecraft4.Player" />
                       <object dataType="Type" id="3818546238" value="DublinGamecraft4.Wood.WoodComponent" />
                     </keys>
                     <values dataType="Array" type="Duality.Component[]" id="3083772758" length="4">
                       <object dataType="ObjectRef">2491988534</object>
-                      <object dataType="ObjectRef">1773840170</object>
+                      <object dataType="ObjectRef">4134076279</object>
                       <object dataType="ObjectRef">255751249</object>
                       <object dataType="ObjectRef">1151525771</object>
                     </values>
@@ -518,8 +525,8 @@
                   <keys dataType="Array" type="System.Type[]" id="1648110435" length="4">
                     <object dataType="ObjectRef">3818546238</object>
                     <object dataType="ObjectRef">665143522</object>
-                    <object dataType="ObjectRef">2957713506</object>
-                    <object dataType="Type" id="3546841826" value="DublinGamecraft4.Wood.Tree" />
+                    <object dataType="Type" id="3546841826" value="Duality.Components.Renderers.SpriteRenderer" />
+                    <object dataType="Type" id="1768283612" value="DublinGamecraft4.Wood.Tree" />
                   </keys>
                   <values dataType="Array" type="Duality.Component[]" id="1321420502" length="4">
                     <object dataType="ObjectRef">550822420</object>
@@ -601,8 +608,8 @@
                   <keys dataType="Array" type="System.Type[]" id="3592537865" length="4">
                     <object dataType="ObjectRef">3818546238</object>
                     <object dataType="ObjectRef">665143522</object>
-                    <object dataType="ObjectRef">2957713506</object>
                     <object dataType="ObjectRef">3546841826</object>
+                    <object dataType="ObjectRef">1768283612</object>
                   </keys>
                   <values dataType="Array" type="Duality.Component[]" id="3602428686" length="4">
                     <object dataType="ObjectRef">2723395578</object>
@@ -684,8 +691,8 @@
                   <keys dataType="Array" type="System.Type[]" id="3560326445" length="4">
                     <object dataType="ObjectRef">3818546238</object>
                     <object dataType="ObjectRef">665143522</object>
-                    <object dataType="ObjectRef">2957713506</object>
                     <object dataType="ObjectRef">3546841826</object>
+                    <object dataType="ObjectRef">1768283612</object>
                   </keys>
                   <values dataType="Array" type="Duality.Component[]" id="3358229846" length="4">
                     <object dataType="ObjectRef">3706395246</object>

@@ -16,7 +16,7 @@ namespace DublinGamecraft4
 		{
 			if (context == InitContext.Activate)
 			{
-				_fallSpeed = MathF.Rnd.NextFloat(4, 6);
+				_fallSpeed = MathF.Rnd.NextFloat(4, 7);
 				_randomSway = MathF.Rnd.NextFloat(0, 1);
 			}
 		}

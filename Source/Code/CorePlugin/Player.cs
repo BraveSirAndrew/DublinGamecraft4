@@ -9,11 +9,24 @@ namespace DublinGamecraft4
 {
 	[Serializable]
     [RequiredComponent(typeof(WoodComponent))]
-    public class Player : Component, ICmpUpdatable
+    public class Player : Component, ICmpUpdatable, ICmpInitializable
 	{
 		[NonSerialized]
 		private float _speedDamping = 1;
 		public float BaseSpeed { get; set; }
+
+		public void OnInit(InitContext context)
+		{
+			if (context == InitContext.Activate)
+			{
+				
+			}
+		}
+
+		public void OnShutdown(ShutdownContext context)
+		{
+
+		}
 
 	    public void OnUpdate()
 	    {
@@ -38,5 +51,5 @@ namespace DublinGamecraft4
 			    snowSkirt.MeltSnow(GameObj.Transform.Pos.X + 40, 3, 1.10f, 170);
 		    }
 	    }
-    }
+	}
 }

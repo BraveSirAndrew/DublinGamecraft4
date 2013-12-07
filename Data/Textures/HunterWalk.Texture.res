@@ -3,14 +3,14 @@
   <object dataType="Class" type="Duality.Resources.Texture">
     <anisoFilter dataType="Bool">false</anisoFilter>
     <basePixmap dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Pixmap]]">
-      <contentPath dataType="String">Data\Pixmaps\FirTree.Pixmap.res</contentPath>
+      <contentPath dataType="String">Data\Pixmaps\HunterWalk.Pixmap.res</contentPath>
     </basePixmap>
     <filterMag dataType="Enum" type="OpenTK.Graphics.OpenGL.TextureMagFilter" name="Nearest" value="9728" />
     <filterMin dataType="Enum" type="OpenTK.Graphics.OpenGL.TextureMinFilter" name="LinearMipmapLinear" value="9987" />
     <pixelformat dataType="Enum" type="OpenTK.Graphics.OpenGL.PixelInternalFormat" name="Rgba" value="6408" />
     <size dataType="Struct" type="OpenTK.Vector2">
-      <X dataType="Float">48</X>
-      <Y dataType="Float">72</Y>
+      <X dataType="Float">620</X>
+      <Y dataType="Float">36</Y>
     </size>
     <sizeRelative dataType="Bool">false</sizeRelative>
     <sourcePath />
