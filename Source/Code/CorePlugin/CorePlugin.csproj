@@ -50,6 +50,7 @@
     <Compile Include="BreathGenerator.cs" />
     <Compile Include="BreathParticle.cs" />
     <Compile Include="CorePlugin.cs" />
+    <Compile Include="Deactivator.cs" />
     <Compile Include="HUD\LogCountDisplay.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

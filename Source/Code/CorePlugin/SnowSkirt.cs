@@ -26,12 +26,14 @@ namespace DublinGamecraft4
 		public int DistanceBetweenPeaks { get; set; }
 		public int DriftWidth { get; set; }
 		public float SpringDivider { get; set; }
+        public bool IsGrowing { get; set; }
 
 		public void OnInit(InitContext context)
 		{
 			if (context == InitContext.Activate)
 			{
 				_vertices = new VertexC1P3T2[MaxVertices];
+			    IsGrowing = true;
 
 				for (var i = 0; i < _points.Length; i += 2)
 				{
@@ -47,6 +49,9 @@ namespace DublinGamecraft4
 
 		public void OnUpdate()
 		{
+            if(!IsGrowing)
+                return;
+
 			int pointIndex = -1;
 
 			while (pointIndex == -1 || pointIndex % 2 == 1)
