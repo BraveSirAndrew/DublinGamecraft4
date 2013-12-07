@@ -1,6 +1,7 @@
 ﻿using System;
 using Duality;
 using Duality.ColorFormat;
+using Duality.Components;
 using Duality.Components.Renderers;
 using Duality.Resources;
 using OpenTK.Input;
@@ -21,6 +22,10 @@ namespace DublinGamecraft4.Wood
         [NonSerialized] 
         private SpriteRenderer _spriteRenderer;
 
+        private float _lifetime;
+        public float TimeToGrow { get; set; }
+        public int GrowthLimit { get; set; }
+
         public float ChopRadius { get; set; }
 
         public void OnInit(InitContext context)
@@ -36,6 +41,17 @@ namespace DublinGamecraft4.Wood
 
         public void OnUpdate()
         {
+            if(_woodComponent.CurrentWood < GrowthLimit)
+            _lifetime += Time.LastDelta/1000;
+
+            if (_lifetime > TimeToGrow)
+            {
+                _woodComponent.AddWood();
+                _lifetime = 0;
+            }
+
+            GameObj.Transform.Scale = ((float)_woodComponent.CurrentWood + _lifetime / TimeToGrow) / 3.0f;
+
             if (!_woodComponent.HasAnyWood)
             {
                 GameObj.Active = false;
@@ -55,11 +71,7 @@ namespace DublinGamecraft4.Wood
             var wood = _woodComponent.TakeWood();
             _playerWood.AddWood(wood);
 
-            if (_spriteRenderer != null)
-            {
-                float fraction = 1- (float) _woodComponent.CurrentWood/(float) _woodComponent.StartingWoodCount;
-                _spriteRenderer.ColorTint = ColorRgba.Mix(ColorRgba.White, ColorRgba.Black, fraction);
-            }
+                GameObj.Transform.Scale = ( (float)_woodComponent.CurrentWood+_lifetime/TimeToGrow)/3.0f;
                 
         }
 
