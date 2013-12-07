@@ -46,6 +46,7 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Axe.cs" />
     <Compile Include="CorePlugin.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -54,7 +55,7 @@
     <Compile Include="SnowFlake.cs" />
     <Compile Include="SnowSkirt.cs" />
     <Compile Include="SpringTracker.cs" />
-    <Compile Include="Wood\CampFire.cs" />
+    <Compile Include="Wood\BurningWood.cs" />
     <Compile Include="Wood\Tree.cs" />
     <Compile Include="Wood\WoodComponent.cs" />
   </ItemGroup>
