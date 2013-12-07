@@ -74,7 +74,7 @@
             <_lifetime dataType="Float">0</_lifetime>
             <__sbo__ChopRadius__sbc__k__BackingField dataType="Float">500</__sbo__ChopRadius__sbc__k__BackingField>
             <__sbo__GrowthLimit__sbc__k__BackingField dataType="Int">5</__sbo__GrowthLimit__sbc__k__BackingField>
-            <__sbo__TimeToGrow__sbc__k__BackingField dataType="Float">60</__sbo__TimeToGrow__sbc__k__BackingField>
+            <__sbo__TimeToGrow__sbc__k__BackingField dataType="Float">15</__sbo__TimeToGrow__sbc__k__BackingField>
             <active dataType="Bool">true</active>
             <gameobj dataType="ObjectRef">3482361300</gameobj>
             <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />

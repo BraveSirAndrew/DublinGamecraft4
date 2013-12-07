@@ -18,13 +18,13 @@
             <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
             <parentTransform />
             <pos dataType="Struct" type="OpenTK.Vector3">
-              <X dataType="Float">8284.523</X>
-              <Y dataType="Float">-3011.90381</Y>
+              <X dataType="Float">2055.55542</X>
+              <Y dataType="Float">-1064.81482</Y>
               <Z dataType="Float">6000</Z>
             </pos>
             <posAbs dataType="Struct" type="OpenTK.Vector3">
-              <X dataType="Float">8284.523</X>
-              <Y dataType="Float">-3011.90381</Y>
+              <X dataType="Float">2055.55542</X>
+              <Y dataType="Float">-1064.81482</Y>
               <Z dataType="Float">6000</Z>
             </posAbs>
             <scale dataType="Float">11.1083059</scale>
@@ -44,9 +44,9 @@
             <active dataType="Bool">true</active>
             <colorTint dataType="Struct" type="Duality.ColorFormat.ColorRgba">
               <A dataType="Byte">255</A>
-              <B dataType="Byte">255</B>
-              <G dataType="Byte">255</G>
-              <R dataType="Byte">255</R>
+              <B dataType="Byte">158</B>
+              <G dataType="Byte">158</G>
+              <R dataType="Byte">163</R>
             </colorTint>
             <customMat />
             <gameobj dataType="ObjectRef">313165346</gameobj>

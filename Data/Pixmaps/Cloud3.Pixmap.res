@@ -9,7 +9,7 @@
         <object dataType="Class" type="Duality.Resources.Pixmap+Layer" id="3086941652" custom="true">
           <body>
             <version dataType="Int">3</version>
-            <pixelData dataType="Array" type="System.Byte[]" id="1420745160" length="671">iVBORw0KGgoAAAANSUhEUgAAAGwAAAAfCAYAAAAC0CiiAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAI0SURBVGhD7ZhBSsRAEEVzHo/gypt4CA/h2kO4nZWoiOBCBEEERRBEGJQBN+LGC2h1SIXqyk+nk3RPOpP+8BAz6arqejgLi5yFZvPw22B991O8XG2K+9VbTc6EAZL+NCRJYsljcrYQktEqSUNSXGR5sUMSvGUxlZwuLHlMzojQ8nvL6oKkuMjyhoaWG1yWi0pYQ97j2bp4vf4qZ8lpiVlOBVxuTJS0EvP86fzD+utjFh9azmSyGBLhy7IF0rIml6UhCX1YljhaUFKyEEKOi90XR8uYhTCJENRGLc6wU6EFBJVlFoaex8L062B35NGFZy9MYnp3YMnTJB+6ZHBZDPp8m8hZfHi+/Cz3ESqmlgH9c5zpFS5IwAsPgYaoQZ+ngJxRYj57v/2Weynpin5f4erpL00XDIEaBr6TEnrelpnlrlygszWoV0W3NCrg1aQvahD4zhhi1WXk7NvsQ7RLowPBZanmDdCZvoSslRJ8L/lVbKV6CA8PhZvuFQcl/DsCne9izNkZUpmqYh6oF0bDoiRSkgbVaGPImQTgPQ/CCngBNfQCidJIURJUrw1UF4HObonGXqNENEBDtIKWNYbQPVC90HCv0+OLeIJQTDMFHNAglxKbw/2jgn76AmsY0D3GwHXlfJOFBipZndw4lxCJegGMT9A5AtWHAnwAtco+yYQHEqChx9LoEyKoLoH698WqmWz0oAp0MQQ6W3WIG9SXQDMirHOzjr5MF6kEzeYiJycnJ2fiFMU/i7SSqDY2AYIAAAAASUVORK5CYII=</pixelData>
+            <pixelData dataType="Array" type="System.Byte[]" id="1420745160" length="694">iVBORw0KGgoAAAANSUhEUgAAAGwAAAAfCAYAAAAC0CiiAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJLSURBVGhD7ZnBasJAEIYDfQXf/x28ePDkuVCKVFHBUpVioS/RzoZMmJ38m2w2m5iY/eFD1N2ZyXy0hzZLmWHu998Kt9tPdjrdsu32syTlgQGS/jQkSWLJY1IGCMlwStKQlDqSvL5DErxlMYWcJix5TEqH0PJby2Jo+SEkeaGhpQfLkhQiQsil7feX7Hz+zmdJccQspwBKCEHJaIW5fzhcrZ8+Zvah5USXJaElx2TeAmmhvcrS0IJjMy9xtMTBZIUi5NTx/OJoGZMQJhGCXJTiDE8VWkBUWWZh6PO+MP0aeB559MCTFyYxvRuw5GlGH3rI6LIY9P2QyFl8OB6v+T5ixdQyoD+OM63CBQn4wCHQECXo+zEgZ5SY7y6Xu9xLTlP0eUVdT39pumAM1DDwzJjQ8zpmlruqA90tQb0KmqVRAa8mbVGDwDNd6KsuI2cfsg/hlkYXostSzSugO22JWWtM8HPJX8VWig/h5VC46XL5msPvEeh+E13uTpDCVBHzgToQjBTBsmJLQ/ddoPsPgvcchBVwADV0ghalZUnQeQOqLdHn6+qiz1DNHqnstZeIBmgIC7kMvSB+Hwrqh875ImdFtUPQNbnXbvfVnyAU00zhHFQuRVL3XSibzUdGr77AGnJ2g342H3QNri3ne1howBzzD0MebEDKBTA+QfeISn29eClFo88aVL28z2jCAwl4SD24L7oeJEZQXcKaBwlByDvr9btVc7SRQ3Zh8bKwGCp6jtXqzbxaMlxMRlLbaBmaMUUK8CElJSUlZQTJsn/NK9lyR5fONQAAAABJRU5ErkJggg==</pixelData>
           </body>
         </object>
         <object />
@@ -17,7 +17,7 @@
         <object />
       </_items>
       <_size dataType="Int">1</_size>
-      <_version dataType="Int">1</_version>
+      <_version dataType="Int">2</_version>
     </layers>
     <sourcePath dataType="String">Source\Media\Cloud3.png</sourcePath>
   </object>
