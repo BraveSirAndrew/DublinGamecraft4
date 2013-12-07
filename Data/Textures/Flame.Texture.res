@@ -5,12 +5,12 @@
     <basePixmap dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Pixmap]]">
       <contentPath dataType="String">Data\Pixmaps\Flame.Pixmap.res</contentPath>
     </basePixmap>
-    <filterMag dataType="Enum" type="OpenTK.Graphics.OpenGL.TextureMagFilter" name="Linear" value="9729" />
+    <filterMag dataType="Enum" type="OpenTK.Graphics.OpenGL.TextureMagFilter" name="Nearest" value="9728" />
     <filterMin dataType="Enum" type="OpenTK.Graphics.OpenGL.TextureMinFilter" name="LinearMipmapLinear" value="9987" />
     <pixelformat dataType="Enum" type="OpenTK.Graphics.OpenGL.PixelInternalFormat" name="Rgba" value="6408" />
     <size dataType="Struct" type="OpenTK.Vector2">
-      <X dataType="Float">200</X>
-      <Y dataType="Float">267</Y>
+      <X dataType="Float">18</X>
+      <Y dataType="Float">24</Y>
     </size>
     <sizeRelative dataType="Bool">false</sizeRelative>
     <sourcePath />

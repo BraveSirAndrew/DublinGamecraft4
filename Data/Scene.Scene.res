@@ -1013,7 +1013,7 @@
         <parent />
         <prefabLink dataType="Class" type="Duality.Resources.PrefabLink" id="2858538364">
           <changes dataType="Class" type="System.Collections.Generic.List`1[[Duality.Resources.PrefabLink+VarMod]]" id="1967306123">
-            <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="365930610" length="4">
+            <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="365930610" length="8">
               <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                 <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="2746199292">
                   <_items dataType="Array" type="System.Int32[]" id="1483258536" length="0" />
@@ -1075,9 +1075,42 @@
                   <contentPath dataType="String">Data\Material\FlameAlpha.Material.res</contentPath>
                 </val>
               </object>
+              <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
+                <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="1416780852">
+                  <_items dataType="Array" type="System.Int32[]" id="2721116576" length="4">
+                    <object dataType="Int">0</object>
+                    <object dataType="Int">0</object>
+                    <object dataType="Int">0</object>
+                    <object dataType="Int">0</object>
+                  </_items>
+                  <_size dataType="Int">1</_size>
+                  <_version dataType="Int">2</_version>
+                </childIndex>
+                <componentType dataType="ObjectRef">3546841826</componentType>
+                <prop dataType="PropertyInfo" id="2437991392" value="P:Duality.Component:ActiveSingle" />
+                <val dataType="Bool">true</val>
+              </object>
+              <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
+                <childIndex />
+                <componentType />
+                <prop />
+                <val />
+              </object>
+              <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
+                <childIndex />
+                <componentType />
+                <prop />
+                <val />
+              </object>
+              <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
+                <childIndex />
+                <componentType />
+                <prop />
+                <val />
+              </object>
             </_items>
-            <_size dataType="Int">4</_size>
-            <_version dataType="Int">100</_version>
+            <_size dataType="Int">5</_size>
+            <_version dataType="Int">103</_version>
           </changes>
           <obj dataType="ObjectRef">1339699555</obj>
           <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
