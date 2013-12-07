@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using Duality;
 using Duality.Components.Renderers;
 using Duality.Resources;
@@ -38,13 +39,24 @@ namespace DublinGamecraft4
 	            GameObj.Transform.Pos = new Vector3(GameObj.Transform.Pos.X + BaseSpeed * _speedDamping, GameObj.Transform.Pos.Y, GameObj.Transform.Pos.Z);
 		        ((AnimSpriteRenderer) GameObj.Renderer).AnimPaused = false;
 		        ((AnimSpriteRenderer) GameObj.Renderer).SharedMaterial = GameRes.Data.Material.HunterWalk_Material;
+
+		        GameObj.ChildByName("AxeLeft").Active = false;
+		        GameObj.ChildByName("AxeRight").Active = true;
 	        }
             else if (DualityApp.Keyboard[Key.A])
             {
                 GameObj.Transform.Pos = new Vector3(GameObj.Transform.Pos.X - BaseSpeed * _speedDamping, GameObj.Transform.Pos.Y, GameObj.Transform.Pos.Z);
 				((AnimSpriteRenderer)GameObj.Renderer).AnimPaused = false;
 				((AnimSpriteRenderer)GameObj.Renderer).SharedMaterial = GameRes.Data.Material.HunterWalkLeft_Material;
+
+				GameObj.ChildByName("AxeLeft").Active = true;
+				GameObj.ChildByName("AxeRight").Active = false;
             }
+
+		    if (DualityApp.Keyboard.KeyHit(Key.Space))
+		    {
+			    GameObj.GetComponentsInChildren<Axe>().First().Chop();
+		    }
 
 		    var snowSkirt = Scene.Current.FindGameObject("SnowSkirt").GetComponent<SnowSkirt>();
 		    var snowHeight = snowSkirt.GetSnowHeightAtPoint(GameObj.Transform.Pos.X);
