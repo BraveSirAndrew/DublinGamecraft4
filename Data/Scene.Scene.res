@@ -5,7 +5,7 @@
       <X dataType="Float">0</X>
       <Y dataType="Float">33</Y>
     </globalGravity>
-    <serializeObj dataType="Array" type="Duality.GameObject[]" id="292984781" length="15">
+    <serializeObj dataType="Array" type="Duality.GameObject[]" id="292984781" length="16">
       <object dataType="Class" type="Duality.GameObject" id="4034207103">
         <active dataType="Bool">true</active>
         <children />
@@ -530,27 +530,21 @@
                               <Z dataType="Float">0</Z>
                             </velAbs>
                           </object>
-                          <object dataType="Class" type="DublinGamecraft4.BreathGenerator" id="2379124913">
-                            <active dataType="Bool">true</active>
-                            <gameobj dataType="ObjectRef">657542974</gameobj>
-                            <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
-                          </object>
+                          <object />
                           <object />
                           <object />
                         </_items>
-                        <_size dataType="Int">2</_size>
-                        <_version dataType="Int">2</_version>
+                        <_size dataType="Int">1</_size>
+                        <_version dataType="Int">3</_version>
                       </compList>
                       <compMap dataType="Class" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="1290970076" surrogate="true">
                         <header />
                         <body>
-                          <keys dataType="Array" type="System.Type[]" id="3935364218" length="2">
+                          <keys dataType="Array" type="System.Type[]" id="3935364218" length="1">
                             <object dataType="ObjectRef">665143522</object>
-                            <object dataType="Type" id="2680613956" value="DublinGamecraft4.BreathGenerator" />
                           </keys>
-                          <values dataType="Array" type="Duality.Component[]" id="2711821612" length="2">
+                          <values dataType="Array" type="Duality.Component[]" id="2711821612" length="1">
                             <object dataType="ObjectRef">3017857906</object>
-                            <object dataType="ObjectRef">2379124913</object>
                           </values>
                         </body>
                       </compMap>
@@ -576,6 +570,7 @@
                     <object dataType="ObjectRef">2491988534</object>
                     <object dataType="Class" type="DublinGamecraft4.Player" id="255751249">
                       <__sbo__BaseSpeed__sbc__k__BackingField dataType="Float">10</__sbo__BaseSpeed__sbc__k__BackingField>
+                      <__sbo__MaxLogs__sbc__k__BackingField dataType="Int">8</__sbo__MaxLogs__sbc__k__BackingField>
                       <active dataType="Bool">true</active>
                       <gameobj dataType="ObjectRef">131673602</gameobj>
                       <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
@@ -1430,6 +1425,86 @@
             <contentPath dataType="String">Data\Prefabs\CampFire.Prefab.res</contentPath>
           </prefab>
         </prefabLink>
+      </object>
+      <object dataType="Class" type="Duality.GameObject" id="3434238838">
+        <active dataType="Bool">true</active>
+        <children />
+        <compList dataType="Class" type="System.Collections.Generic.List`1[[Duality.Component]]" id="1856712416">
+          <_items dataType="Array" type="Duality.Component[]" id="2290385216" length="4">
+            <object dataType="Class" type="Duality.Components.Transform" id="1499586474">
+              <active dataType="Bool">true</active>
+              <angle dataType="Float">0</angle>
+              <angleAbs dataType="Float">0</angleAbs>
+              <angleVel dataType="Float">0</angleVel>
+              <angleVelAbs dataType="Float">0</angleVelAbs>
+              <deriveAngle dataType="Bool">true</deriveAngle>
+              <gameobj dataType="ObjectRef">3434238838</gameobj>
+              <ignoreParent dataType="Bool">false</ignoreParent>
+              <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
+              <parentTransform />
+              <pos dataType="Struct" type="OpenTK.Vector3">
+                <X dataType="Float">1100</X>
+                <Y dataType="Float">0</Y>
+                <Z dataType="Float">0</Z>
+              </pos>
+              <posAbs dataType="Struct" type="OpenTK.Vector3">
+                <X dataType="Float">1100</X>
+                <Y dataType="Float">0</Y>
+                <Z dataType="Float">0</Z>
+              </posAbs>
+              <scale dataType="Float">1</scale>
+              <scaleAbs dataType="Float">1</scaleAbs>
+              <vel dataType="Struct" type="OpenTK.Vector3">
+                <X dataType="Float">0</X>
+                <Y dataType="Float">0</Y>
+                <Z dataType="Float">0</Z>
+              </vel>
+              <velAbs dataType="Struct" type="OpenTK.Vector3">
+                <X dataType="Float">0</X>
+                <Y dataType="Float">0</Y>
+                <Z dataType="Float">0</Z>
+              </velAbs>
+            </object>
+            <object dataType="Class" type="DublinGamecraft4.HUD.LogCountDisplay" id="285221670">
+              <__sbo__Offset__sbc__k__BackingField dataType="Struct" type="OpenTK.Vector3">
+                <X dataType="Float">0</X>
+                <Y dataType="Float">60</Y>
+                <Z dataType="Float">0</Z>
+              </__sbo__Offset__sbc__k__BackingField>
+              <active dataType="Bool">true</active>
+              <gameobj dataType="ObjectRef">3434238838</gameobj>
+              <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
+            </object>
+            <object />
+            <object />
+          </_items>
+          <_size dataType="Int">2</_size>
+          <_version dataType="Int">2</_version>
+        </compList>
+        <compMap dataType="Class" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="3717153216" surrogate="true">
+          <header />
+          <body>
+            <keys dataType="Array" type="System.Type[]" id="3688793952" length="2">
+              <object dataType="ObjectRef">665143522</object>
+              <object dataType="Type" id="3295152704" value="DublinGamecraft4.HUD.LogCountDisplay" />
+            </keys>
+            <values dataType="Array" type="Duality.Component[]" id="213333184" length="2">
+              <object dataType="ObjectRef">1499586474</object>
+              <object dataType="ObjectRef">285221670</object>
+            </values>
+          </body>
+        </compMap>
+        <compTransform dataType="ObjectRef">1499586474</compTransform>
+        <identifier dataType="Struct" type="System.Guid" surrogate="true">
+          <header>
+            <data dataType="Array" type="System.Byte[]" id="3579632032" length="16">ohGV/iepb0KMuJu7ReViuw==</data>
+          </header>
+          <body />
+        </identifier>
+        <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
+        <name dataType="String">LogCountDisplay</name>
+        <parent />
+        <prefabLink />
       </object>
       <object dataType="ObjectRef">3699806721</object>
       <object dataType="ObjectRef">1590281018</object>
