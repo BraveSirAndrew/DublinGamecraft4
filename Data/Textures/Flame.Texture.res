@@ -9,8 +9,8 @@
     <filterMin dataType="Enum" type="OpenTK.Graphics.OpenGL.TextureMinFilter" name="LinearMipmapLinear" value="9987" />
     <pixelformat dataType="Enum" type="OpenTK.Graphics.OpenGL.PixelInternalFormat" name="Rgba" value="6408" />
     <size dataType="Struct" type="OpenTK.Vector2">
-      <X dataType="Float">150</X>
-      <Y dataType="Float">200</Y>
+      <X dataType="Float">200</X>
+      <Y dataType="Float">267</Y>
     </size>
     <sizeRelative dataType="Bool">false</sizeRelative>
     <sourcePath />
