@@ -119,3 +119,4 @@ UpgradeLog*.XML
 appdata.dat
 defaultuserdata.dat
 editoruserdata.xml
+/Source/Code/CorePlugin/Properties/GameRes.cs
