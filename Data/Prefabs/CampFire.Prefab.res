@@ -264,9 +264,9 @@
             <__sbo__DespawnsWhenDead__sbc__k__BackingField dataType="Bool">false</__sbo__DespawnsWhenDead__sbc__k__BackingField>
             <__sbo__MaxWoodCount__sbc__k__BackingField dataType="Float">5</__sbo__MaxWoodCount__sbc__k__BackingField>
             <__sbo__Refillable__sbc__k__BackingField dataType="Bool">true</__sbo__Refillable__sbc__k__BackingField>
-            <__sbo__SnowMeltEnergy__sbc__k__BackingField dataType="Float">3</__sbo__SnowMeltEnergy__sbc__k__BackingField>
-            <__sbo__SnowMeltFalloff__sbc__k__BackingField dataType="Float">1.1</__sbo__SnowMeltFalloff__sbc__k__BackingField>
-            <__sbo__SnowMeltRadius__sbc__k__BackingField dataType="Float">70</__sbo__SnowMeltRadius__sbc__k__BackingField>
+            <__sbo__SnowMeltEnergy__sbc__k__BackingField dataType="Float">1</__sbo__SnowMeltEnergy__sbc__k__BackingField>
+            <__sbo__SnowMeltFalloff__sbc__k__BackingField dataType="Float">1.2</__sbo__SnowMeltFalloff__sbc__k__BackingField>
+            <__sbo__SnowMeltRadius__sbc__k__BackingField dataType="Float">10000</__sbo__SnowMeltRadius__sbc__k__BackingField>
             <__sbo__WoodConsumptionRate__sbc__k__BackingField dataType="Float">0.1</__sbo__WoodConsumptionRate__sbc__k__BackingField>
             <active dataType="Bool">true</active>
             <gameobj dataType="ObjectRef">867683075</gameobj>

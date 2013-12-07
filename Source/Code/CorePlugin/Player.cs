@@ -13,13 +13,16 @@ namespace DublinGamecraft4
 	{
 		[NonSerialized]
 		private float _speedDamping = 1;
+	    [NonSerialized]
+        private WoodComponent _woodComponent;
+
 		public float BaseSpeed { get; set; }
 
 		public void OnInit(InitContext context)
 		{
 			if (context == InitContext.Activate)
 			{
-				
+			    _woodComponent = GameObj.GetComponent<WoodComponent>();
 			}
 		}
 
@@ -44,11 +47,11 @@ namespace DublinGamecraft4
 
 			_speedDamping = MathF.Clamp(1 - MathF.Abs(snowHeight) / 500, 0.3f, 1);
 
-		    if (DualityApp.Keyboard[Key.E])
+		    if (DualityApp.Keyboard.KeyHit(Key.E) && _woodComponent.HasAnyWood)
 		    {
-			    snowSkirt.MeltSnow(GameObj.Transform.Pos.X, 3, 1.10f, 170);
-			    snowSkirt.MeltSnow(GameObj.Transform.Pos.X - 40, 3, 1.10f, 170);
-			    snowSkirt.MeltSnow(GameObj.Transform.Pos.X + 40, 3, 1.10f, 170);
+		        var log = GameRes.Data.Prefabs.BurningLog_Prefab.Res.Instantiate();
+		        log.Transform.Pos += GameObj.Transform.Pos;
+                Scene.Current.AddObject(log);
 		    }
 	    }
 	}

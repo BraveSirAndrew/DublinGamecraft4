@@ -32,13 +32,13 @@
                     <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
                     <parentTransform />
                     <pos dataType="Struct" type="OpenTK.Vector3">
-                      <X dataType="Float">3246.517</X>
-                      <Y dataType="Float">13.663681</Y>
+                      <X dataType="Float">0</X>
+                      <Y dataType="Float">0</Y>
                       <Z dataType="Float">-1</Z>
                     </pos>
                     <posAbs dataType="Struct" type="OpenTK.Vector3">
-                      <X dataType="Float">3246.517</X>
-                      <Y dataType="Float">13.663681</Y>
+                      <X dataType="Float">0</X>
+                      <Y dataType="Float">0</Y>
                       <Z dataType="Float">-1</Z>
                     </posAbs>
                     <scale dataType="Float">1</scale>
@@ -60,8 +60,8 @@
                     <Z dataType="Float">0</Z>
                   </pos>
                   <posAbs dataType="Struct" type="OpenTK.Vector3">
-                    <X dataType="Float">3187.64673</X>
-                    <Y dataType="Float">14.2798</Y>
+                    <X dataType="Float">-58.87036</X>
+                    <Y dataType="Float">0.6161194</Y>
                     <Z dataType="Float">-1</Z>
                   </posAbs>
                   <scale dataType="Float">1</scale>
@@ -154,8 +154,8 @@
                     <Z dataType="Float">0</Z>
                   </pos>
                   <posAbs dataType="Struct" type="OpenTK.Vector3">
-                    <X dataType="Float">3187.64673</X>
-                    <Y dataType="Float">14.2798</Y>
+                    <X dataType="Float">-58.87036</X>
+                    <Y dataType="Float">0.6161194</Y>
                     <Z dataType="Float">-1</Z>
                   </posAbs>
                   <scale dataType="Float">1</scale>
@@ -264,10 +264,10 @@
             <__sbo__DespawnsWhenDead__sbc__k__BackingField dataType="Bool">true</__sbo__DespawnsWhenDead__sbc__k__BackingField>
             <__sbo__MaxWoodCount__sbc__k__BackingField dataType="Float">1</__sbo__MaxWoodCount__sbc__k__BackingField>
             <__sbo__Refillable__sbc__k__BackingField dataType="Bool">false</__sbo__Refillable__sbc__k__BackingField>
-            <__sbo__SnowMeltEnergy__sbc__k__BackingField dataType="Float">0.2</__sbo__SnowMeltEnergy__sbc__k__BackingField>
+            <__sbo__SnowMeltEnergy__sbc__k__BackingField dataType="Float">2</__sbo__SnowMeltEnergy__sbc__k__BackingField>
             <__sbo__SnowMeltFalloff__sbc__k__BackingField dataType="Float">1.1</__sbo__SnowMeltFalloff__sbc__k__BackingField>
-            <__sbo__SnowMeltRadius__sbc__k__BackingField dataType="Float">70</__sbo__SnowMeltRadius__sbc__k__BackingField>
-            <__sbo__WoodConsumptionRate__sbc__k__BackingField dataType="Float">0.1</__sbo__WoodConsumptionRate__sbc__k__BackingField>
+            <__sbo__SnowMeltRadius__sbc__k__BackingField dataType="Float">1000</__sbo__SnowMeltRadius__sbc__k__BackingField>
+            <__sbo__WoodConsumptionRate__sbc__k__BackingField dataType="Float">0.2</__sbo__WoodConsumptionRate__sbc__k__BackingField>
             <active dataType="Bool">true</active>
             <gameobj dataType="ObjectRef">1753444784</gameobj>
             <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
