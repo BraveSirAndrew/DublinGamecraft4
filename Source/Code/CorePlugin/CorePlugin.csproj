@@ -49,6 +49,7 @@
     <Compile Include="Axe.cs" />
     <Compile Include="BreathGenerator.cs" />
     <Compile Include="BreathParticle.cs" />
+    <Compile Include="Cloud.cs" />
     <Compile Include="CorePlugin.cs" />
     <Compile Include="Deactivator.cs" />
     <Compile Include="HUD\LogCountDisplay.cs" />
