@@ -1,11 +1,13 @@
 ﻿using System;
 using Duality;
+using DublinGamecraft4.Wood;
 using OpenTK;
 using OpenTK.Input;
 
 namespace DublinGamecraft4
 {
 	[Serializable]
+    [RequiredComponent(typeof(WoodComponent))]
     public class Player : Component, ICmpUpdatable
     {
 	    public void OnUpdate()
