@@ -62,7 +62,7 @@
               <H dataType="Float">1024</H>
               <W dataType="Float">682</W>
               <X dataType="Float">-341</X>
-              <Y dataType="Float">-512</Y>
+              <Y dataType="Float">-1024</Y>
             </rect>
             <rectMode dataType="Enum" type="Duality.Components.Renderers.SpriteRenderer+UVMode" name="Stretch" value="0" />
             <sharedMat dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
@@ -71,7 +71,10 @@
             <visibilityGroup dataType="Enum" type="Duality.VisibilityFlag" name="Group0" value="1" />
           </object>
           <object dataType="Class" type="DublinGamecraft4.Wood.Tree" id="140584855">
+            <_lifetime dataType="Float">0</_lifetime>
             <__sbo__ChopRadius__sbc__k__BackingField dataType="Float">500</__sbo__ChopRadius__sbc__k__BackingField>
+            <__sbo__GrowthLimit__sbc__k__BackingField dataType="Int">5</__sbo__GrowthLimit__sbc__k__BackingField>
+            <__sbo__TimeToGrow__sbc__k__BackingField dataType="Float">60</__sbo__TimeToGrow__sbc__k__BackingField>
             <active dataType="Bool">true</active>
             <gameobj dataType="ObjectRef">3482361300</gameobj>
             <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
