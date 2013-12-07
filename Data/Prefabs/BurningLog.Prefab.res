@@ -264,7 +264,7 @@
             <__sbo__DespawnsWhenDead__sbc__k__BackingField dataType="Bool">true</__sbo__DespawnsWhenDead__sbc__k__BackingField>
             <__sbo__MaxWoodCount__sbc__k__BackingField dataType="Float">1</__sbo__MaxWoodCount__sbc__k__BackingField>
             <__sbo__Refillable__sbc__k__BackingField dataType="Bool">false</__sbo__Refillable__sbc__k__BackingField>
-            <__sbo__SnowMeltEnergy__sbc__k__BackingField dataType="Float">2</__sbo__SnowMeltEnergy__sbc__k__BackingField>
+            <__sbo__SnowMeltEnergy__sbc__k__BackingField dataType="Float">4</__sbo__SnowMeltEnergy__sbc__k__BackingField>
             <__sbo__SnowMeltFalloff__sbc__k__BackingField dataType="Float">1.1</__sbo__SnowMeltFalloff__sbc__k__BackingField>
             <__sbo__SnowMeltRadius__sbc__k__BackingField dataType="Float">1000</__sbo__SnowMeltRadius__sbc__k__BackingField>
             <__sbo__WoodConsumptionRate__sbc__k__BackingField dataType="Float">0.2</__sbo__WoodConsumptionRate__sbc__k__BackingField>

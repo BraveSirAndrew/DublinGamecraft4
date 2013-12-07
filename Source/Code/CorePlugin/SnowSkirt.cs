@@ -12,8 +12,8 @@ namespace DublinGamecraft4
 	[Serializable]
 	public class SnowSkirt : SpriteRenderer, ICmpUpdatable, ICmpInitializable
 	{
-		private const int MaxPoints = 5000;
-		private const int MaxVertices = 20000;
+		private const int MaxPoints = 1000;
+		private const int MaxVertices = MaxPoints*4;
 
 		[NonSerialized]
 		private Vector3[] _points = new Vector3[MaxPoints];
@@ -26,12 +26,14 @@ namespace DublinGamecraft4
 		public int DistanceBetweenPeaks { get; set; }
 		public int DriftWidth { get; set; }
 		public float SpringDivider { get; set; }
+        public bool IsGrowing { get; set; }
 
 		public void OnInit(InitContext context)
 		{
 			if (context == InitContext.Activate)
 			{
 				_vertices = new VertexC1P3T2[MaxVertices];
+			    IsGrowing = true;
 
 				for (var i = 0; i < _points.Length; i += 2)
 				{
@@ -47,6 +49,9 @@ namespace DublinGamecraft4
 
 		public void OnUpdate()
 		{
+            if(!IsGrowing)
+                return;
+
 			int pointIndex = -1;
 
 			while (pointIndex == -1 || pointIndex % 2 == 1)

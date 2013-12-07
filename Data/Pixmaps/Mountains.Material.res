@@ -3,7 +3,7 @@
   <object dataType="Class" type="Duality.Resources.Material">
     <info dataType="Class" type="Duality.Resources.BatchInfo" id="292984781">
       <dirtyFlag dataType="Enum" type="Duality.Resources.BatchInfo+DirtyFlag" name="None" value="0" />
-      <hashCode dataType="Int">1570758030</hashCode>
+      <hashCode dataType="Int">1959692707</hashCode>
       <mainColor dataType="Struct" type="Duality.ColorFormat.ColorRgba">
         <A dataType="Byte">255</A>
         <B dataType="Byte">255</B>
@@ -17,7 +17,7 @@
         <header />
         <body>
           <mainTex dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Texture]]">
-            <contentPath dataType="String">Data\Cabin.Texture.res</contentPath>
+            <contentPath dataType="String">Data\Pixmaps\Mountains.Texture.res</contentPath>
           </mainTex>
         </body>
       </textures>
