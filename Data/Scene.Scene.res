@@ -151,12 +151,12 @@
               <pos dataType="Struct" type="OpenTK.Vector3">
                 <X dataType="Float">1533.7262</X>
                 <Y dataType="Float">-1004.04248</Y>
-                <Z dataType="Float">-2498.99878</Z>
+                <Z dataType="Float">-2500.00122</Z>
               </pos>
               <posAbs dataType="Struct" type="OpenTK.Vector3">
                 <X dataType="Float">1533.7262</X>
                 <Y dataType="Float">-1004.04248</Y>
-                <Z dataType="Float">-2498.99878</Z>
+                <Z dataType="Float">-2500.00122</Z>
               </posAbs>
               <scale dataType="Float">1</scale>
               <scaleAbs dataType="Float">1</scaleAbs>
@@ -183,9 +183,9 @@
                   <object dataType="Class" type="Duality.Components.Camera+Pass" id="3046872720">
                     <clearColor dataType="Struct" type="Duality.ColorFormat.ColorRgba">
                       <A dataType="Byte">0</A>
-                      <B dataType="Byte">0</B>
-                      <G dataType="Byte">0</G>
-                      <R dataType="Byte">0</R>
+                      <B dataType="Byte">27</B>
+                      <G dataType="Byte">10</G>
+                      <R dataType="Byte">10</R>
                     </clearColor>
                     <clearDepth dataType="Float">1</clearDepth>
                     <clearFlags dataType="Enum" type="Duality.ClearFlag" name="All" value="3" />
@@ -269,12 +269,12 @@
                               <pos dataType="Struct" type="OpenTK.Vector3">
                                 <X dataType="Float">1533.72571</X>
                                 <Y dataType="Float">-204.042343</Y>
-                                <Z dataType="Float">1</Z>
+                                <Z dataType="Float">0</Z>
                               </pos>
                               <posAbs dataType="Struct" type="OpenTK.Vector3">
                                 <X dataType="Float">1533.72571</X>
                                 <Y dataType="Float">-204.042343</Y>
-                                <Z dataType="Float">1</Z>
+                                <Z dataType="Float">0</Z>
                               </posAbs>
                               <scale dataType="Float">1</scale>
                               <scaleAbs dataType="Float">1</scaleAbs>
@@ -297,7 +297,7 @@
                             <posAbs dataType="Struct" type="OpenTK.Vector3">
                               <X dataType="Float">1538.90161</X>
                               <Y dataType="Float">-143.592621</Y>
-                              <Z dataType="Float">0</Z>
+                              <Z dataType="Float">-1</Z>
                             </posAbs>
                             <scale dataType="Float">1</scale>
                             <scaleAbs dataType="Float">1</scaleAbs>
@@ -406,7 +406,7 @@
                             <posAbs dataType="Struct" type="OpenTK.Vector3">
                               <X dataType="Float">1536.85254</X>
                               <Y dataType="Float">-213.696182</Y>
-                              <Z dataType="Float">0</Z>
+                              <Z dataType="Float">-1</Z>
                             </posAbs>
                             <scale dataType="Float">1</scale>
                             <scaleAbs dataType="Float">1</scaleAbs>
@@ -515,7 +515,7 @@
                             <posAbs dataType="Struct" type="OpenTK.Vector3">
                               <X dataType="Float">1561.71838</X>
                               <Y dataType="Float">-267.260284</Y>
-                              <Z dataType="Float">0</Z>
+                              <Z dataType="Float">-1</Z>
                             </posAbs>
                             <scale dataType="Float">1</scale>
                             <scaleAbs dataType="Float">1</scaleAbs>
@@ -599,7 +599,7 @@
                       <customMat />
                       <gameobj dataType="ObjectRef">131673602</gameobj>
                       <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
-                      <offset dataType="Int">-1</offset>
+                      <offset dataType="Int">1</offset>
                       <rect dataType="Struct" type="Duality.Rect">
                         <H dataType="Float">400</H>
                         <W dataType="Float">256</W>
@@ -724,6 +724,7 @@
             <object dataType="Class" type="DublinGamecraft4.SnowSkirt" id="32472254">
               <__sbo__DistanceBetweenPeaks__sbc__k__BackingField dataType="Int">40</__sbo__DistanceBetweenPeaks__sbc__k__BackingField>
               <__sbo__DriftWidth__sbc__k__BackingField dataType="Int">50</__sbo__DriftWidth__sbc__k__BackingField>
+              <__sbo__IsGrowing__sbc__k__BackingField dataType="Bool">true</__sbo__IsGrowing__sbc__k__BackingField>
               <__sbo__SnowSpeed__sbc__k__BackingField dataType="Int">100</__sbo__SnowSpeed__sbc__k__BackingField>
               <__sbo__SpringDivider__sbc__k__BackingField dataType="Float">1.5</__sbo__SpringDivider__sbc__k__BackingField>
               <active dataType="Bool">true</active>
@@ -753,7 +754,7 @@
             <object />
           </_items>
           <_size dataType="Int">2</_size>
-          <_version dataType="Int">8</_version>
+          <_version dataType="Int">10</_version>
         </compList>
         <compMap dataType="Class" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="867214776" surrogate="true">
           <header />
@@ -842,7 +843,7 @@
               <parent dataType="ObjectRef">440556761</parent>
               <prefabLink dataType="Class" type="Duality.Resources.PrefabLink" id="1699254513">
                 <changes dataType="Class" type="System.Collections.Generic.List`1[[Duality.Resources.PrefabLink+VarMod]]" id="3931498836">
-                  <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="705618888" length="4">
+                  <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="705618888" length="3">
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="3187273712">
                         <_items dataType="Array" type="System.Int32[]" id="122098336" length="0" />
@@ -874,23 +875,17 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="2871014320">
-                        <_items dataType="Array" type="System.Int32[]" id="1181931744" length="0" />
+                        <_items dataType="ObjectRef">122098336</_items>
                         <_size dataType="Int">0</_size>
-                        <_version dataType="Int">1</_version>
+                        <_version dataType="Int">0</_version>
                       </childIndex>
                       <componentType dataType="ObjectRef">3546841826</componentType>
                       <prop dataType="PropertyInfo" id="2980368288" value="P:Duality.Components.Renderers.SpriteRenderer:Offset" />
-                      <val dataType="Int">1</val>
-                    </object>
-                    <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                      <childIndex />
-                      <componentType />
-                      <prop />
-                      <val />
+                      <val dataType="Int">2</val>
                     </object>
                   </_items>
                   <_size dataType="Int">3</_size>
-                  <_version dataType="Int">15</_version>
+                  <_version dataType="Int">3</_version>
                 </changes>
                 <obj dataType="ObjectRef">3825937547</obj>
                 <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
@@ -973,9 +968,9 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="3927544544">
-                        <_items dataType="ObjectRef">1181931744</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
-                        <_version dataType="Int">1</_version>
+                        <_version dataType="Int">0</_version>
                       </childIndex>
                       <componentType dataType="ObjectRef">3546841826</componentType>
                       <prop dataType="ObjectRef">2980368288</prop>
@@ -983,7 +978,7 @@
                     </object>
                   </_items>
                   <_size dataType="Int">2</_size>
-                  <_version dataType="Int">14</_version>
+                  <_version dataType="Int">2</_version>
                 </changes>
                 <obj dataType="ObjectRef">1703543409</obj>
                 <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
@@ -1066,9 +1061,9 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="577767136">
-                        <_items dataType="ObjectRef">1181931744</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
-                        <_version dataType="Int">1</_version>
+                        <_version dataType="Int">0</_version>
                       </childIndex>
                       <componentType dataType="ObjectRef">3546841826</componentType>
                       <prop dataType="ObjectRef">2980368288</prop>
@@ -1076,7 +1071,7 @@
                     </object>
                   </_items>
                   <_size dataType="Int">2</_size>
-                  <_version dataType="Int">14</_version>
+                  <_version dataType="Int">2</_version>
                 </changes>
                 <obj dataType="ObjectRef">2686543077</obj>
                 <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
@@ -1142,10 +1137,10 @@
               <parent dataType="ObjectRef">440556761</parent>
               <prefabLink dataType="Class" type="Duality.Resources.PrefabLink" id="3850230086">
                 <changes dataType="Class" type="System.Collections.Generic.List`1[[Duality.Resources.PrefabLink+VarMod]]" id="1923794536">
-                  <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="399397136" length="4">
+                  <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="399397136" length="3">
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="1087342048">
-                        <_items dataType="Array" type="System.Int32[]" id="3941276992" length="0" />
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
                         <_version dataType="Int">0</_version>
                       </childIndex>
@@ -1155,7 +1150,7 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="1106999328">
-                        <_items dataType="ObjectRef">3941276992</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
                         <_version dataType="Int">0</_version>
                       </childIndex>
@@ -1169,23 +1164,17 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="743312256">
-                        <_items dataType="ObjectRef">1181931744</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
-                        <_version dataType="Int">1</_version>
+                        <_version dataType="Int">0</_version>
                       </childIndex>
                       <componentType dataType="ObjectRef">3546841826</componentType>
                       <prop dataType="ObjectRef">2980368288</prop>
                       <val dataType="Int">1</val>
                     </object>
-                    <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                      <childIndex />
-                      <componentType />
-                      <prop />
-                      <val />
-                    </object>
                   </_items>
                   <_size dataType="Int">3</_size>
-                  <_version dataType="Int">15</_version>
+                  <_version dataType="Int">3</_version>
                 </changes>
                 <obj dataType="ObjectRef">3250592854</obj>
                 <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
@@ -1251,10 +1240,10 @@
               <parent dataType="ObjectRef">440556761</parent>
               <prefabLink dataType="Class" type="Duality.Resources.PrefabLink" id="452483247">
                 <changes dataType="Class" type="System.Collections.Generic.List`1[[Duality.Resources.PrefabLink+VarMod]]" id="3466831444">
-                  <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="3136715208" length="6">
+                  <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="3136715208" length="4">
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="169280496">
-                        <_items dataType="ObjectRef">3941276992</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
                         <_version dataType="Int">0</_version>
                       </childIndex>
@@ -1264,7 +1253,7 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="2222517984">
-                        <_items dataType="ObjectRef">3941276992</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
                         <_version dataType="Int">0</_version>
                       </childIndex>
@@ -1274,7 +1263,7 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="4121617856">
-                        <_items dataType="ObjectRef">3941276992</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
                         <_version dataType="Int">0</_version>
                       </childIndex>
@@ -1288,29 +1277,17 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="1132275632">
-                        <_items dataType="ObjectRef">1181931744</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
-                        <_version dataType="Int">1</_version>
+                        <_version dataType="Int">0</_version>
                       </childIndex>
                       <componentType dataType="ObjectRef">3546841826</componentType>
                       <prop dataType="ObjectRef">2980368288</prop>
                       <val dataType="Int">1</val>
                     </object>
-                    <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                      <childIndex />
-                      <componentType />
-                      <prop />
-                      <val />
-                    </object>
-                    <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                      <childIndex />
-                      <componentType />
-                      <prop />
-                      <val />
-                    </object>
                   </_items>
                   <_size dataType="Int">4</_size>
-                  <_version dataType="Int">16</_version>
+                  <_version dataType="Int">4</_version>
                 </changes>
                 <obj dataType="ObjectRef">1009762069</obj>
                 <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
@@ -1376,10 +1353,10 @@
               <parent dataType="ObjectRef">440556761</parent>
               <prefabLink dataType="Class" type="Duality.Resources.PrefabLink" id="1041700519">
                 <changes dataType="Class" type="System.Collections.Generic.List`1[[Duality.Resources.PrefabLink+VarMod]]" id="1265353812">
-                  <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="419037640" length="6">
+                  <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="419037640" length="4">
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="2531668976">
-                        <_items dataType="ObjectRef">3941276992</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
                         <_version dataType="Int">0</_version>
                       </childIndex>
@@ -1389,7 +1366,7 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="3620966112">
-                        <_items dataType="ObjectRef">3941276992</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
                         <_version dataType="Int">0</_version>
                       </childIndex>
@@ -1399,7 +1376,7 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="3863152912">
-                        <_items dataType="ObjectRef">3941276992</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
                         <_version dataType="Int">0</_version>
                       </childIndex>
@@ -1413,29 +1390,17 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="3049735616">
-                        <_items dataType="ObjectRef">1181931744</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
-                        <_version dataType="Int">1</_version>
+                        <_version dataType="Int">0</_version>
                       </childIndex>
                       <componentType dataType="ObjectRef">3546841826</componentType>
                       <prop dataType="ObjectRef">2980368288</prop>
                       <val dataType="Int">1</val>
                     </object>
-                    <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                      <childIndex />
-                      <componentType />
-                      <prop />
-                      <val />
-                    </object>
-                    <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                      <childIndex />
-                      <componentType />
-                      <prop />
-                      <val />
-                    </object>
                   </_items>
                   <_size dataType="Int">4</_size>
-                  <_version dataType="Int">16</_version>
+                  <_version dataType="Int">4</_version>
                 </changes>
                 <obj dataType="ObjectRef">529497037</obj>
                 <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
@@ -1501,10 +1466,10 @@
               <parent dataType="ObjectRef">440556761</parent>
               <prefabLink dataType="Class" type="Duality.Resources.PrefabLink" id="4204440452">
                 <changes dataType="Class" type="System.Collections.Generic.List`1[[Duality.Resources.PrefabLink+VarMod]]" id="3924200272">
-                  <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="1887678240" length="6">
+                  <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="1887678240" length="4">
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="798048192">
-                        <_items dataType="ObjectRef">3941276992</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
                         <_version dataType="Int">0</_version>
                       </childIndex>
@@ -1514,7 +1479,7 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="2179537792">
-                        <_items dataType="ObjectRef">3941276992</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
                         <_version dataType="Int">0</_version>
                       </childIndex>
@@ -1528,7 +1493,7 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="1878578240">
-                        <_items dataType="ObjectRef">3941276992</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
                         <_version dataType="Int">0</_version>
                       </childIndex>
@@ -1538,29 +1503,17 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="3040950016">
-                        <_items dataType="ObjectRef">1181931744</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
-                        <_version dataType="Int">1</_version>
+                        <_version dataType="Int">0</_version>
                       </childIndex>
                       <componentType dataType="ObjectRef">3546841826</componentType>
                       <prop dataType="ObjectRef">2980368288</prop>
                       <val dataType="Int">1</val>
                     </object>
-                    <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                      <childIndex />
-                      <componentType />
-                      <prop />
-                      <val />
-                    </object>
-                    <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                      <childIndex />
-                      <componentType />
-                      <prop />
-                      <val />
-                    </object>
                   </_items>
                   <_size dataType="Int">4</_size>
-                  <_version dataType="Int">16</_version>
+                  <_version dataType="Int">4</_version>
                 </changes>
                 <obj dataType="ObjectRef">3393049104</obj>
                 <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
@@ -1626,10 +1579,10 @@
               <parent dataType="ObjectRef">440556761</parent>
               <prefabLink dataType="Class" type="Duality.Resources.PrefabLink" id="289907206">
                 <changes dataType="Class" type="System.Collections.Generic.List`1[[Duality.Resources.PrefabLink+VarMod]]" id="1611885032">
-                  <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="3153174800" length="6">
+                  <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="3153174800" length="4">
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="1522771424">
-                        <_items dataType="ObjectRef">3941276992</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
                         <_version dataType="Int">0</_version>
                       </childIndex>
@@ -1639,7 +1592,7 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="1522234816">
-                        <_items dataType="ObjectRef">3941276992</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
                         <_version dataType="Int">0</_version>
                       </childIndex>
@@ -1649,7 +1602,7 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="1856084000">
-                        <_items dataType="ObjectRef">3941276992</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
                         <_version dataType="Int">0</_version>
                       </childIndex>
@@ -1663,29 +1616,17 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="561613696">
-                        <_items dataType="ObjectRef">1181931744</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
-                        <_version dataType="Int">1</_version>
+                        <_version dataType="Int">0</_version>
                       </childIndex>
                       <componentType dataType="ObjectRef">3546841826</componentType>
                       <prop dataType="ObjectRef">2980368288</prop>
                       <val dataType="Int">1</val>
                     </object>
-                    <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                      <childIndex />
-                      <componentType />
-                      <prop />
-                      <val />
-                    </object>
-                    <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                      <childIndex />
-                      <componentType />
-                      <prop />
-                      <val />
-                    </object>
                   </_items>
                   <_size dataType="Int">4</_size>
-                  <_version dataType="Int">16</_version>
+                  <_version dataType="Int">4</_version>
                 </changes>
                 <obj dataType="ObjectRef">809198998</obj>
                 <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
@@ -1754,7 +1695,7 @@
                   <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="2218621384" length="5">
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="2487550960">
-                        <_items dataType="ObjectRef">3941276992</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
                         <_version dataType="Int">0</_version>
                       </childIndex>
@@ -1764,7 +1705,7 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="3710185184">
-                        <_items dataType="ObjectRef">3941276992</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
                         <_version dataType="Int">0</_version>
                       </childIndex>
@@ -1774,7 +1715,7 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="2187671824">
-                        <_items dataType="ObjectRef">3941276992</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
                         <_version dataType="Int">0</_version>
                       </childIndex>
@@ -1789,7 +1730,7 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="3111839168">
-                        <_items dataType="ObjectRef">3941276992</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
                         <_version dataType="Int">0</_version>
                       </childIndex>
@@ -1803,9 +1744,9 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="1475815344">
-                        <_items dataType="ObjectRef">1181931744</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
-                        <_version dataType="Int">1</_version>
+                        <_version dataType="Int">0</_version>
                       </childIndex>
                       <componentType dataType="ObjectRef">3546841826</componentType>
                       <prop dataType="ObjectRef">2980368288</prop>
@@ -1813,7 +1754,7 @@
                     </object>
                   </_items>
                   <_size dataType="Int">5</_size>
-                  <_version dataType="Int">19</_version>
+                  <_version dataType="Int">5</_version>
                 </changes>
                 <obj dataType="ObjectRef">260701117</obj>
                 <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
@@ -1879,10 +1820,10 @@
               <parent dataType="ObjectRef">440556761</parent>
               <prefabLink dataType="Class" type="Duality.Resources.PrefabLink" id="342700956">
                 <changes dataType="Class" type="System.Collections.Generic.List`1[[Duality.Resources.PrefabLink+VarMod]]" id="3578742608">
-                  <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="2744289056" length="4">
+                  <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="2744289056" length="3">
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="3353006016">
-                        <_items dataType="ObjectRef">3941276992</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
                         <_version dataType="Int">0</_version>
                       </childIndex>
@@ -1892,7 +1833,7 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="1247427456">
-                        <_items dataType="ObjectRef">3941276992</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
                         <_version dataType="Int">0</_version>
                       </childIndex>
@@ -1906,23 +1847,17 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="2219713600">
-                        <_items dataType="ObjectRef">1181931744</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
-                        <_version dataType="Int">1</_version>
+                        <_version dataType="Int">0</_version>
                       </childIndex>
                       <componentType dataType="ObjectRef">3546841826</componentType>
                       <prop dataType="ObjectRef">2980368288</prop>
                       <val dataType="Int">1</val>
                     </object>
-                    <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                      <childIndex />
-                      <componentType />
-                      <prop />
-                      <val />
-                    </object>
                   </_items>
                   <_size dataType="Int">3</_size>
-                  <_version dataType="Int">15</_version>
+                  <_version dataType="Int">3</_version>
                 </changes>
                 <obj dataType="ObjectRef">2350693064</obj>
                 <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
@@ -1988,10 +1923,10 @@
               <parent dataType="ObjectRef">440556761</parent>
               <prefabLink dataType="Class" type="Duality.Resources.PrefabLink" id="1180208283">
                 <changes dataType="Class" type="System.Collections.Generic.List`1[[Duality.Resources.PrefabLink+VarMod]]" id="977251252">
-                  <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="118131592" length="6">
+                  <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="118131592" length="4">
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="2423151856">
-                        <_items dataType="ObjectRef">3941276992</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
                         <_version dataType="Int">0</_version>
                       </childIndex>
@@ -2001,7 +1936,7 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="240195296">
-                        <_items dataType="ObjectRef">3941276992</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
                         <_version dataType="Int">0</_version>
                       </childIndex>
@@ -2015,7 +1950,7 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="411565584">
-                        <_items dataType="ObjectRef">3941276992</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
                         <_version dataType="Int">0</_version>
                       </childIndex>
@@ -2025,29 +1960,17 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="623543744">
-                        <_items dataType="ObjectRef">1181931744</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
-                        <_version dataType="Int">1</_version>
+                        <_version dataType="Int">0</_version>
                       </childIndex>
                       <componentType dataType="ObjectRef">3546841826</componentType>
                       <prop dataType="ObjectRef">2980368288</prop>
                       <val dataType="Int">1</val>
                     </object>
-                    <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                      <childIndex />
-                      <componentType />
-                      <prop />
-                      <val />
-                    </object>
-                    <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                      <childIndex />
-                      <componentType />
-                      <prop />
-                      <val />
-                    </object>
                   </_items>
                   <_size dataType="Int">4</_size>
-                  <_version dataType="Int">16</_version>
+                  <_version dataType="Int">4</_version>
                 </changes>
                 <obj dataType="ObjectRef">51783129</obj>
                 <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
@@ -2113,10 +2036,10 @@
               <parent dataType="ObjectRef">440556761</parent>
               <prefabLink dataType="Class" type="Duality.Resources.PrefabLink" id="1053337570">
                 <changes dataType="Class" type="System.Collections.Generic.List`1[[Duality.Resources.PrefabLink+VarMod]]" id="3318165160">
-                  <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="1804500880" length="6">
+                  <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="1804500880" length="4">
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="745992160">
-                        <_items dataType="ObjectRef">3941276992</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
                         <_version dataType="Int">0</_version>
                       </childIndex>
@@ -2126,7 +2049,7 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="740756928">
-                        <_items dataType="ObjectRef">3941276992</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
                         <_version dataType="Int">0</_version>
                       </childIndex>
@@ -2140,7 +2063,7 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="46021152">
-                        <_items dataType="ObjectRef">3941276992</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
                         <_version dataType="Int">0</_version>
                       </childIndex>
@@ -2150,29 +2073,17 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="2795486080">
-                        <_items dataType="ObjectRef">1181931744</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
-                        <_version dataType="Int">1</_version>
+                        <_version dataType="Int">0</_version>
                       </childIndex>
                       <componentType dataType="ObjectRef">3546841826</componentType>
                       <prop dataType="ObjectRef">2980368288</prop>
                       <val dataType="Int">1</val>
                     </object>
-                    <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                      <childIndex />
-                      <componentType />
-                      <prop />
-                      <val />
-                    </object>
-                    <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                      <childIndex />
-                      <componentType />
-                      <prop />
-                      <val />
-                    </object>
                   </_items>
                   <_size dataType="Int">4</_size>
-                  <_version dataType="Int">16</_version>
+                  <_version dataType="Int">4</_version>
                 </changes>
                 <obj dataType="ObjectRef">106278722</obj>
                 <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
@@ -2238,10 +2149,10 @@
               <parent dataType="ObjectRef">440556761</parent>
               <prefabLink dataType="Class" type="Duality.Resources.PrefabLink" id="2574580687">
                 <changes dataType="Class" type="System.Collections.Generic.List`1[[Duality.Resources.PrefabLink+VarMod]]" id="1488018644">
-                  <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="708026312" length="6">
+                  <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="708026312" length="4">
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="2988619760">
-                        <_items dataType="ObjectRef">3941276992</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
                         <_version dataType="Int">0</_version>
                       </childIndex>
@@ -2251,7 +2162,7 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="1573127904">
-                        <_items dataType="ObjectRef">3941276992</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
                         <_version dataType="Int">0</_version>
                       </childIndex>
@@ -2261,7 +2172,7 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="2644892944">
-                        <_items dataType="ObjectRef">3941276992</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
                         <_version dataType="Int">0</_version>
                       </childIndex>
@@ -2275,29 +2186,17 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="3590282688">
-                        <_items dataType="ObjectRef">1181931744</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
-                        <_version dataType="Int">1</_version>
+                        <_version dataType="Int">0</_version>
                       </childIndex>
                       <componentType dataType="ObjectRef">3546841826</componentType>
                       <prop dataType="ObjectRef">2980368288</prop>
                       <val dataType="Int">1</val>
                     </object>
-                    <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                      <childIndex />
-                      <componentType />
-                      <prop />
-                      <val />
-                    </object>
-                    <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                      <childIndex />
-                      <componentType />
-                      <prop />
-                      <val />
-                    </object>
                   </_items>
                   <_size dataType="Int">4</_size>
-                  <_version dataType="Int">16</_version>
+                  <_version dataType="Int">4</_version>
                 </changes>
                 <obj dataType="ObjectRef">3082444213</obj>
                 <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
@@ -2363,10 +2262,10 @@
               <parent dataType="ObjectRef">440556761</parent>
               <prefabLink dataType="Class" type="Duality.Resources.PrefabLink" id="334553937">
                 <changes dataType="Class" type="System.Collections.Generic.List`1[[Duality.Resources.PrefabLink+VarMod]]" id="2846533204">
-                  <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="2950330824" length="6">
+                  <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="2950330824" length="4">
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="1700725744">
-                        <_items dataType="ObjectRef">3941276992</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
                         <_version dataType="Int">0</_version>
                       </childIndex>
@@ -2376,7 +2275,7 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="1587080928">
-                        <_items dataType="ObjectRef">3941276992</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
                         <_version dataType="Int">0</_version>
                       </childIndex>
@@ -2386,7 +2285,7 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="1045641488">
-                        <_items dataType="ObjectRef">3941276992</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
                         <_version dataType="Int">0</_version>
                       </childIndex>
@@ -2400,29 +2299,17 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="11199936">
-                        <_items dataType="ObjectRef">1181931744</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
-                        <_version dataType="Int">1</_version>
+                        <_version dataType="Int">0</_version>
                       </childIndex>
                       <componentType dataType="ObjectRef">3546841826</componentType>
                       <prop dataType="ObjectRef">2980368288</prop>
                       <val dataType="Int">1</val>
                     </object>
-                    <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                      <childIndex />
-                      <componentType />
-                      <prop />
-                      <val />
-                    </object>
-                    <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                      <childIndex />
-                      <componentType />
-                      <prop />
-                      <val />
-                    </object>
                   </_items>
                   <_size dataType="Int">4</_size>
-                  <_version dataType="Int">16</_version>
+                  <_version dataType="Int">4</_version>
                 </changes>
                 <obj dataType="ObjectRef">2828367083</obj>
                 <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
@@ -2488,10 +2375,10 @@
               <parent dataType="ObjectRef">440556761</parent>
               <prefabLink dataType="Class" type="Duality.Resources.PrefabLink" id="3562268115">
                 <changes dataType="Class" type="System.Collections.Generic.List`1[[Duality.Resources.PrefabLink+VarMod]]" id="3331669268">
-                  <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="525351240" length="6">
+                  <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="525351240" length="4">
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="1331825136">
-                        <_items dataType="ObjectRef">3941276992</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
                         <_version dataType="Int">0</_version>
                       </childIndex>
@@ -2501,7 +2388,7 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="1437250272">
-                        <_items dataType="ObjectRef">3941276992</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
                         <_version dataType="Int">0</_version>
                       </childIndex>
@@ -2511,7 +2398,7 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="4283029264">
-                        <_items dataType="ObjectRef">3941276992</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
                         <_version dataType="Int">0</_version>
                       </childIndex>
@@ -2525,29 +2412,17 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="3420474816">
-                        <_items dataType="ObjectRef">1181931744</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
-                        <_version dataType="Int">1</_version>
+                        <_version dataType="Int">0</_version>
                       </childIndex>
                       <componentType dataType="ObjectRef">3546841826</componentType>
                       <prop dataType="ObjectRef">2980368288</prop>
                       <val dataType="Int">1</val>
                     </object>
-                    <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                      <childIndex />
-                      <componentType />
-                      <prop />
-                      <val />
-                    </object>
-                    <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                      <childIndex />
-                      <componentType />
-                      <prop />
-                      <val />
-                    </object>
                   </_items>
                   <_size dataType="Int">4</_size>
-                  <_version dataType="Int">16</_version>
+                  <_version dataType="Int">4</_version>
                 </changes>
                 <obj dataType="ObjectRef">2606826577</obj>
                 <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
@@ -2613,10 +2488,10 @@
               <parent dataType="ObjectRef">440556761</parent>
               <prefabLink dataType="Class" type="Duality.Resources.PrefabLink" id="1013320660">
                 <changes dataType="Class" type="System.Collections.Generic.List`1[[Duality.Resources.PrefabLink+VarMod]]" id="3691529808">
-                  <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="3075670304" length="6">
+                  <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="3075670304" length="4">
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="1524012992">
-                        <_items dataType="ObjectRef">3941276992</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
                         <_version dataType="Int">0</_version>
                       </childIndex>
@@ -2626,7 +2501,7 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="3390606208">
-                        <_items dataType="ObjectRef">3941276992</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
                         <_version dataType="Int">0</_version>
                       </childIndex>
@@ -2636,7 +2511,7 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="2186546240">
-                        <_items dataType="ObjectRef">3941276992</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
                         <_version dataType="Int">0</_version>
                       </childIndex>
@@ -2650,29 +2525,17 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="103618304">
-                        <_items dataType="ObjectRef">1181931744</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
-                        <_version dataType="Int">1</_version>
+                        <_version dataType="Int">0</_version>
                       </childIndex>
                       <componentType dataType="ObjectRef">3546841826</componentType>
                       <prop dataType="ObjectRef">2980368288</prop>
                       <val dataType="Int">1</val>
                     </object>
-                    <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                      <childIndex />
-                      <componentType />
-                      <prop />
-                      <val />
-                    </object>
-                    <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                      <childIndex />
-                      <componentType />
-                      <prop />
-                      <val />
-                    </object>
                   </_items>
                   <_size dataType="Int">4</_size>
-                  <_version dataType="Int">16</_version>
+                  <_version dataType="Int">4</_version>
                 </changes>
                 <obj dataType="ObjectRef">47258528</obj>
                 <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
@@ -2738,10 +2601,10 @@
               <parent dataType="ObjectRef">440556761</parent>
               <prefabLink dataType="Class" type="Duality.Resources.PrefabLink" id="936993766">
                 <changes dataType="Class" type="System.Collections.Generic.List`1[[Duality.Resources.PrefabLink+VarMod]]" id="1840416296">
-                  <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="172515984" length="6">
+                  <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="172515984" length="4">
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="880407520">
-                        <_items dataType="ObjectRef">3941276992</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
                         <_version dataType="Int">0</_version>
                       </childIndex>
@@ -2751,7 +2614,7 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="3430819264">
-                        <_items dataType="ObjectRef">3941276992</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
                         <_version dataType="Int">0</_version>
                       </childIndex>
@@ -2761,43 +2624,31 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="3895791136">
-                        <_items dataType="ObjectRef">3941276992</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
                         <_version dataType="Int">0</_version>
-                      </childIndex>
-                      <componentType dataType="ObjectRef">665143522</componentType>
-                      <prop dataType="ObjectRef">3262826208</prop>
-                      <val dataType="Struct" type="OpenTK.Vector3">
-                        <X dataType="Float">14673.8975</X>
-                        <Y dataType="Float">-563.691833</Y>
-                        <Z dataType="Float">0</Z>
-                      </val>
-                    </object>
-                    <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                      <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="2699926400">
-                        <_items dataType="ObjectRef">1181931744</_items>
-                        <_size dataType="Int">0</_size>
-                        <_version dataType="Int">1</_version>
                       </childIndex>
                       <componentType dataType="ObjectRef">3546841826</componentType>
                       <prop dataType="ObjectRef">2980368288</prop>
                       <val dataType="Int">1</val>
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                      <childIndex />
-                      <componentType />
-                      <prop />
-                      <val />
-                    </object>
-                    <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                      <childIndex />
-                      <componentType />
-                      <prop />
-                      <val />
+                      <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="2699926400">
+                        <_items dataType="Array" type="System.Int32[]" id="210876448" length="0" />
+                        <_size dataType="Int">0</_size>
+                        <_version dataType="Int">1</_version>
+                      </childIndex>
+                      <componentType dataType="ObjectRef">665143522</componentType>
+                      <prop dataType="ObjectRef">3262826208</prop>
+                      <val dataType="Struct" type="OpenTK.Vector3">
+                        <X dataType="Float">14685.0088</X>
+                        <Y dataType="Float">-563.691833</Y>
+                        <Z dataType="Float">0</Z>
+                      </val>
                     </object>
                   </_items>
                   <_size dataType="Int">4</_size>
-                  <_version dataType="Int">16</_version>
+                  <_version dataType="Int">6</_version>
                 </changes>
                 <obj dataType="ObjectRef">492210102</obj>
                 <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
@@ -2863,10 +2714,10 @@
               <parent dataType="ObjectRef">440556761</parent>
               <prefabLink dataType="Class" type="Duality.Resources.PrefabLink" id="3812493368">
                 <changes dataType="Class" type="System.Collections.Generic.List`1[[Duality.Resources.PrefabLink+VarMod]]" id="4147710624">
-                  <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="508960320" length="6">
+                  <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="508960320" length="4">
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="335773568">
-                        <_items dataType="ObjectRef">3941276992</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
                         <_version dataType="Int">0</_version>
                       </childIndex>
@@ -2876,7 +2727,7 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="484849408">
-                        <_items dataType="ObjectRef">3941276992</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
                         <_version dataType="Int">0</_version>
                       </childIndex>
@@ -2886,7 +2737,7 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="2616633472">
-                        <_items dataType="ObjectRef">3941276992</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
                         <_version dataType="Int">0</_version>
                       </childIndex>
@@ -2900,29 +2751,17 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="1655729664">
-                        <_items dataType="ObjectRef">1181931744</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
-                        <_version dataType="Int">1</_version>
+                        <_version dataType="Int">0</_version>
                       </childIndex>
                       <componentType dataType="ObjectRef">3546841826</componentType>
                       <prop dataType="ObjectRef">2980368288</prop>
                       <val dataType="Int">1</val>
                     </object>
-                    <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                      <childIndex />
-                      <componentType />
-                      <prop />
-                      <val />
-                    </object>
-                    <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                      <childIndex />
-                      <componentType />
-                      <prop />
-                      <val />
-                    </object>
                   </_items>
                   <_size dataType="Int">4</_size>
-                  <_version dataType="Int">16</_version>
+                  <_version dataType="Int">4</_version>
                 </changes>
                 <obj dataType="ObjectRef">3678813380</obj>
                 <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
@@ -2988,10 +2827,10 @@
               <parent dataType="ObjectRef">440556761</parent>
               <prefabLink dataType="Class" type="Duality.Resources.PrefabLink" id="2210999723">
                 <changes dataType="Class" type="System.Collections.Generic.List`1[[Duality.Resources.PrefabLink+VarMod]]" id="1914498772">
-                  <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="3090328520" length="6">
+                  <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="3090328520" length="4">
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="2934165488">
-                        <_items dataType="ObjectRef">3941276992</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
                         <_version dataType="Int">0</_version>
                       </childIndex>
@@ -3001,7 +2840,7 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="1364281056">
-                        <_items dataType="ObjectRef">3941276992</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
                         <_version dataType="Int">0</_version>
                       </childIndex>
@@ -3011,7 +2850,7 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="2722280720">
-                        <_items dataType="ObjectRef">3941276992</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
                         <_version dataType="Int">0</_version>
                       </childIndex>
@@ -3025,29 +2864,17 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="1008094656">
-                        <_items dataType="ObjectRef">1181931744</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
-                        <_version dataType="Int">1</_version>
+                        <_version dataType="Int">0</_version>
                       </childIndex>
                       <componentType dataType="ObjectRef">3546841826</componentType>
                       <prop dataType="ObjectRef">2980368288</prop>
                       <val dataType="Int">1</val>
                     </object>
-                    <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                      <childIndex />
-                      <componentType />
-                      <prop />
-                      <val />
-                    </object>
-                    <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                      <childIndex />
-                      <componentType />
-                      <prop />
-                      <val />
-                    </object>
                   </_items>
                   <_size dataType="Int">4</_size>
-                  <_version dataType="Int">16</_version>
+                  <_version dataType="Int">4</_version>
                 </changes>
                 <obj dataType="ObjectRef">2746565897</obj>
                 <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
@@ -3113,10 +2940,10 @@
               <parent dataType="ObjectRef">440556761</parent>
               <prefabLink dataType="Class" type="Duality.Resources.PrefabLink" id="1505638785">
                 <changes dataType="Class" type="System.Collections.Generic.List`1[[Duality.Resources.PrefabLink+VarMod]]" id="1672045140">
-                  <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="2403226056" length="6">
+                  <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="2403226056" length="4">
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="3306583024">
-                        <_items dataType="ObjectRef">3941276992</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
                         <_version dataType="Int">0</_version>
                       </childIndex>
@@ -3126,7 +2953,7 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="700124896">
-                        <_items dataType="ObjectRef">3941276992</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
                         <_version dataType="Int">0</_version>
                       </childIndex>
@@ -3136,7 +2963,7 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="4015376656">
-                        <_items dataType="ObjectRef">3941276992</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
                         <_version dataType="Int">0</_version>
                       </childIndex>
@@ -3150,29 +2977,17 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="2376025536">
-                        <_items dataType="ObjectRef">1181931744</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
-                        <_version dataType="Int">1</_version>
+                        <_version dataType="Int">0</_version>
                       </childIndex>
                       <componentType dataType="ObjectRef">3546841826</componentType>
                       <prop dataType="ObjectRef">2980368288</prop>
                       <val dataType="Int">1</val>
                     </object>
-                    <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                      <childIndex />
-                      <componentType />
-                      <prop />
-                      <val />
-                    </object>
-                    <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                      <childIndex />
-                      <componentType />
-                      <prop />
-                      <val />
-                    </object>
                   </_items>
                   <_size dataType="Int">4</_size>
-                  <_version dataType="Int">16</_version>
+                  <_version dataType="Int">4</_version>
                 </changes>
                 <obj dataType="ObjectRef">827448923</obj>
                 <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
@@ -3238,10 +3053,10 @@
               <parent dataType="ObjectRef">440556761</parent>
               <prefabLink dataType="Class" type="Duality.Resources.PrefabLink" id="2514426251">
                 <changes dataType="Class" type="System.Collections.Generic.List`1[[Duality.Resources.PrefabLink+VarMod]]" id="3945255316">
-                  <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="2313404488" length="6">
+                  <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="2313404488" length="4">
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="1178707440">
-                        <_items dataType="ObjectRef">3941276992</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
                         <_version dataType="Int">0</_version>
                       </childIndex>
@@ -3251,7 +3066,7 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="2886607584">
-                        <_items dataType="ObjectRef">3941276992</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
                         <_version dataType="Int">0</_version>
                       </childIndex>
@@ -3261,7 +3076,7 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="1238434576">
-                        <_items dataType="ObjectRef">3941276992</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
                         <_version dataType="Int">0</_version>
                       </childIndex>
@@ -3275,29 +3090,17 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="2227389888">
-                        <_items dataType="ObjectRef">1181931744</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
-                        <_version dataType="Int">1</_version>
+                        <_version dataType="Int">0</_version>
                       </childIndex>
                       <componentType dataType="ObjectRef">3546841826</componentType>
                       <prop dataType="ObjectRef">2980368288</prop>
                       <val dataType="Int">1</val>
                     </object>
-                    <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                      <childIndex />
-                      <componentType />
-                      <prop />
-                      <val />
-                    </object>
-                    <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                      <childIndex />
-                      <componentType />
-                      <prop />
-                      <val />
-                    </object>
                   </_items>
                   <_size dataType="Int">4</_size>
-                  <_version dataType="Int">16</_version>
+                  <_version dataType="Int">4</_version>
                 </changes>
                 <obj dataType="ObjectRef">3351848105</obj>
                 <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
@@ -3363,10 +3166,10 @@
               <parent dataType="ObjectRef">440556761</parent>
               <prefabLink dataType="Class" type="Duality.Resources.PrefabLink" id="632222718">
                 <changes dataType="Class" type="System.Collections.Generic.List`1[[Duality.Resources.PrefabLink+VarMod]]" id="2058208936">
-                  <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="4006948752" length="6">
+                  <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="4006948752" length="4">
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="1182027744">
-                        <_items dataType="ObjectRef">3941276992</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
                         <_version dataType="Int">0</_version>
                       </childIndex>
@@ -3376,7 +3179,7 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="501009856">
-                        <_items dataType="ObjectRef">3941276992</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
                         <_version dataType="Int">0</_version>
                       </childIndex>
@@ -3386,7 +3189,7 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="1988647456">
-                        <_items dataType="ObjectRef">3941276992</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
                         <_version dataType="Int">0</_version>
                       </childIndex>
@@ -3400,29 +3203,17 @@
                     </object>
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="302300032">
-                        <_items dataType="ObjectRef">1181931744</_items>
+                        <_items dataType="ObjectRef">1715615392</_items>
                         <_size dataType="Int">0</_size>
-                        <_version dataType="Int">1</_version>
+                        <_version dataType="Int">0</_version>
                       </childIndex>
                       <componentType dataType="ObjectRef">3546841826</componentType>
                       <prop dataType="ObjectRef">2980368288</prop>
                       <val dataType="Int">1</val>
                     </object>
-                    <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                      <childIndex />
-                      <componentType />
-                      <prop />
-                      <val />
-                    </object>
-                    <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                      <childIndex />
-                      <componentType />
-                      <prop />
-                      <val />
-                    </object>
                   </_items>
                   <_size dataType="Int">4</_size>
-                  <_version dataType="Int">16</_version>
+                  <_version dataType="Int">4</_version>
                 </changes>
                 <obj dataType="ObjectRef">2002224158</obj>
                 <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
@@ -3472,71 +3263,6 @@
               <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                 <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="3486911020">
                   <_items dataType="Array" type="System.Int32[]" id="651176392" length="4">
-                    <object dataType="Int">0</object>
-                    <object dataType="Int">0</object>
-                    <object dataType="Int">0</object>
-                    <object dataType="Int">0</object>
-                  </_items>
-                  <_size dataType="Int">1</_size>
-                  <_version dataType="Int">2</_version>
-                </childIndex>
-                <componentType />
-                <prop dataType="PropertyInfo" id="2835508248" value="P:Duality.GameObject:PrefabLink" />
-                <val dataType="Class" type="Duality.Resources.PrefabLink" id="4017587188">
-                  <changes dataType="Class" type="System.Collections.Generic.List`1[[Duality.Resources.PrefabLink+VarMod]]" id="1838519248">
-                    <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="4165583392" length="3">
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="2234076096">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">665143522</componentType>
-                        <prop dataType="ObjectRef">3262826208</prop>
-                        <val dataType="Struct" type="OpenTK.Vector3">
-                          <X dataType="Float">2759.02734</X>
-                          <Y dataType="Float">-483.3334</Y>
-                          <Z dataType="Float">0</Z>
-                        </val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="569305984">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">3546841826</componentType>
-                        <prop dataType="ObjectRef">1227492800</prop>
-                        <val dataType="Struct" type="Duality.ColorFormat.ColorRgba">
-                          <A dataType="Byte">255</A>
-                          <B dataType="Byte">255</B>
-                          <G dataType="Byte">255</G>
-                          <R dataType="Byte">255</R>
-                        </val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="465121344">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">3546841826</componentType>
-                        <prop dataType="ObjectRef">2980368288</prop>
-                        <val dataType="Int">1</val>
-                      </object>
-                    </_items>
-                    <_size dataType="Int">3</_size>
-                    <_version dataType="Int">3</_version>
-                  </changes>
-                  <obj dataType="ObjectRef">3825937547</obj>
-                  <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
-                    <contentPath dataType="String">Data\Prefabs\Tree.Prefab.res</contentPath>
-                  </prefab>
-                </val>
-              </object>
-              <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="932429552">
-                  <_items dataType="Array" type="System.Int32[]" id="207487092" length="4">
                     <object dataType="Int">1</object>
                     <object dataType="Int">0</object>
                     <object dataType="Int">0</object>
@@ -3546,47 +3272,12 @@
                   <_version dataType="Int">2</_version>
                 </childIndex>
                 <componentType />
-                <prop dataType="ObjectRef">2835508248</prop>
-                <val dataType="Class" type="Duality.Resources.PrefabLink" id="3216578108">
-                  <changes dataType="Class" type="System.Collections.Generic.List`1[[Duality.Resources.PrefabLink+VarMod]]" id="1567304792">
-                    <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="3109176208" length="2">
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="4109461472">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">665143522</componentType>
-                        <prop dataType="ObjectRef">3262826208</prop>
-                        <val dataType="Struct" type="OpenTK.Vector3">
-                          <X dataType="Float">3837.037</X>
-                          <Y dataType="Float">-498.148132</Y>
-                          <Z dataType="Float">0</Z>
-                        </val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="4279573952">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">3546841826</componentType>
-                        <prop dataType="ObjectRef">2980368288</prop>
-                        <val dataType="Int">1</val>
-                      </object>
-                    </_items>
-                    <_size dataType="Int">2</_size>
-                    <_version dataType="Int">2</_version>
-                  </changes>
-                  <obj dataType="ObjectRef">1703543409</obj>
-                  <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
-                    <contentPath dataType="String">Data\Prefabs\Tree.Prefab.res</contentPath>
-                  </prefab>
-                </val>
+                <prop dataType="PropertyInfo" id="2835508248" value="P:Duality.GameObject:PrefabLink" />
+                <val dataType="ObjectRef">3318605427</val>
               </object>
               <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="1162557768">
-                  <_items dataType="Array" type="System.Int32[]" id="3316589004" length="4">
+                <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="4017587188">
+                  <_items dataType="Array" type="System.Int32[]" id="1838519248" length="4">
                     <object dataType="Int">2</object>
                     <object dataType="Int">0</object>
                     <object dataType="Int">0</object>
@@ -3597,46 +3288,11 @@
                 </childIndex>
                 <componentType />
                 <prop dataType="ObjectRef">2835508248</prop>
-                <val dataType="Class" type="Duality.Resources.PrefabLink" id="173254276">
-                  <changes dataType="Class" type="System.Collections.Generic.List`1[[Duality.Resources.PrefabLink+VarMod]]" id="2148989728">
-                    <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="3402459456" length="2">
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="1783666048">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">665143522</componentType>
-                        <prop dataType="ObjectRef">3262826208</prop>
-                        <val dataType="Struct" type="OpenTK.Vector3">
-                          <X dataType="Float">4248.15039</X>
-                          <Y dataType="Float">-464.814819</Y>
-                          <Z dataType="Float">0</Z>
-                        </val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="92979968">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">3546841826</componentType>
-                        <prop dataType="ObjectRef">2980368288</prop>
-                        <val dataType="Int">1</val>
-                      </object>
-                    </_items>
-                    <_size dataType="Int">2</_size>
-                    <_version dataType="Int">2</_version>
-                  </changes>
-                  <obj dataType="ObjectRef">2686543077</obj>
-                  <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
-                    <contentPath dataType="String">Data\Prefabs\Tree.Prefab.res</contentPath>
-                  </prefab>
-                </val>
+                <val dataType="ObjectRef">1604834879</val>
               </object>
               <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="1344179296">
-                  <_items dataType="Array" type="System.Int32[]" id="505228388" length="4">
+                <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="932429552">
+                  <_items dataType="Array" type="System.Int32[]" id="207487092" length="4">
                     <object dataType="Int">3</object>
                     <object dataType="Int">0</object>
                     <object dataType="Int">0</object>
@@ -3647,56 +3303,11 @@
                 </childIndex>
                 <componentType />
                 <prop dataType="ObjectRef">2835508248</prop>
-                <val dataType="Class" type="Duality.Resources.PrefabLink" id="3160699020">
-                  <changes dataType="Class" type="System.Collections.Generic.List`1[[Duality.Resources.PrefabLink+VarMod]]" id="1724844136">
-                    <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="1174980880" length="3">
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="1399428576">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">665143522</componentType>
-                        <prop dataType="ObjectRef">3273635264</prop>
-                        <val dataType="Float">1.29211211</val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="457807296">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">665143522</componentType>
-                        <prop dataType="ObjectRef">3262826208</prop>
-                        <val dataType="Struct" type="OpenTK.Vector3">
-                          <X dataType="Float">5159.26</X>
-                          <Y dataType="Float">-575.9259</Y>
-                          <Z dataType="Float">0</Z>
-                        </val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="3316238368">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">3546841826</componentType>
-                        <prop dataType="ObjectRef">2980368288</prop>
-                        <val dataType="Int">1</val>
-                      </object>
-                    </_items>
-                    <_size dataType="Int">3</_size>
-                    <_version dataType="Int">3</_version>
-                  </changes>
-                  <obj dataType="ObjectRef">3250592854</obj>
-                  <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
-                    <contentPath dataType="String">Data\Prefabs\Tree.Prefab.res</contentPath>
-                  </prefab>
-                </val>
+                <val dataType="ObjectRef">3850230086</val>
               </object>
               <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="3841308408">
-                  <_items dataType="Array" type="System.Int32[]" id="186325948" length="4">
+                <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="3216578108">
+                  <_items dataType="Array" type="System.Int32[]" id="1567304792" length="4">
                     <object dataType="Int">4</object>
                     <object dataType="Int">0</object>
                     <object dataType="Int">0</object>
@@ -3707,66 +3318,11 @@
                 </childIndex>
                 <componentType />
                 <prop dataType="ObjectRef">2835508248</prop>
-                <val dataType="Class" type="Duality.Resources.PrefabLink" id="3210197716">
-                  <changes dataType="Class" type="System.Collections.Generic.List`1[[Duality.Resources.PrefabLink+VarMod]]" id="1109245936">
-                    <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="1640985248" length="4">
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="888483520">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">665143522</componentType>
-                        <prop dataType="ObjectRef">3273635264</prop>
-                        <val dataType="Float">1.29211211</val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="3746097536">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">665143522</componentType>
-                        <prop dataType="ObjectRef">2881173776</prop>
-                        <val dataType="Float">0.08747709</val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="3811185472">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">665143522</componentType>
-                        <prop dataType="ObjectRef">3262826208</prop>
-                        <val dataType="Struct" type="OpenTK.Vector3">
-                          <X dataType="Float">5759.25928</X>
-                          <Y dataType="Float">-564.814758</Y>
-                          <Z dataType="Float">0</Z>
-                        </val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="179201792">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">3546841826</componentType>
-                        <prop dataType="ObjectRef">2980368288</prop>
-                        <val dataType="Int">1</val>
-                      </object>
-                    </_items>
-                    <_size dataType="Int">4</_size>
-                    <_version dataType="Int">4</_version>
-                  </changes>
-                  <obj dataType="ObjectRef">1009762069</obj>
-                  <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
-                    <contentPath dataType="String">Data\Prefabs\Tree.Prefab.res</contentPath>
-                  </prefab>
-                </val>
+                <val dataType="ObjectRef">452483247</val>
               </object>
               <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="2503931472">
-                  <_items dataType="Array" type="System.Int32[]" id="2055768596" length="4">
+                <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="1162557768">
+                  <_items dataType="Array" type="System.Int32[]" id="3316589004" length="4">
                     <object dataType="Int">5</object>
                     <object dataType="Int">0</object>
                     <object dataType="Int">0</object>
@@ -3777,66 +3333,11 @@
                 </childIndex>
                 <componentType />
                 <prop dataType="ObjectRef">2835508248</prop>
-                <val dataType="Class" type="Duality.Resources.PrefabLink" id="3179866652">
-                  <changes dataType="Class" type="System.Collections.Generic.List`1[[Duality.Resources.PrefabLink+VarMod]]" id="2633727352">
-                    <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="3670552400" length="4">
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="1507759968">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">665143522</componentType>
-                        <prop dataType="ObjectRef">3273635264</prop>
-                        <val dataType="Float">1.29211211</val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="2815718592">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">665143522</componentType>
-                        <prop dataType="ObjectRef">2881173776</prop>
-                        <val dataType="Float">6.11049652</val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="2432764320">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">665143522</componentType>
-                        <prop dataType="ObjectRef">3262826208</prop>
-                        <val dataType="Struct" type="OpenTK.Vector3">
-                          <X dataType="Float">7092.593</X>
-                          <Y dataType="Float">-598.147949</Y>
-                          <Z dataType="Float">0</Z>
-                        </val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="4216796032">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">3546841826</componentType>
-                        <prop dataType="ObjectRef">2980368288</prop>
-                        <val dataType="Int">1</val>
-                      </object>
-                    </_items>
-                    <_size dataType="Int">4</_size>
-                    <_version dataType="Int">4</_version>
-                  </changes>
-                  <obj dataType="ObjectRef">529497037</obj>
-                  <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
-                    <contentPath dataType="String">Data\Prefabs\Tree.Prefab.res</contentPath>
-                  </prefab>
-                </val>
+                <val dataType="ObjectRef">1041700519</val>
               </object>
               <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="649648040">
-                  <_items dataType="Array" type="System.Int32[]" id="1948574700" length="4">
+                <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="173254276">
+                  <_items dataType="Array" type="System.Int32[]" id="2148989728" length="4">
                     <object dataType="Int">6</object>
                     <object dataType="Int">0</object>
                     <object dataType="Int">0</object>
@@ -3847,66 +3348,11 @@
                 </childIndex>
                 <componentType />
                 <prop dataType="ObjectRef">2835508248</prop>
-                <val dataType="Class" type="Duality.Resources.PrefabLink" id="3736121316">
-                  <changes dataType="Class" type="System.Collections.Generic.List`1[[Duality.Resources.PrefabLink+VarMod]]" id="2041080128">
-                    <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="1989575808" length="4">
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="20209408">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">665143522</componentType>
-                        <prop dataType="ObjectRef">3273635264</prop>
-                        <val dataType="Float">1.29211211</val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="695610880">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">665143522</componentType>
-                        <prop dataType="ObjectRef">3262826208</prop>
-                        <val dataType="Struct" type="OpenTK.Vector3">
-                          <X dataType="Float">8248.148</X>
-                          <Y dataType="Float">-598.147949</Y>
-                          <Z dataType="Float">0</Z>
-                        </val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="3214029056">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">665143522</componentType>
-                        <prop dataType="ObjectRef">2881173776</prop>
-                        <val dataType="Float">6.279806</val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="3304348672">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">3546841826</componentType>
-                        <prop dataType="ObjectRef">2980368288</prop>
-                        <val dataType="Int">1</val>
-                      </object>
-                    </_items>
-                    <_size dataType="Int">4</_size>
-                    <_version dataType="Int">4</_version>
-                  </changes>
-                  <obj dataType="ObjectRef">3393049104</obj>
-                  <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
-                    <contentPath dataType="String">Data\Prefabs\Tree.Prefab.res</contentPath>
-                  </prefab>
-                </val>
+                <val dataType="ObjectRef">4204440452</val>
               </object>
               <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="3354180032">
-                  <_items dataType="Array" type="System.Int32[]" id="2208864772" length="4">
+                <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="1344179296">
+                  <_items dataType="Array" type="System.Int32[]" id="505228388" length="4">
                     <object dataType="Int">7</object>
                     <object dataType="Int">0</object>
                     <object dataType="Int">0</object>
@@ -3917,66 +3363,11 @@
                 </childIndex>
                 <componentType />
                 <prop dataType="ObjectRef">2835508248</prop>
-                <val dataType="Class" type="Duality.Resources.PrefabLink" id="778981484">
-                  <changes dataType="Class" type="System.Collections.Generic.List`1[[Duality.Resources.PrefabLink+VarMod]]" id="3539233288">
-                    <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="2232184144" length="4">
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="3856531296">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">665143522</componentType>
-                        <prop dataType="ObjectRef">2881173776</prop>
-                        <val dataType="Float">6.279806</val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="229049536">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">665143522</componentType>
-                        <prop dataType="ObjectRef">3273635264</prop>
-                        <val dataType="Float">1.39543831</val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="4025737632">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">665143522</componentType>
-                        <prop dataType="ObjectRef">3262826208</prop>
-                        <val dataType="Struct" type="OpenTK.Vector3">
-                          <X dataType="Float">9028.148</X>
-                          <Y dataType="Float">-591.48114</Y>
-                          <Z dataType="Float">0</Z>
-                        </val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="2637472640">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">3546841826</componentType>
-                        <prop dataType="ObjectRef">2980368288</prop>
-                        <val dataType="Int">1</val>
-                      </object>
-                    </_items>
-                    <_size dataType="Int">4</_size>
-                    <_version dataType="Int">4</_version>
-                  </changes>
-                  <obj dataType="ObjectRef">809198998</obj>
-                  <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
-                    <contentPath dataType="String">Data\Prefabs\Tree.Prefab.res</contentPath>
-                  </prefab>
-                </val>
+                <val dataType="ObjectRef">289907206</val>
               </object>
               <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="3943060184">
-                  <_items dataType="Array" type="System.Int32[]" id="1369308" length="4">
+                <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="3160699020">
+                  <_items dataType="Array" type="System.Int32[]" id="1724844136" length="4">
                     <object dataType="Int">8</object>
                     <object dataType="Int">0</object>
                     <object dataType="Int">0</object>
@@ -3987,81 +3378,11 @@
                 </childIndex>
                 <componentType />
                 <prop dataType="ObjectRef">2835508248</prop>
-                <val dataType="Class" type="Duality.Resources.PrefabLink" id="2608922932">
-                  <changes dataType="Class" type="System.Collections.Generic.List`1[[Duality.Resources.PrefabLink+VarMod]]" id="2974931984">
-                    <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="1285917344" length="5">
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="2266209984">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">665143522</componentType>
-                        <prop dataType="ObjectRef">2881173776</prop>
-                        <val dataType="Float">6.279806</val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="3533130112">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">665143522</componentType>
-                        <prop dataType="ObjectRef">3273635264</prop>
-                        <val dataType="Float">1.18403757</val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="2659918656">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">3546841826</componentType>
-                        <prop dataType="ObjectRef">1227492800</prop>
-                        <val dataType="Struct" type="Duality.ColorFormat.ColorRgba">
-                          <A dataType="Byte">255</A>
-                          <B dataType="Byte">215</B>
-                          <G dataType="Byte">215</G>
-                          <R dataType="Byte">215</R>
-                        </val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="2598700800">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">665143522</componentType>
-                        <prop dataType="ObjectRef">3262826208</prop>
-                        <val dataType="Struct" type="OpenTK.Vector3">
-                          <X dataType="Float">8602.118</X>
-                          <Y dataType="Float">-577.5129</Y>
-                          <Z dataType="Float">0</Z>
-                        </val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="3237134272">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">3546841826</componentType>
-                        <prop dataType="ObjectRef">2980368288</prop>
-                        <val dataType="Int">1</val>
-                      </object>
-                    </_items>
-                    <_size dataType="Int">5</_size>
-                    <_version dataType="Int">5</_version>
-                  </changes>
-                  <obj dataType="ObjectRef">260701117</obj>
-                  <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
-                    <contentPath dataType="String">Data\Prefabs\Tree.Prefab.res</contentPath>
-                  </prefab>
-                </val>
+                <val dataType="ObjectRef">1895860439</val>
               </object>
               <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="2227469744">
-                  <_items dataType="Array" type="System.Int32[]" id="1452162356" length="4">
+                <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="3841308408">
+                  <_items dataType="Array" type="System.Int32[]" id="186325948" length="4">
                     <object dataType="Int">9</object>
                     <object dataType="Int">0</object>
                     <object dataType="Int">0</object>
@@ -4072,56 +3393,11 @@
                 </childIndex>
                 <componentType />
                 <prop dataType="ObjectRef">2835508248</prop>
-                <val dataType="Class" type="Duality.Resources.PrefabLink" id="1074847356">
-                  <changes dataType="Class" type="System.Collections.Generic.List`1[[Duality.Resources.PrefabLink+VarMod]]" id="2742599320">
-                    <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="1629557520" length="3">
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="2810683872">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">665143522</componentType>
-                        <prop dataType="ObjectRef">3273635264</prop>
-                        <val dataType="Float">0.932765543</val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="1318223296">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">665143522</componentType>
-                        <prop dataType="ObjectRef">3262826208</prop>
-                        <val dataType="Struct" type="OpenTK.Vector3">
-                          <X dataType="Float">9831.483</X>
-                          <Y dataType="Float">-398.148163</Y>
-                          <Z dataType="Float">0</Z>
-                        </val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="1349911584">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">3546841826</componentType>
-                        <prop dataType="ObjectRef">2980368288</prop>
-                        <val dataType="Int">1</val>
-                      </object>
-                    </_items>
-                    <_size dataType="Int">3</_size>
-                    <_version dataType="Int">3</_version>
-                  </changes>
-                  <obj dataType="ObjectRef">2350693064</obj>
-                  <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
-                    <contentPath dataType="String">Data\Prefabs\Tree.Prefab.res</contentPath>
-                  </prefab>
-                </val>
+                <val dataType="ObjectRef">342700956</val>
               </object>
               <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="2841363976">
-                  <_items dataType="Array" type="System.Int32[]" id="3208809612" length="4">
+                <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="3210197716">
+                  <_items dataType="Array" type="System.Int32[]" id="1109245936" length="4">
                     <object dataType="Int">10</object>
                     <object dataType="Int">0</object>
                     <object dataType="Int">0</object>
@@ -4132,66 +3408,11 @@
                 </childIndex>
                 <componentType />
                 <prop dataType="ObjectRef">2835508248</prop>
-                <val dataType="Class" type="Duality.Resources.PrefabLink" id="468732100">
-                  <changes dataType="Class" type="System.Collections.Generic.List`1[[Duality.Resources.PrefabLink+VarMod]]" id="388757344">
-                    <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="123587136" length="4">
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="1841319808">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">665143522</componentType>
-                        <prop dataType="ObjectRef">3273635264</prop>
-                        <val dataType="Float">0.932765543</val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="2960496384">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">665143522</componentType>
-                        <prop dataType="ObjectRef">3262826208</prop>
-                        <val dataType="Struct" type="OpenTK.Vector3">
-                          <X dataType="Float">10273.1494</X>
-                          <Y dataType="Float">-364.814819</Y>
-                          <Z dataType="Float">0</Z>
-                        </val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="171882624">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">665143522</componentType>
-                        <prop dataType="ObjectRef">2881173776</prop>
-                        <val dataType="Float">0.0170674324</val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="1711435264">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">3546841826</componentType>
-                        <prop dataType="ObjectRef">2980368288</prop>
-                        <val dataType="Int">1</val>
-                      </object>
-                    </_items>
-                    <_size dataType="Int">4</_size>
-                    <_version dataType="Int">4</_version>
-                  </changes>
-                  <obj dataType="ObjectRef">51783129</obj>
-                  <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
-                    <contentPath dataType="String">Data\Prefabs\Tree.Prefab.res</contentPath>
-                  </prefab>
-                </val>
+                <val dataType="ObjectRef">1180208283</val>
               </object>
               <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="1406420768">
-                  <_items dataType="Array" type="System.Int32[]" id="691361060" length="4">
+                <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="2503931472">
+                  <_items dataType="Array" type="System.Int32[]" id="2055768596" length="4">
                     <object dataType="Int">11</object>
                     <object dataType="Int">0</object>
                     <object dataType="Int">0</object>
@@ -4202,66 +3423,11 @@
                 </childIndex>
                 <componentType />
                 <prop dataType="ObjectRef">2835508248</prop>
-                <val dataType="Class" type="Duality.Resources.PrefabLink" id="1943542988">
-                  <changes dataType="Class" type="System.Collections.Generic.List`1[[Duality.Resources.PrefabLink+VarMod]]" id="3216318120">
-                    <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="2703802256" length="4">
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="517042144">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">665143522</componentType>
-                        <prop dataType="ObjectRef">3273635264</prop>
-                        <val dataType="Float">0.932765543</val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="4260892096">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">665143522</componentType>
-                        <prop dataType="ObjectRef">3262826208</prop>
-                        <val dataType="Struct" type="OpenTK.Vector3">
-                          <X dataType="Float">10848.1494</X>
-                          <Y dataType="Float">-373.148163</Y>
-                          <Z dataType="Float">0</Z>
-                        </val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="237484576">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">665143522</componentType>
-                        <prop dataType="ObjectRef">2881173776</prop>
-                        <val dataType="Float">6.272665</val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="1338424192">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">3546841826</componentType>
-                        <prop dataType="ObjectRef">2980368288</prop>
-                        <val dataType="Int">1</val>
-                      </object>
-                    </_items>
-                    <_size dataType="Int">4</_size>
-                    <_version dataType="Int">4</_version>
-                  </changes>
-                  <obj dataType="ObjectRef">106278722</obj>
-                  <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
-                    <contentPath dataType="String">Data\Prefabs\Tree.Prefab.res</contentPath>
-                  </prefab>
-                </val>
+                <val dataType="ObjectRef">1053337570</val>
               </object>
               <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="2771267512">
-                  <_items dataType="Array" type="System.Int32[]" id="2434642556" length="4">
+                <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="3179866652">
+                  <_items dataType="Array" type="System.Int32[]" id="2633727352" length="4">
                     <object dataType="Int">12</object>
                     <object dataType="Int">0</object>
                     <object dataType="Int">0</object>
@@ -4272,66 +3438,11 @@
                 </childIndex>
                 <componentType />
                 <prop dataType="ObjectRef">2835508248</prop>
-                <val dataType="Class" type="Duality.Resources.PrefabLink" id="804520212">
-                  <changes dataType="Class" type="System.Collections.Generic.List`1[[Duality.Resources.PrefabLink+VarMod]]" id="3397265712">
-                    <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="1521290784" length="4">
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="3172840384">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">665143522</componentType>
-                        <prop dataType="ObjectRef">3273635264</prop>
-                        <val dataType="Float">0.932765543</val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="3079035776">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">665143522</componentType>
-                        <prop dataType="ObjectRef">2881173776</prop>
-                        <val dataType="Float">6.272665</val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="223656000">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">665143522</componentType>
-                        <prop dataType="ObjectRef">3262826208</prop>
-                        <val dataType="Struct" type="OpenTK.Vector3">
-                          <X dataType="Float">12554.8164</X>
-                          <Y dataType="Float">-393.148163</Y>
-                          <Z dataType="Float">0</Z>
-                        </val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="1465227008">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">3546841826</componentType>
-                        <prop dataType="ObjectRef">2980368288</prop>
-                        <val dataType="Int">1</val>
-                      </object>
-                    </_items>
-                    <_size dataType="Int">4</_size>
-                    <_version dataType="Int">4</_version>
-                  </changes>
-                  <obj dataType="ObjectRef">3082444213</obj>
-                  <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
-                    <contentPath dataType="String">Data\Prefabs\Tree.Prefab.res</contentPath>
-                  </prefab>
-                </val>
+                <val dataType="ObjectRef">2574580687</val>
               </object>
               <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="647213072">
-                  <_items dataType="Array" type="System.Int32[]" id="1497414100" length="4">
+                <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="649648040">
+                  <_items dataType="Array" type="System.Int32[]" id="1948574700" length="4">
                     <object dataType="Int">13</object>
                     <object dataType="Int">0</object>
                     <object dataType="Int">0</object>
@@ -4342,66 +3453,11 @@
                 </childIndex>
                 <componentType />
                 <prop dataType="ObjectRef">2835508248</prop>
-                <val dataType="Class" type="Duality.Resources.PrefabLink" id="1555878748">
-                  <changes dataType="Class" type="System.Collections.Generic.List`1[[Duality.Resources.PrefabLink+VarMod]]" id="2217220280">
-                    <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="3396688976" length="4">
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="3851194720">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">665143522</componentType>
-                        <prop dataType="ObjectRef">2881173776</prop>
-                        <val dataType="Float">6.280407</val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="2702106816">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">665143522</componentType>
-                        <prop dataType="ObjectRef">3273635264</prop>
-                        <val dataType="Float">1.44254</val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="4013252512">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">665143522</componentType>
-                        <prop dataType="ObjectRef">3262826208</prop>
-                        <val dataType="Struct" type="OpenTK.Vector3">
-                          <X dataType="Float">13085.6436</X>
-                          <Y dataType="Float">-716.421631</Y>
-                          <Z dataType="Float">0</Z>
-                        </val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="1715206016">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">3546841826</componentType>
-                        <prop dataType="ObjectRef">2980368288</prop>
-                        <val dataType="Int">1</val>
-                      </object>
-                    </_items>
-                    <_size dataType="Int">4</_size>
-                    <_version dataType="Int">4</_version>
-                  </changes>
-                  <obj dataType="ObjectRef">2828367083</obj>
-                  <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
-                    <contentPath dataType="String">Data\Prefabs\Tree.Prefab.res</contentPath>
-                  </prefab>
-                </val>
+                <val dataType="ObjectRef">334553937</val>
               </object>
               <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="3539457896">
-                  <_items dataType="Array" type="System.Int32[]" id="1777447596" length="4">
+                <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="3736121316">
+                  <_items dataType="Array" type="System.Int32[]" id="2041080128" length="4">
                     <object dataType="Int">14</object>
                     <object dataType="Int">0</object>
                     <object dataType="Int">0</object>
@@ -4412,66 +3468,11 @@
                 </childIndex>
                 <componentType />
                 <prop dataType="ObjectRef">2835508248</prop>
-                <val dataType="Class" type="Duality.Resources.PrefabLink" id="3583827492">
-                  <changes dataType="Class" type="System.Collections.Generic.List`1[[Duality.Resources.PrefabLink+VarMod]]" id="4202343040">
-                    <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="248674560" length="4">
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="3685350912">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">665143522</componentType>
-                        <prop dataType="ObjectRef">2881173776</prop>
-                        <val dataType="Float">6.280407</val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="520674304">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">665143522</componentType>
-                        <prop dataType="ObjectRef">3273635264</prop>
-                        <val dataType="Float">1.55789566</val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="2049352192">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">665143522</componentType>
-                        <prop dataType="ObjectRef">3262826208</prop>
-                        <val dataType="Struct" type="OpenTK.Vector3">
-                          <X dataType="Float">13956.45</X>
-                          <Y dataType="Float">-708.4561</Y>
-                          <Z dataType="Float">0</Z>
-                        </val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="4152997888">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">3546841826</componentType>
-                        <prop dataType="ObjectRef">2980368288</prop>
-                        <val dataType="Int">1</val>
-                      </object>
-                    </_items>
-                    <_size dataType="Int">4</_size>
-                    <_version dataType="Int">4</_version>
-                  </changes>
-                  <obj dataType="ObjectRef">2606826577</obj>
-                  <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
-                    <contentPath dataType="String">Data\Prefabs\Tree.Prefab.res</contentPath>
-                  </prefab>
-                </val>
+                <val dataType="ObjectRef">3562268115</val>
               </object>
               <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="2744073088">
-                  <_items dataType="Array" type="System.Int32[]" id="714625476" length="4">
+                <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="3354180032">
+                  <_items dataType="Array" type="System.Int32[]" id="2208864772" length="4">
                     <object dataType="Int">15</object>
                     <object dataType="Int">0</object>
                     <object dataType="Int">0</object>
@@ -4482,136 +3483,11 @@
                 </childIndex>
                 <componentType />
                 <prop dataType="ObjectRef">2835508248</prop>
-                <val dataType="Class" type="Duality.Resources.PrefabLink" id="2808189356">
-                  <changes dataType="Class" type="System.Collections.Generic.List`1[[Duality.Resources.PrefabLink+VarMod]]" id="3120940104">
-                    <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="1744003152" length="4">
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="3968711008">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">665143522</componentType>
-                        <prop dataType="ObjectRef">2881173776</prop>
-                        <val dataType="Float">0.0176680088</val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="1553576128">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">665143522</componentType>
-                        <prop dataType="ObjectRef">3273635264</prop>
-                        <val dataType="Float">1.04135835</val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="3424966560">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">665143522</componentType>
-                        <prop dataType="ObjectRef">3262826208</prop>
-                        <val dataType="Struct" type="OpenTK.Vector3">
-                          <X dataType="Float">15346.2412</X>
-                          <Y dataType="Float">-454.566833</Y>
-                          <Z dataType="Float">0</Z>
-                        </val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="69183360">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">3546841826</componentType>
-                        <prop dataType="ObjectRef">2980368288</prop>
-                        <val dataType="Int">1</val>
-                      </object>
-                    </_items>
-                    <_size dataType="Int">4</_size>
-                    <_version dataType="Int">4</_version>
-                  </changes>
-                  <obj dataType="ObjectRef">47258528</obj>
-                  <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
-                    <contentPath dataType="String">Data\Prefabs\Tree.Prefab.res</contentPath>
-                  </prefab>
-                </val>
+                <val dataType="ObjectRef">1013320660</val>
               </object>
               <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="2910910360">
-                  <_items dataType="Array" type="System.Int32[]" id="1872820124" length="4">
-                    <object dataType="Int">16</object>
-                    <object dataType="Int">0</object>
-                    <object dataType="Int">0</object>
-                    <object dataType="Int">0</object>
-                  </_items>
-                  <_size dataType="Int">1</_size>
-                  <_version dataType="Int">2</_version>
-                </childIndex>
-                <componentType />
-                <prop dataType="ObjectRef">2835508248</prop>
-                <val dataType="Class" type="Duality.Resources.PrefabLink" id="2269862772">
-                  <changes dataType="Class" type="System.Collections.Generic.List`1[[Duality.Resources.PrefabLink+VarMod]]" id="3329699920">
-                    <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="3011476768" length="4">
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="1402095552">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">665143522</componentType>
-                        <prop dataType="ObjectRef">2881173776</prop>
-                        <val dataType="Float">6.23168373</val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="3909864320">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">665143522</componentType>
-                        <prop dataType="ObjectRef">3273635264</prop>
-                        <val dataType="Float">1.37738919</val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="441908288">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">665143522</componentType>
-                        <prop dataType="ObjectRef">3262826208</prop>
-                        <val dataType="Struct" type="OpenTK.Vector3">
-                          <X dataType="Float">14673.8975</X>
-                          <Y dataType="Float">-563.691833</Y>
-                          <Z dataType="Float">0</Z>
-                        </val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="1495267072">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">3546841826</componentType>
-                        <prop dataType="ObjectRef">2980368288</prop>
-                        <val dataType="Int">1</val>
-                      </object>
-                    </_items>
-                    <_size dataType="Int">4</_size>
-                    <_version dataType="Int">4</_version>
-                  </changes>
-                  <obj dataType="ObjectRef">492210102</obj>
-                  <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
-                    <contentPath dataType="String">Data\Prefabs\Tree.Prefab.res</contentPath>
-                  </prefab>
-                </val>
-              </object>
-              <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="3552542832">
-                  <_items dataType="Array" type="System.Int32[]" id="1248163572" length="4">
+                <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="778981484">
+                  <_items dataType="Array" type="System.Int32[]" id="3539233288" length="4">
                     <object dataType="Int">17</object>
                     <object dataType="Int">0</object>
                     <object dataType="Int">0</object>
@@ -4622,66 +3498,11 @@
                 </childIndex>
                 <componentType />
                 <prop dataType="ObjectRef">2835508248</prop>
-                <val dataType="Class" type="Duality.Resources.PrefabLink" id="4290237884">
-                  <changes dataType="Class" type="System.Collections.Generic.List`1[[Duality.Resources.PrefabLink+VarMod]]" id="2248068824">
-                    <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="1559447696" length="4">
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="1462975456">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">665143522</componentType>
-                        <prop dataType="ObjectRef">2881173776</prop>
-                        <val dataType="Float">6.25213146</val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="3222832576">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">665143522</componentType>
-                        <prop dataType="ObjectRef">3273635264</prop>
-                        <val dataType="Float">0.920700848</val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="3809031712">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">665143522</componentType>
-                        <prop dataType="ObjectRef">3262826208</prop>
-                        <val dataType="Struct" type="OpenTK.Vector3">
-                          <X dataType="Float">16545.459</X>
-                          <Y dataType="Float">-415.997437</Y>
-                          <Z dataType="Float">0</Z>
-                        </val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="92474240">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">3546841826</componentType>
-                        <prop dataType="ObjectRef">2980368288</prop>
-                        <val dataType="Int">1</val>
-                      </object>
-                    </_items>
-                    <_size dataType="Int">4</_size>
-                    <_version dataType="Int">4</_version>
-                  </changes>
-                  <obj dataType="ObjectRef">3678813380</obj>
-                  <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
-                    <contentPath dataType="String">Data\Prefabs\Tree.Prefab.res</contentPath>
-                  </prefab>
-                </val>
+                <val dataType="ObjectRef">3812493368</val>
               </object>
               <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="2480446664">
-                  <_items dataType="Array" type="System.Int32[]" id="982157388" length="4">
+                <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="3943060184">
+                  <_items dataType="Array" type="System.Int32[]" id="1369308" length="4">
                     <object dataType="Int">18</object>
                     <object dataType="Int">0</object>
                     <object dataType="Int">0</object>
@@ -4692,66 +3513,11 @@
                 </childIndex>
                 <componentType />
                 <prop dataType="ObjectRef">2835508248</prop>
-                <val dataType="Class" type="Duality.Resources.PrefabLink" id="140817924">
-                  <changes dataType="Class" type="System.Collections.Generic.List`1[[Duality.Resources.PrefabLink+VarMod]]" id="3560742816">
-                    <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="470672448" length="4">
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="1011308416">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">665143522</componentType>
-                        <prop dataType="ObjectRef">2881173776</prop>
-                        <val dataType="Float">6.25213146</val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="671635200">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">665143522</componentType>
-                        <prop dataType="ObjectRef">3273635264</prop>
-                        <val dataType="Float">0.920700848</val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="657858688">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">665143522</componentType>
-                        <prop dataType="ObjectRef">3262826208</prop>
-                        <val dataType="Struct" type="OpenTK.Vector3">
-                          <X dataType="Float">20062.125</X>
-                          <Y dataType="Float">-382.664063</Y>
-                          <Z dataType="Float">0</Z>
-                        </val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="1718758912">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">3546841826</componentType>
-                        <prop dataType="ObjectRef">2980368288</prop>
-                        <val dataType="Int">1</val>
-                      </object>
-                    </_items>
-                    <_size dataType="Int">4</_size>
-                    <_version dataType="Int">4</_version>
-                  </changes>
-                  <obj dataType="ObjectRef">2746565897</obj>
-                  <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
-                    <contentPath dataType="String">Data\Prefabs\Tree.Prefab.res</contentPath>
-                  </prefab>
-                </val>
+                <val dataType="ObjectRef">2210999723</val>
               </object>
               <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="10167776">
-                  <_items dataType="Array" type="System.Int32[]" id="3223472356" length="4">
+                <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="2608922932">
+                  <_items dataType="Array" type="System.Int32[]" id="2974931984" length="4">
                     <object dataType="Int">19</object>
                     <object dataType="Int">0</object>
                     <object dataType="Int">0</object>
@@ -4762,66 +3528,11 @@
                 </childIndex>
                 <componentType />
                 <prop dataType="ObjectRef">2835508248</prop>
-                <val dataType="Class" type="Duality.Resources.PrefabLink" id="252621324">
-                  <changes dataType="Class" type="System.Collections.Generic.List`1[[Duality.Resources.PrefabLink+VarMod]]" id="703385320">
-                    <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="879706896" length="4">
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="393077216">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">665143522</componentType>
-                        <prop dataType="ObjectRef">2881173776</prop>
-                        <val dataType="Float">6.25213146</val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="4041145792">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">665143522</componentType>
-                        <prop dataType="ObjectRef">3273635264</prop>
-                        <val dataType="Float">0.920700848</val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="2999469088">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">665143522</componentType>
-                        <prop dataType="ObjectRef">3262826208</prop>
-                        <val dataType="Struct" type="OpenTK.Vector3">
-                          <X dataType="Float">19045.459</X>
-                          <Y dataType="Float">-365.997375</Y>
-                          <Z dataType="Float">0</Z>
-                        </val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="2816949120">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">3546841826</componentType>
-                        <prop dataType="ObjectRef">2980368288</prop>
-                        <val dataType="Int">1</val>
-                      </object>
-                    </_items>
-                    <_size dataType="Int">4</_size>
-                    <_version dataType="Int">4</_version>
-                  </changes>
-                  <obj dataType="ObjectRef">827448923</obj>
-                  <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
-                    <contentPath dataType="String">Data\Prefabs\Tree.Prefab.res</contentPath>
-                  </prefab>
-                </val>
+                <val dataType="ObjectRef">1505638785</val>
               </object>
               <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="1723262584">
-                  <_items dataType="Array" type="System.Int32[]" id="3535511612" length="4">
+                <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="2227469744">
+                  <_items dataType="Array" type="System.Int32[]" id="1452162356" length="4">
                     <object dataType="Int">20</object>
                     <object dataType="Int">0</object>
                     <object dataType="Int">0</object>
@@ -4832,66 +3543,11 @@
                 </childIndex>
                 <componentType />
                 <prop dataType="ObjectRef">2835508248</prop>
-                <val dataType="Class" type="Duality.Resources.PrefabLink" id="2126115924">
-                  <changes dataType="Class" type="System.Collections.Generic.List`1[[Duality.Resources.PrefabLink+VarMod]]" id="869191280">
-                    <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="299609248" length="4">
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="3118664384">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">665143522</componentType>
-                        <prop dataType="ObjectRef">2881173776</prop>
-                        <val dataType="Float">6.25213146</val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="3665420672">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">665143522</componentType>
-                        <prop dataType="ObjectRef">3273635264</prop>
-                        <val dataType="Float">0.920700848</val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="4199417664">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">665143522</componentType>
-                        <prop dataType="ObjectRef">3262826208</prop>
-                        <val dataType="Struct" type="OpenTK.Vector3">
-                          <X dataType="Float">18245.46</X>
-                          <Y dataType="Float">-382.664063</Y>
-                          <Z dataType="Float">0</Z>
-                        </val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="3269811968">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">3546841826</componentType>
-                        <prop dataType="ObjectRef">2980368288</prop>
-                        <val dataType="Int">1</val>
-                      </object>
-                    </_items>
-                    <_size dataType="Int">4</_size>
-                    <_version dataType="Int">4</_version>
-                  </changes>
-                  <obj dataType="ObjectRef">3351848105</obj>
-                  <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
-                    <contentPath dataType="String">Data\Prefabs\Tree.Prefab.res</contentPath>
-                  </prefab>
-                </val>
+                <val dataType="ObjectRef">2514426251</val>
               </object>
               <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="1229766096">
-                  <_items dataType="Array" type="System.Int32[]" id="3189367956" length="4">
+                <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="1074847356">
+                  <_items dataType="Array" type="System.Int32[]" id="2742599320" length="4">
                     <object dataType="Int">21</object>
                     <object dataType="Int">0</object>
                     <object dataType="Int">0</object>
@@ -4902,46 +3558,62 @@
                 </childIndex>
                 <componentType />
                 <prop dataType="ObjectRef">2835508248</prop>
-                <val dataType="Class" type="Duality.Resources.PrefabLink" id="3902059932">
-                  <changes dataType="Class" type="System.Collections.Generic.List`1[[Duality.Resources.PrefabLink+VarMod]]" id="3880811512">
-                    <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="2770348368" length="4">
+                <val dataType="ObjectRef">632222718</val>
+              </object>
+              <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
+                <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="2841363976">
+                  <_items dataType="Array" type="System.Int32[]" id="3208809612" length="4">
+                    <object dataType="Int">0</object>
+                    <object dataType="Int">0</object>
+                    <object dataType="Int">0</object>
+                    <object dataType="Int">0</object>
+                  </_items>
+                  <_size dataType="Int">1</_size>
+                  <_version dataType="Int">2</_version>
+                </childIndex>
+                <componentType />
+                <prop dataType="ObjectRef">2835508248</prop>
+                <val dataType="ObjectRef">1699254513</val>
+              </object>
+              <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
+                <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="468732100">
+                  <_items dataType="Array" type="System.Int32[]" id="388757344" length="4">
+                    <object dataType="Int">16</object>
+                    <object dataType="Int">0</object>
+                    <object dataType="Int">0</object>
+                    <object dataType="Int">0</object>
+                  </_items>
+                  <_size dataType="Int">1</_size>
+                  <_version dataType="Int">2</_version>
+                </childIndex>
+                <componentType />
+                <prop dataType="ObjectRef">2835508248</prop>
+                <val dataType="Class" type="Duality.Resources.PrefabLink" id="1406420768">
+                  <changes dataType="Class" type="System.Collections.Generic.List`1[[Duality.Resources.PrefabLink+VarMod]]" id="691361060">
+                    <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="1683742760" length="4">
                       <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="2874767200">
-                          <_items dataType="ObjectRef">1181931744</_items>
+                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="4047051952">
+                          <_items dataType="ObjectRef">210876448</_items>
                           <_size dataType="Int">0</_size>
                           <_version dataType="Int">0</_version>
                         </childIndex>
                         <componentType dataType="ObjectRef">665143522</componentType>
                         <prop dataType="ObjectRef">2881173776</prop>
-                        <val dataType="Float">6.25213146</val>
+                        <val dataType="Float">6.23168373</val>
                       </object>
                       <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="3637540032">
-                          <_items dataType="ObjectRef">1181931744</_items>
+                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="3816904800">
+                          <_items dataType="ObjectRef">210876448</_items>
                           <_size dataType="Int">0</_size>
                           <_version dataType="Int">0</_version>
                         </childIndex>
                         <componentType dataType="ObjectRef">665143522</componentType>
                         <prop dataType="ObjectRef">3273635264</prop>
-                        <val dataType="Float">0.920700848</val>
+                        <val dataType="Float">1.37738919</val>
                       </object>
                       <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="4046137760">
-                          <_items dataType="ObjectRef">1181931744</_items>
-                          <_size dataType="Int">0</_size>
-                          <_version dataType="Int">0</_version>
-                        </childIndex>
-                        <componentType dataType="ObjectRef">665143522</componentType>
-                        <prop dataType="ObjectRef">3262826208</prop>
-                        <val dataType="Struct" type="OpenTK.Vector3">
-                          <X dataType="Float">17112.125</X>
-                          <Y dataType="Float">-415.997375</Y>
-                          <Z dataType="Float">0</Z>
-                        </val>
-                      </object>
-                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="1736995712">
-                          <_items dataType="ObjectRef">1181931744</_items>
+                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="2993007568">
+                          <_items dataType="ObjectRef">210876448</_items>
                           <_size dataType="Int">0</_size>
                           <_version dataType="Int">0</_version>
                         </childIndex>
@@ -4949,11 +3621,25 @@
                         <prop dataType="ObjectRef">2980368288</prop>
                         <val dataType="Int">1</val>
                       </object>
+                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
+                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="2243908544">
+                          <_items dataType="ObjectRef">210876448</_items>
+                          <_size dataType="Int">0</_size>
+                          <_version dataType="Int">0</_version>
+                        </childIndex>
+                        <componentType dataType="ObjectRef">665143522</componentType>
+                        <prop dataType="ObjectRef">3262826208</prop>
+                        <val dataType="Struct" type="OpenTK.Vector3">
+                          <X dataType="Float">14685.0088</X>
+                          <Y dataType="Float">-563.691833</Y>
+                          <Z dataType="Float">0</Z>
+                        </val>
+                      </object>
                     </_items>
                     <_size dataType="Int">4</_size>
                     <_version dataType="Int">4</_version>
                   </changes>
-                  <obj dataType="ObjectRef">2002224158</obj>
+                  <obj dataType="ObjectRef">492210102</obj>
                   <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
                     <contentPath dataType="String">Data\Prefabs\Tree.Prefab.res</contentPath>
                   </prefab>
@@ -5021,7 +3707,7 @@
               </object>
             </_items>
             <_size dataType="Int">22</_size>
-            <_version dataType="Int">5158</_version>
+            <_version dataType="Int">5162</_version>
           </changes>
           <obj dataType="ObjectRef">440556761</obj>
           <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
@@ -5358,12 +4044,12 @@
               <pos dataType="Struct" type="OpenTK.Vector3">
                 <X dataType="Float">908.3333</X>
                 <Y dataType="Float">-694.6666</Y>
-                <Z dataType="Float">1</Z>
+                <Z dataType="Float">4</Z>
               </pos>
               <posAbs dataType="Struct" type="OpenTK.Vector3">
                 <X dataType="Float">908.3333</X>
                 <Y dataType="Float">-694.6666</Y>
-                <Z dataType="Float">1</Z>
+                <Z dataType="Float">4</Z>
               </posAbs>
               <scale dataType="Float">15</scale>
               <scaleAbs dataType="Float">15</scaleAbs>
@@ -6236,6 +4922,7 @@
                   <object dataType="Class" type="DublinGamecraft4.SnowSkirt" id="4133144124">
                     <__sbo__DistanceBetweenPeaks__sbc__k__BackingField dataType="Int">40</__sbo__DistanceBetweenPeaks__sbc__k__BackingField>
                     <__sbo__DriftWidth__sbc__k__BackingField dataType="Int">50</__sbo__DriftWidth__sbc__k__BackingField>
+                    <__sbo__IsGrowing__sbc__k__BackingField dataType="Bool">true</__sbo__IsGrowing__sbc__k__BackingField>
                     <__sbo__SnowSpeed__sbc__k__BackingField dataType="Int">100</__sbo__SnowSpeed__sbc__k__BackingField>
                     <__sbo__SpringDivider__sbc__k__BackingField dataType="Float">1.5</__sbo__SpringDivider__sbc__k__BackingField>
                     <active dataType="Bool">true</active>
@@ -6261,22 +4948,30 @@
                     </sharedMat>
                     <visibilityGroup dataType="Enum" type="Duality.VisibilityFlag" name="Group0" value="1" />
                   </object>
-                  <object />
+                  <object dataType="Class" type="DublinGamecraft4.Deactivator" id="3331831740">
+                    <_elapsedTime dataType="Float">0</_elapsedTime>
+                    <__sbo__TimeBeforeDeactivation__sbc__k__BackingField dataType="Float">30</__sbo__TimeBeforeDeactivation__sbc__k__BackingField>
+                    <active dataType="Bool">true</active>
+                    <gameobj dataType="ObjectRef">2847392456</gameobj>
+                    <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
+                  </object>
                   <object />
                 </_items>
-                <_size dataType="Int">2</_size>
-                <_version dataType="Int">2</_version>
+                <_size dataType="Int">3</_size>
+                <_version dataType="Int">3</_version>
               </compList>
               <compMap dataType="Class" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="445865016" surrogate="true">
                 <header />
                 <body>
-                  <keys dataType="Array" type="System.Type[]" id="2851693844" length="2">
+                  <keys dataType="Array" type="System.Type[]" id="2851693844" length="3">
                     <object dataType="ObjectRef">665143522</object>
                     <object dataType="ObjectRef">3881234568</object>
+                    <object dataType="Type" id="1484663112" value="DublinGamecraft4.Deactivator" />
                   </keys>
-                  <values dataType="Array" type="Duality.Component[]" id="658120344" length="2">
+                  <values dataType="Array" type="Duality.Component[]" id="658120344" length="3">
                     <object dataType="ObjectRef">912740092</object>
                     <object dataType="ObjectRef">4133144124</object>
+                    <object dataType="ObjectRef">3331831740</object>
                   </values>
                 </body>
               </compMap>
