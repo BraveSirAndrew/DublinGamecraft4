@@ -116,3 +116,6 @@ UpgradeLog*.XML
 /Plugins/GamePlugin.editor.dll
 /Plugins/GamePlugin.core.dll
 /Plugins/GamePlugin.core.xml
+appdata.dat
+defaultuserdata.dat
+editoruserdata.xml
