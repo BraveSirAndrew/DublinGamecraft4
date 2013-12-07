@@ -5,7 +5,7 @@
       <X dataType="Float">0</X>
       <Y dataType="Float">33</Y>
     </globalGravity>
-    <serializeObj dataType="Array" type="Duality.GameObject[]" id="292984781" length="90">
+    <serializeObj dataType="Array" type="Duality.GameObject[]" id="292984781" length="91">
       <object dataType="Class" type="Duality.GameObject" id="4034207103">
         <active dataType="Bool">true</active>
         <children />
@@ -5625,28 +5625,22 @@
                     <gameobj dataType="ObjectRef">1663026686</gameobj>
                     <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
                   </object>
-                  <object dataType="Class" type="DublinGamecraft4.Cloud" id="1479687407">
-                    <active dataType="Bool">true</active>
-                    <gameobj dataType="ObjectRef">1663026686</gameobj>
-                    <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
-                  </object>
+                  <object />
                   <object />
                 </_items>
-                <_size dataType="Int">3</_size>
-                <_version dataType="Int">3</_version>
+                <_size dataType="Int">2</_size>
+                <_version dataType="Int">4</_version>
               </compList>
               <compMap dataType="Class" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="3312220380" surrogate="true">
                 <header />
                 <body>
-                  <keys dataType="Array" type="System.Type[]" id="3817429754" length="3">
+                  <keys dataType="Array" type="System.Type[]" id="3817429754" length="2">
                     <object dataType="ObjectRef">665143522</object>
                     <object dataType="ObjectRef">3546841826</object>
-                    <object dataType="Type" id="3832113732" value="DublinGamecraft4.Cloud" />
                   </keys>
-                  <values dataType="Array" type="Duality.Component[]" id="561866540" length="3">
+                  <values dataType="Array" type="Duality.Component[]" id="561866540" length="2">
                     <object dataType="ObjectRef">4023341618</object>
                     <object dataType="ObjectRef">3305193254</object>
-                    <object dataType="ObjectRef">1479687407</object>
                   </values>
                 </body>
               </compMap>
@@ -5720,28 +5714,22 @@
                     <gameobj dataType="ObjectRef">2438522160</gameobj>
                     <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
                   </object>
-                  <object dataType="Class" type="DublinGamecraft4.Cloud" id="2255182881">
-                    <active dataType="Bool">true</active>
-                    <gameobj dataType="ObjectRef">2438522160</gameobj>
-                    <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
-                  </object>
+                  <object />
                   <object />
                 </_items>
-                <_size dataType="Int">3</_size>
-                <_version dataType="Int">3</_version>
+                <_size dataType="Int">2</_size>
+                <_version dataType="Int">4</_version>
               </compList>
               <compMap dataType="Class" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="780852280" surrogate="true">
                 <header />
                 <body>
-                  <keys dataType="Array" type="System.Type[]" id="1076746988" length="3">
+                  <keys dataType="Array" type="System.Type[]" id="1076746988" length="2">
                     <object dataType="ObjectRef">665143522</object>
                     <object dataType="ObjectRef">3546841826</object>
-                    <object dataType="ObjectRef">3832113732</object>
                   </keys>
-                  <values dataType="Array" type="Duality.Component[]" id="1847533208" length="3">
+                  <values dataType="Array" type="Duality.Component[]" id="1847533208" length="2">
                     <object dataType="ObjectRef">503869796</object>
                     <object dataType="ObjectRef">4080688728</object>
-                    <object dataType="ObjectRef">2255182881</object>
                   </values>
                 </body>
               </compMap>
@@ -5815,28 +5803,22 @@
                     <gameobj dataType="ObjectRef">726914164</gameobj>
                     <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
                   </object>
-                  <object dataType="Class" type="DublinGamecraft4.Cloud" id="543574885">
-                    <active dataType="Bool">true</active>
-                    <gameobj dataType="ObjectRef">726914164</gameobj>
-                    <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
-                  </object>
+                  <object />
                   <object />
                 </_items>
-                <_size dataType="Int">3</_size>
-                <_version dataType="Int">3</_version>
+                <_size dataType="Int">2</_size>
+                <_version dataType="Int">4</_version>
               </compList>
               <compMap dataType="Class" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="3047395696" surrogate="true">
                 <header />
                 <body>
-                  <keys dataType="Array" type="System.Type[]" id="2969587992" length="3">
+                  <keys dataType="Array" type="System.Type[]" id="2969587992" length="2">
                     <object dataType="ObjectRef">665143522</object>
                     <object dataType="ObjectRef">3546841826</object>
-                    <object dataType="ObjectRef">3832113732</object>
                   </keys>
-                  <values dataType="Array" type="Duality.Component[]" id="1971378864" length="3">
+                  <values dataType="Array" type="Duality.Component[]" id="1971378864" length="2">
                     <object dataType="ObjectRef">3087229096</object>
                     <object dataType="ObjectRef">2369080732</object>
-                    <object dataType="ObjectRef">543574885</object>
                   </values>
                 </body>
               </compMap>
@@ -5910,28 +5892,22 @@
                     <gameobj dataType="ObjectRef">1254975578</gameobj>
                     <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
                   </object>
-                  <object dataType="Class" type="DublinGamecraft4.Cloud" id="1071636299">
-                    <active dataType="Bool">true</active>
-                    <gameobj dataType="ObjectRef">1254975578</gameobj>
-                    <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
-                  </object>
+                  <object />
                   <object />
                 </_items>
-                <_size dataType="Int">3</_size>
-                <_version dataType="Int">3</_version>
+                <_size dataType="Int">2</_size>
+                <_version dataType="Int">4</_version>
               </compList>
               <compMap dataType="Class" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="1606326060" surrogate="true">
                 <header />
                 <body>
-                  <keys dataType="Array" type="System.Type[]" id="773163838" length="3">
+                  <keys dataType="Array" type="System.Type[]" id="773163838" length="2">
                     <object dataType="ObjectRef">665143522</object>
                     <object dataType="ObjectRef">3546841826</object>
-                    <object dataType="ObjectRef">3832113732</object>
                   </keys>
-                  <values dataType="Array" type="Duality.Component[]" id="3198702172" length="3">
+                  <values dataType="Array" type="Duality.Component[]" id="3198702172" length="2">
                     <object dataType="ObjectRef">3615290510</object>
                     <object dataType="ObjectRef">2897142146</object>
-                    <object dataType="ObjectRef">1071636299</object>
                   </values>
                 </body>
               </compMap>
@@ -6005,28 +5981,22 @@
                     <gameobj dataType="ObjectRef">1174798978</gameobj>
                     <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
                   </object>
-                  <object dataType="Class" type="DublinGamecraft4.Cloud" id="991459699">
-                    <active dataType="Bool">true</active>
-                    <gameobj dataType="ObjectRef">1174798978</gameobj>
-                    <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
-                  </object>
+                  <object />
                   <object />
                 </_items>
-                <_size dataType="Int">3</_size>
-                <_version dataType="Int">3</_version>
+                <_size dataType="Int">2</_size>
+                <_version dataType="Int">4</_version>
               </compList>
               <compMap dataType="Class" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="1513568732" surrogate="true">
                 <header />
                 <body>
-                  <keys dataType="Array" type="System.Type[]" id="3954529414" length="3">
+                  <keys dataType="Array" type="System.Type[]" id="3954529414" length="2">
                     <object dataType="ObjectRef">665143522</object>
                     <object dataType="ObjectRef">3546841826</object>
-                    <object dataType="ObjectRef">3832113732</object>
                   </keys>
-                  <values dataType="Array" type="Duality.Component[]" id="3017098540" length="3">
+                  <values dataType="Array" type="Duality.Component[]" id="3017098540" length="2">
                     <object dataType="ObjectRef">3535113910</object>
                     <object dataType="ObjectRef">2816965546</object>
-                    <object dataType="ObjectRef">991459699</object>
                   </values>
                 </body>
               </compMap>
@@ -6100,28 +6070,22 @@
                     <gameobj dataType="ObjectRef">3788211346</gameobj>
                     <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
                   </object>
-                  <object dataType="Class" type="DublinGamecraft4.Cloud" id="3604872067">
-                    <active dataType="Bool">true</active>
-                    <gameobj dataType="ObjectRef">3788211346</gameobj>
-                    <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
-                  </object>
+                  <object />
                   <object />
                 </_items>
-                <_size dataType="Int">3</_size>
-                <_version dataType="Int">3</_version>
+                <_size dataType="Int">2</_size>
+                <_version dataType="Int">4</_version>
               </compList>
               <compMap dataType="Class" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="1234951324" surrogate="true">
                 <header />
                 <body>
-                  <keys dataType="Array" type="System.Type[]" id="2807023446" length="3">
+                  <keys dataType="Array" type="System.Type[]" id="2807023446" length="2">
                     <object dataType="ObjectRef">665143522</object>
                     <object dataType="ObjectRef">3546841826</object>
-                    <object dataType="ObjectRef">3832113732</object>
                   </keys>
-                  <values dataType="Array" type="Duality.Component[]" id="2300589324" length="3">
+                  <values dataType="Array" type="Duality.Component[]" id="2300589324" length="2">
                     <object dataType="ObjectRef">1853558982</object>
                     <object dataType="ObjectRef">1135410618</object>
-                    <object dataType="ObjectRef">3604872067</object>
                   </values>
                 </body>
               </compMap>
@@ -6195,28 +6159,22 @@
                     <gameobj dataType="ObjectRef">1320614238</gameobj>
                     <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
                   </object>
-                  <object dataType="Class" type="DublinGamecraft4.Cloud" id="1137274959">
-                    <active dataType="Bool">true</active>
-                    <gameobj dataType="ObjectRef">1320614238</gameobj>
-                    <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
-                  </object>
+                  <object />
                   <object />
                 </_items>
-                <_size dataType="Int">3</_size>
-                <_version dataType="Int">3</_version>
+                <_size dataType="Int">2</_size>
+                <_version dataType="Int">4</_version>
               </compList>
               <compMap dataType="Class" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="3702973148" surrogate="true">
                 <header />
                 <body>
-                  <keys dataType="Array" type="System.Type[]" id="3680684442" length="3">
+                  <keys dataType="Array" type="System.Type[]" id="3680684442" length="2">
                     <object dataType="ObjectRef">665143522</object>
                     <object dataType="ObjectRef">3546841826</object>
-                    <object dataType="ObjectRef">3832113732</object>
                   </keys>
-                  <values dataType="Array" type="Duality.Component[]" id="984622380" length="3">
+                  <values dataType="Array" type="Duality.Component[]" id="984622380" length="2">
                     <object dataType="ObjectRef">3680929170</object>
                     <object dataType="ObjectRef">2962780806</object>
-                    <object dataType="ObjectRef">1137274959</object>
                   </values>
                 </body>
               </compMap>
@@ -6290,28 +6248,22 @@
                     <gameobj dataType="ObjectRef">3965304542</gameobj>
                     <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
                   </object>
-                  <object dataType="Class" type="DublinGamecraft4.Cloud" id="3781965263">
-                    <active dataType="Bool">true</active>
-                    <gameobj dataType="ObjectRef">3965304542</gameobj>
-                    <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
-                  </object>
+                  <object />
                   <object />
                 </_items>
-                <_size dataType="Int">3</_size>
-                <_version dataType="Int">3</_version>
+                <_size dataType="Int">2</_size>
+                <_version dataType="Int">4</_version>
               </compList>
               <compMap dataType="Class" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="446830556" surrogate="true">
                 <header />
                 <body>
-                  <keys dataType="Array" type="System.Type[]" id="4121370650" length="3">
+                  <keys dataType="Array" type="System.Type[]" id="4121370650" length="2">
                     <object dataType="ObjectRef">665143522</object>
                     <object dataType="ObjectRef">3546841826</object>
-                    <object dataType="ObjectRef">3832113732</object>
                   </keys>
-                  <values dataType="Array" type="Duality.Component[]" id="2293520172" length="3">
+                  <values dataType="Array" type="Duality.Component[]" id="2293520172" length="2">
                     <object dataType="ObjectRef">2030652178</object>
                     <object dataType="ObjectRef">1312503814</object>
-                    <object dataType="ObjectRef">3781965263</object>
                   </values>
                 </body>
               </compMap>
@@ -6385,28 +6337,22 @@
                     <gameobj dataType="ObjectRef">2724190147</gameobj>
                     <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
                   </object>
-                  <object dataType="Class" type="DublinGamecraft4.Cloud" id="2540850868">
-                    <active dataType="Bool">true</active>
-                    <gameobj dataType="ObjectRef">2724190147</gameobj>
-                    <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
-                  </object>
+                  <object />
                   <object />
                 </_items>
-                <_size dataType="Int">3</_size>
-                <_version dataType="Int">3</_version>
+                <_size dataType="Int">2</_size>
+                <_version dataType="Int">4</_version>
               </compList>
               <compMap dataType="Class" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="1162002382" surrogate="true">
                 <header />
                 <body>
-                  <keys dataType="Array" type="System.Type[]" id="1419634059" length="3">
+                  <keys dataType="Array" type="System.Type[]" id="1419634059" length="2">
                     <object dataType="ObjectRef">665143522</object>
                     <object dataType="ObjectRef">3546841826</object>
-                    <object dataType="ObjectRef">3832113732</object>
                   </keys>
-                  <values dataType="Array" type="Duality.Component[]" id="2059740422" length="3">
+                  <values dataType="Array" type="Duality.Component[]" id="2059740422" length="2">
                     <object dataType="ObjectRef">789537783</object>
                     <object dataType="ObjectRef">71389419</object>
-                    <object dataType="ObjectRef">2540850868</object>
                   </values>
                 </body>
               </compMap>
@@ -6462,28 +6408,22 @@
                     <gameobj dataType="ObjectRef">3930345771</gameobj>
                     <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
                   </object>
-                  <object dataType="Class" type="DublinGamecraft4.Cloud" id="3747006492">
-                    <active dataType="Bool">true</active>
-                    <gameobj dataType="ObjectRef">3930345771</gameobj>
-                    <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
-                  </object>
+                  <object />
                   <object />
                 </_items>
-                <_size dataType="Int">3</_size>
-                <_version dataType="Int">3</_version>
+                <_size dataType="Int">2</_size>
+                <_version dataType="Int">4</_version>
               </compList>
               <compMap dataType="Class" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="3395206382" surrogate="true">
                 <header />
                 <body>
-                  <keys dataType="Array" type="System.Type[]" id="1102660163" length="3">
+                  <keys dataType="Array" type="System.Type[]" id="1102660163" length="2">
                     <object dataType="ObjectRef">665143522</object>
                     <object dataType="ObjectRef">3546841826</object>
-                    <object dataType="ObjectRef">3832113732</object>
                   </keys>
-                  <values dataType="Array" type="Duality.Component[]" id="2583478934" length="3">
+                  <values dataType="Array" type="Duality.Component[]" id="2583478934" length="2">
                     <object dataType="ObjectRef">1995693407</object>
                     <object dataType="ObjectRef">1277545043</object>
-                    <object dataType="ObjectRef">3747006492</object>
                   </values>
                 </body>
               </compMap>
@@ -6539,28 +6479,22 @@
                     <gameobj dataType="ObjectRef">2555135957</gameobj>
                     <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
                   </object>
-                  <object dataType="Class" type="DublinGamecraft4.Cloud" id="2371796678">
-                    <active dataType="Bool">true</active>
-                    <gameobj dataType="ObjectRef">2555135957</gameobj>
-                    <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
-                  </object>
+                  <object />
                   <object />
                 </_items>
-                <_size dataType="Int">3</_size>
-                <_version dataType="Int">3</_version>
+                <_size dataType="Int">2</_size>
+                <_version dataType="Int">4</_version>
               </compList>
               <compMap dataType="Class" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="2394250990" surrogate="true">
                 <header />
                 <body>
-                  <keys dataType="Array" type="System.Type[]" id="1402981053" length="3">
+                  <keys dataType="Array" type="System.Type[]" id="1402981053" length="2">
                     <object dataType="ObjectRef">665143522</object>
                     <object dataType="ObjectRef">3546841826</object>
-                    <object dataType="ObjectRef">3832113732</object>
                   </keys>
-                  <values dataType="Array" type="Duality.Component[]" id="3826312342" length="3">
+                  <values dataType="Array" type="Duality.Component[]" id="3826312342" length="2">
                     <object dataType="ObjectRef">620483593</object>
                     <object dataType="ObjectRef">4197302525</object>
-                    <object dataType="ObjectRef">2371796678</object>
                   </values>
                 </body>
               </compMap>
@@ -6616,28 +6550,22 @@
                     <gameobj dataType="ObjectRef">3070879981</gameobj>
                     <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
                   </object>
-                  <object dataType="Class" type="DublinGamecraft4.Cloud" id="2887540702">
-                    <active dataType="Bool">true</active>
-                    <gameobj dataType="ObjectRef">3070879981</gameobj>
-                    <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
-                  </object>
+                  <object />
                   <object />
                 </_items>
-                <_size dataType="Int">3</_size>
-                <_version dataType="Int">3</_version>
+                <_size dataType="Int">2</_size>
+                <_version dataType="Int">4</_version>
               </compList>
               <compMap dataType="Class" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="3091972878" surrogate="true">
                 <header />
                 <body>
-                  <keys dataType="Array" type="System.Type[]" id="2583796549" length="3">
+                  <keys dataType="Array" type="System.Type[]" id="2583796549" length="2">
                     <object dataType="ObjectRef">665143522</object>
                     <object dataType="ObjectRef">3546841826</object>
-                    <object dataType="ObjectRef">3832113732</object>
                   </keys>
-                  <values dataType="Array" type="Duality.Component[]" id="371819430" length="3">
+                  <values dataType="Array" type="Duality.Component[]" id="371819430" length="2">
                     <object dataType="ObjectRef">1136227617</object>
                     <object dataType="ObjectRef">418079253</object>
-                    <object dataType="ObjectRef">2887540702</object>
                   </values>
                 </body>
               </compMap>
@@ -6795,28 +6723,22 @@
                     <gameobj dataType="ObjectRef">579647752</gameobj>
                     <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
                   </object>
-                  <object dataType="Class" type="DublinGamecraft4.Cloud" id="396308473">
-                    <active dataType="Bool">true</active>
-                    <gameobj dataType="ObjectRef">579647752</gameobj>
-                    <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
-                  </object>
+                  <object />
                   <object />
                 </_items>
-                <_size dataType="Int">3</_size>
-                <_version dataType="Int">3</_version>
+                <_size dataType="Int">2</_size>
+                <_version dataType="Int">4</_version>
               </compList>
               <compMap dataType="Class" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="2423124792" surrogate="true">
                 <header />
                 <body>
-                  <keys dataType="Array" type="System.Type[]" id="1425123924" length="3">
+                  <keys dataType="Array" type="System.Type[]" id="1425123924" length="2">
                     <object dataType="ObjectRef">665143522</object>
                     <object dataType="ObjectRef">3546841826</object>
-                    <object dataType="ObjectRef">3832113732</object>
                   </keys>
-                  <values dataType="Array" type="Duality.Component[]" id="1148912664" length="3">
+                  <values dataType="Array" type="Duality.Component[]" id="1148912664" length="2">
                     <object dataType="ObjectRef">2939962684</object>
                     <object dataType="ObjectRef">2221814320</object>
-                    <object dataType="ObjectRef">396308473</object>
                   </values>
                 </body>
               </compMap>
@@ -6872,28 +6794,22 @@
                     <gameobj dataType="ObjectRef">2099951662</gameobj>
                     <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
                   </object>
-                  <object dataType="Class" type="DublinGamecraft4.Cloud" id="1916612383">
-                    <active dataType="Bool">true</active>
-                    <gameobj dataType="ObjectRef">2099951662</gameobj>
-                    <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
-                  </object>
+                  <object />
                   <object />
                 </_items>
-                <_size dataType="Int">3</_size>
-                <_version dataType="Int">3</_version>
+                <_size dataType="Int">2</_size>
+                <_version dataType="Int">4</_version>
               </compList>
               <compMap dataType="Class" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="1841731740" surrogate="true">
                 <header />
                 <body>
-                  <keys dataType="Array" type="System.Type[]" id="2640549738" length="3">
+                  <keys dataType="Array" type="System.Type[]" id="2640549738" length="2">
                     <object dataType="ObjectRef">665143522</object>
                     <object dataType="ObjectRef">3546841826</object>
-                    <object dataType="ObjectRef">3832113732</object>
                   </keys>
-                  <values dataType="Array" type="Duality.Component[]" id="2102743308" length="3">
+                  <values dataType="Array" type="Duality.Component[]" id="2102743308" length="2">
                     <object dataType="ObjectRef">165299298</object>
                     <object dataType="ObjectRef">3742118230</object>
-                    <object dataType="ObjectRef">1916612383</object>
                   </values>
                 </body>
               </compMap>
@@ -6967,28 +6883,22 @@
                     <gameobj dataType="ObjectRef">589540068</gameobj>
                     <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
                   </object>
-                  <object dataType="Class" type="DublinGamecraft4.Cloud" id="406200789">
-                    <active dataType="Bool">true</active>
-                    <gameobj dataType="ObjectRef">589540068</gameobj>
-                    <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
-                  </object>
+                  <object />
                   <object />
                 </_items>
-                <_size dataType="Int">3</_size>
-                <_version dataType="Int">3</_version>
+                <_size dataType="Int">2</_size>
+                <_version dataType="Int">4</_version>
               </compList>
               <compMap dataType="Class" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="2825140912" surrogate="true">
                 <header />
                 <body>
-                  <keys dataType="Array" type="System.Type[]" id="1344089608" length="3">
+                  <keys dataType="Array" type="System.Type[]" id="1344089608" length="2">
                     <object dataType="ObjectRef">665143522</object>
                     <object dataType="ObjectRef">3546841826</object>
-                    <object dataType="ObjectRef">3832113732</object>
                   </keys>
-                  <values dataType="Array" type="Duality.Component[]" id="2028189552" length="3">
+                  <values dataType="Array" type="Duality.Component[]" id="2028189552" length="2">
                     <object dataType="ObjectRef">2949855000</object>
                     <object dataType="ObjectRef">2231706636</object>
-                    <object dataType="ObjectRef">406200789</object>
                   </values>
                 </body>
               </compMap>
@@ -7044,28 +6954,22 @@
                     <gameobj dataType="ObjectRef">2013410278</gameobj>
                     <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
                   </object>
-                  <object dataType="Class" type="DublinGamecraft4.Cloud" id="1830070999">
-                    <active dataType="Bool">true</active>
-                    <gameobj dataType="ObjectRef">2013410278</gameobj>
-                    <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
-                  </object>
+                  <object />
                   <object />
                 </_items>
-                <_size dataType="Int">3</_size>
-                <_version dataType="Int">3</_version>
+                <_size dataType="Int">2</_size>
+                <_version dataType="Int">4</_version>
               </compList>
               <compMap dataType="Class" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="285030572" surrogate="true">
                 <header />
                 <body>
-                  <keys dataType="Array" type="System.Type[]" id="972366978" length="3">
+                  <keys dataType="Array" type="System.Type[]" id="972366978" length="2">
                     <object dataType="ObjectRef">665143522</object>
                     <object dataType="ObjectRef">3546841826</object>
-                    <object dataType="ObjectRef">3832113732</object>
                   </keys>
-                  <values dataType="Array" type="Duality.Component[]" id="1490633692" length="3">
+                  <values dataType="Array" type="Duality.Component[]" id="1490633692" length="2">
                     <object dataType="ObjectRef">78757914</object>
                     <object dataType="ObjectRef">3655576846</object>
-                    <object dataType="ObjectRef">1830070999</object>
                   </values>
                 </body>
               </compMap>
@@ -7121,28 +7025,22 @@
                     <gameobj dataType="ObjectRef">1351812988</gameobj>
                     <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
                   </object>
-                  <object dataType="Class" type="DublinGamecraft4.Cloud" id="1168473709">
-                    <active dataType="Bool">true</active>
-                    <gameobj dataType="ObjectRef">1351812988</gameobj>
-                    <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
-                  </object>
+                  <object />
                   <object />
                 </_items>
-                <_size dataType="Int">3</_size>
-                <_version dataType="Int">3</_version>
+                <_size dataType="Int">2</_size>
+                <_version dataType="Int">4</_version>
               </compList>
               <compMap dataType="Class" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="3670997088" surrogate="true">
                 <header />
                 <body>
-                  <keys dataType="Array" type="System.Type[]" id="1889155696" length="3">
+                  <keys dataType="Array" type="System.Type[]" id="1889155696" length="2">
                     <object dataType="ObjectRef">665143522</object>
                     <object dataType="ObjectRef">3546841826</object>
-                    <object dataType="ObjectRef">3832113732</object>
                   </keys>
-                  <values dataType="Array" type="Duality.Component[]" id="3702684896" length="3">
+                  <values dataType="Array" type="Duality.Component[]" id="3702684896" length="2">
                     <object dataType="ObjectRef">3712127920</object>
                     <object dataType="ObjectRef">2993979556</object>
-                    <object dataType="ObjectRef">1168473709</object>
                   </values>
                 </body>
               </compMap>
@@ -7198,28 +7096,22 @@
                     <gameobj dataType="ObjectRef">4058992081</gameobj>
                     <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
                   </object>
-                  <object dataType="Class" type="DublinGamecraft4.Cloud" id="3875652802">
-                    <active dataType="Bool">true</active>
-                    <gameobj dataType="ObjectRef">4058992081</gameobj>
-                    <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
-                  </object>
+                  <object />
                   <object />
                 </_items>
-                <_size dataType="Int">3</_size>
-                <_version dataType="Int">3</_version>
+                <_size dataType="Int">2</_size>
+                <_version dataType="Int">4</_version>
               </compList>
               <compMap dataType="Class" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="812364518" surrogate="true">
                 <header />
                 <body>
-                  <keys dataType="Array" type="System.Type[]" id="439899433" length="3">
+                  <keys dataType="Array" type="System.Type[]" id="439899433" length="2">
                     <object dataType="ObjectRef">665143522</object>
                     <object dataType="ObjectRef">3546841826</object>
-                    <object dataType="ObjectRef">3832113732</object>
                   </keys>
-                  <values dataType="Array" type="Duality.Component[]" id="1606900622" length="3">
+                  <values dataType="Array" type="Duality.Component[]" id="1606900622" length="2">
                     <object dataType="ObjectRef">2124339717</object>
                     <object dataType="ObjectRef">1406191353</object>
-                    <object dataType="ObjectRef">3875652802</object>
                   </values>
                 </body>
               </compMap>
@@ -7275,28 +7167,22 @@
                     <gameobj dataType="ObjectRef">1347398771</gameobj>
                     <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
                   </object>
-                  <object dataType="Class" type="DublinGamecraft4.Cloud" id="1164059492">
-                    <active dataType="Bool">true</active>
-                    <gameobj dataType="ObjectRef">1347398771</gameobj>
-                    <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
-                  </object>
+                  <object />
                   <object />
                 </_items>
-                <_size dataType="Int">3</_size>
-                <_version dataType="Int">3</_version>
+                <_size dataType="Int">2</_size>
+                <_version dataType="Int">4</_version>
               </compList>
               <compMap dataType="Class" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="1711508878" surrogate="true">
                 <header />
                 <body>
-                  <keys dataType="Array" type="System.Type[]" id="894966491" length="3">
+                  <keys dataType="Array" type="System.Type[]" id="894966491" length="2">
                     <object dataType="ObjectRef">665143522</object>
                     <object dataType="ObjectRef">3546841826</object>
-                    <object dataType="ObjectRef">3832113732</object>
                   </keys>
-                  <values dataType="Array" type="Duality.Component[]" id="2000225254" length="3">
+                  <values dataType="Array" type="Duality.Component[]" id="2000225254" length="2">
                     <object dataType="ObjectRef">3707713703</object>
                     <object dataType="ObjectRef">2989565339</object>
-                    <object dataType="ObjectRef">1164059492</object>
                   </values>
                 </body>
               </compMap>
@@ -7370,28 +7256,22 @@
                     <gameobj dataType="ObjectRef">2235630782</gameobj>
                     <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
                   </object>
-                  <object dataType="Class" type="DublinGamecraft4.Cloud" id="2052291503">
-                    <active dataType="Bool">true</active>
-                    <gameobj dataType="ObjectRef">2235630782</gameobj>
-                    <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
-                  </object>
+                  <object />
                   <object />
                 </_items>
-                <_size dataType="Int">3</_size>
-                <_version dataType="Int">3</_version>
+                <_size dataType="Int">2</_size>
+                <_version dataType="Int">4</_version>
               </compList>
               <compMap dataType="Class" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="1488028764" surrogate="true">
                 <header />
                 <body>
-                  <keys dataType="Array" type="System.Type[]" id="1205265850" length="3">
+                  <keys dataType="Array" type="System.Type[]" id="1205265850" length="2">
                     <object dataType="ObjectRef">665143522</object>
                     <object dataType="ObjectRef">3546841826</object>
-                    <object dataType="ObjectRef">3832113732</object>
                   </keys>
-                  <values dataType="Array" type="Duality.Component[]" id="1874241196" length="3">
+                  <values dataType="Array" type="Duality.Component[]" id="1874241196" length="2">
                     <object dataType="ObjectRef">300978418</object>
                     <object dataType="ObjectRef">3877797350</object>
-                    <object dataType="ObjectRef">2052291503</object>
                   </values>
                 </body>
               </compMap>
@@ -7465,28 +7345,22 @@
                     <gameobj dataType="ObjectRef">2382250378</gameobj>
                     <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
                   </object>
-                  <object dataType="Class" type="DublinGamecraft4.Cloud" id="2198911099">
-                    <active dataType="Bool">true</active>
-                    <gameobj dataType="ObjectRef">2382250378</gameobj>
-                    <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
-                  </object>
+                  <object />
                   <object />
                 </_items>
-                <_size dataType="Int">3</_size>
-                <_version dataType="Int">3</_version>
+                <_size dataType="Int">2</_size>
+                <_version dataType="Int">4</_version>
               </compList>
               <compMap dataType="Class" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="404071372" surrogate="true">
                 <header />
                 <body>
-                  <keys dataType="Array" type="System.Type[]" id="775340206" length="3">
+                  <keys dataType="Array" type="System.Type[]" id="775340206" length="2">
                     <object dataType="ObjectRef">665143522</object>
                     <object dataType="ObjectRef">3546841826</object>
-                    <object dataType="ObjectRef">3832113732</object>
                   </keys>
-                  <values dataType="Array" type="Duality.Component[]" id="2735960860" length="3">
+                  <values dataType="Array" type="Duality.Component[]" id="2735960860" length="2">
                     <object dataType="ObjectRef">447598014</object>
                     <object dataType="ObjectRef">4024416946</object>
-                    <object dataType="ObjectRef">2198911099</object>
                   </values>
                 </body>
               </compMap>
@@ -7560,28 +7434,22 @@
                     <gameobj dataType="ObjectRef">1118153879</gameobj>
                     <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
                   </object>
-                  <object dataType="Class" type="DublinGamecraft4.Cloud" id="934814600">
-                    <active dataType="Bool">true</active>
-                    <gameobj dataType="ObjectRef">1118153879</gameobj>
-                    <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
-                  </object>
+                  <object />
                   <object />
                 </_items>
-                <_size dataType="Int">3</_size>
-                <_version dataType="Int">3</_version>
+                <_size dataType="Int">2</_size>
+                <_version dataType="Int">4</_version>
               </compList>
               <compMap dataType="Class" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="2676156758" surrogate="true">
                 <header />
                 <body>
-                  <keys dataType="Array" type="System.Type[]" id="1689067759" length="3">
+                  <keys dataType="Array" type="System.Type[]" id="1689067759" length="2">
                     <object dataType="ObjectRef">665143522</object>
                     <object dataType="ObjectRef">3546841826</object>
-                    <object dataType="ObjectRef">3832113732</object>
                   </keys>
-                  <values dataType="Array" type="Duality.Component[]" id="1014575534" length="3">
+                  <values dataType="Array" type="Duality.Component[]" id="1014575534" length="2">
                     <object dataType="ObjectRef">3478468811</object>
                     <object dataType="ObjectRef">2760320447</object>
-                    <object dataType="ObjectRef">934814600</object>
                   </values>
                 </body>
               </compMap>
@@ -7637,28 +7505,22 @@
                     <gameobj dataType="ObjectRef">2745010866</gameobj>
                     <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
                   </object>
-                  <object dataType="Class" type="DublinGamecraft4.Cloud" id="2561671587">
-                    <active dataType="Bool">true</active>
-                    <gameobj dataType="ObjectRef">2745010866</gameobj>
-                    <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
-                  </object>
+                  <object />
                   <object />
                 </_items>
-                <_size dataType="Int">3</_size>
-                <_version dataType="Int">3</_version>
+                <_size dataType="Int">2</_size>
+                <_version dataType="Int">4</_version>
               </compList>
               <compMap dataType="Class" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="1412782364" surrogate="true">
                 <header />
                 <body>
-                  <keys dataType="Array" type="System.Type[]" id="3818533174" length="3">
+                  <keys dataType="Array" type="System.Type[]" id="3818533174" length="2">
                     <object dataType="ObjectRef">665143522</object>
                     <object dataType="ObjectRef">3546841826</object>
-                    <object dataType="ObjectRef">3832113732</object>
                   </keys>
-                  <values dataType="Array" type="Duality.Component[]" id="1010902476" length="3">
+                  <values dataType="Array" type="Duality.Component[]" id="1010902476" length="2">
                     <object dataType="ObjectRef">810358502</object>
                     <object dataType="ObjectRef">92210138</object>
-                    <object dataType="ObjectRef">2561671587</object>
                   </values>
                 </body>
               </compMap>
@@ -7714,28 +7576,22 @@
                     <gameobj dataType="ObjectRef">3770076823</gameobj>
                     <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
                   </object>
-                  <object dataType="Class" type="DublinGamecraft4.Cloud" id="3586737544">
-                    <active dataType="Bool">true</active>
-                    <gameobj dataType="ObjectRef">3770076823</gameobj>
-                    <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
-                  </object>
+                  <object />
                   <object />
                 </_items>
-                <_size dataType="Int">3</_size>
-                <_version dataType="Int">3</_version>
+                <_size dataType="Int">2</_size>
+                <_version dataType="Int">4</_version>
               </compList>
               <compMap dataType="Class" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="3441742166" surrogate="true">
                 <header />
                 <body>
-                  <keys dataType="Array" type="System.Type[]" id="2939956975" length="3">
+                  <keys dataType="Array" type="System.Type[]" id="2939956975" length="2">
                     <object dataType="ObjectRef">665143522</object>
                     <object dataType="ObjectRef">3546841826</object>
-                    <object dataType="ObjectRef">3832113732</object>
                   </keys>
-                  <values dataType="Array" type="Duality.Component[]" id="3662701998" length="3">
+                  <values dataType="Array" type="Duality.Component[]" id="3662701998" length="2">
                     <object dataType="ObjectRef">1835424459</object>
                     <object dataType="ObjectRef">1117276095</object>
-                    <object dataType="ObjectRef">3586737544</object>
                   </values>
                 </body>
               </compMap>
@@ -7791,28 +7647,22 @@
                     <gameobj dataType="ObjectRef">2433668170</gameobj>
                     <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
                   </object>
-                  <object dataType="Class" type="DublinGamecraft4.Cloud" id="2250328891">
-                    <active dataType="Bool">true</active>
-                    <gameobj dataType="ObjectRef">2433668170</gameobj>
-                    <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
-                  </object>
+                  <object />
                   <object />
                 </_items>
-                <_size dataType="Int">3</_size>
-                <_version dataType="Int">3</_version>
+                <_size dataType="Int">2</_size>
+                <_version dataType="Int">4</_version>
               </compList>
               <compMap dataType="Class" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="306740044" surrogate="true">
                 <header />
                 <body>
-                  <keys dataType="Array" type="System.Type[]" id="1423311726" length="3">
+                  <keys dataType="Array" type="System.Type[]" id="1423311726" length="2">
                     <object dataType="ObjectRef">665143522</object>
                     <object dataType="ObjectRef">3546841826</object>
-                    <object dataType="ObjectRef">3832113732</object>
                   </keys>
-                  <values dataType="Array" type="Duality.Component[]" id="1008457756" length="3">
+                  <values dataType="Array" type="Duality.Component[]" id="1008457756" length="2">
                     <object dataType="ObjectRef">499015806</object>
                     <object dataType="ObjectRef">4075834738</object>
-                    <object dataType="ObjectRef">2250328891</object>
                   </values>
                 </body>
               </compMap>
@@ -7868,28 +7718,22 @@
                     <gameobj dataType="ObjectRef">4010630137</gameobj>
                     <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
                   </object>
-                  <object dataType="Class" type="DublinGamecraft4.Cloud" id="3827290858">
-                    <active dataType="Bool">true</active>
-                    <gameobj dataType="ObjectRef">4010630137</gameobj>
-                    <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
-                  </object>
+                  <object />
                   <object />
                 </_items>
-                <_size dataType="Int">3</_size>
-                <_version dataType="Int">3</_version>
+                <_size dataType="Int">2</_size>
+                <_version dataType="Int">4</_version>
               </compList>
               <compMap dataType="Class" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="2841546902" surrogate="true">
                 <header />
                 <body>
-                  <keys dataType="Array" type="System.Type[]" id="1287954593" length="3">
+                  <keys dataType="Array" type="System.Type[]" id="1287954593" length="2">
                     <object dataType="ObjectRef">665143522</object>
                     <object dataType="ObjectRef">3546841826</object>
-                    <object dataType="ObjectRef">3832113732</object>
                   </keys>
-                  <values dataType="Array" type="Duality.Component[]" id="3560248878" length="3">
+                  <values dataType="Array" type="Duality.Component[]" id="3560248878" length="2">
                     <object dataType="ObjectRef">2075977773</object>
                     <object dataType="ObjectRef">1357829409</object>
-                    <object dataType="ObjectRef">3827290858</object>
                   </values>
                 </body>
               </compMap>
@@ -7945,28 +7789,22 @@
                     <gameobj dataType="ObjectRef">4219708544</gameobj>
                     <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
                   </object>
-                  <object dataType="Class" type="DublinGamecraft4.Cloud" id="4036369265">
-                    <active dataType="Bool">true</active>
-                    <gameobj dataType="ObjectRef">4219708544</gameobj>
-                    <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
-                  </object>
+                  <object />
                   <object />
                 </_items>
-                <_size dataType="Int">3</_size>
-                <_version dataType="Int">3</_version>
+                <_size dataType="Int">2</_size>
+                <_version dataType="Int">4</_version>
               </compList>
               <compMap dataType="Class" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="3537910808" surrogate="true">
                 <header />
                 <body>
-                  <keys dataType="Array" type="System.Type[]" id="623933852" length="3">
+                  <keys dataType="Array" type="System.Type[]" id="623933852" length="2">
                     <object dataType="ObjectRef">665143522</object>
                     <object dataType="ObjectRef">3546841826</object>
-                    <object dataType="ObjectRef">3832113732</object>
                   </keys>
-                  <values dataType="Array" type="Duality.Component[]" id="1730815288" length="3">
+                  <values dataType="Array" type="Duality.Component[]" id="1730815288" length="2">
                     <object dataType="ObjectRef">2285056180</object>
                     <object dataType="ObjectRef">1566907816</object>
-                    <object dataType="ObjectRef">4036369265</object>
                   </values>
                 </body>
               </compMap>
@@ -8022,28 +7860,22 @@
                     <gameobj dataType="ObjectRef">478039993</gameobj>
                     <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
                   </object>
-                  <object dataType="Class" type="DublinGamecraft4.Cloud" id="294700714">
-                    <active dataType="Bool">true</active>
-                    <gameobj dataType="ObjectRef">478039993</gameobj>
-                    <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
-                  </object>
+                  <object />
                   <object />
                 </_items>
-                <_size dataType="Int">3</_size>
-                <_version dataType="Int">3</_version>
+                <_size dataType="Int">2</_size>
+                <_version dataType="Int">4</_version>
               </compList>
               <compMap dataType="Class" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="2500965270" surrogate="true">
                 <header />
                 <body>
-                  <keys dataType="Array" type="System.Type[]" id="2604402273" length="3">
+                  <keys dataType="Array" type="System.Type[]" id="2604402273" length="2">
                     <object dataType="ObjectRef">665143522</object>
                     <object dataType="ObjectRef">3546841826</object>
-                    <object dataType="ObjectRef">3832113732</object>
                   </keys>
-                  <values dataType="Array" type="Duality.Component[]" id="912369966" length="3">
+                  <values dataType="Array" type="Duality.Component[]" id="912369966" length="2">
                     <object dataType="ObjectRef">2838354925</object>
                     <object dataType="ObjectRef">2120206561</object>
-                    <object dataType="ObjectRef">294700714</object>
                   </values>
                 </body>
               </compMap>
@@ -8099,28 +7931,22 @@
                     <gameobj dataType="ObjectRef">949233500</gameobj>
                     <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
                   </object>
-                  <object dataType="Class" type="DublinGamecraft4.Cloud" id="765894221">
-                    <active dataType="Bool">true</active>
-                    <gameobj dataType="ObjectRef">949233500</gameobj>
-                    <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
-                  </object>
+                  <object />
                   <object />
                 </_items>
-                <_size dataType="Int">3</_size>
-                <_version dataType="Int">3</_version>
+                <_size dataType="Int">2</_size>
+                <_version dataType="Int">4</_version>
               </compList>
               <compMap dataType="Class" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="186285280" surrogate="true">
                 <header />
                 <body>
-                  <keys dataType="Array" type="System.Type[]" id="1961088848" length="3">
+                  <keys dataType="Array" type="System.Type[]" id="1961088848" length="2">
                     <object dataType="ObjectRef">665143522</object>
                     <object dataType="ObjectRef">3546841826</object>
-                    <object dataType="ObjectRef">3832113732</object>
                   </keys>
-                  <values dataType="Array" type="Duality.Component[]" id="3430527072" length="3">
+                  <values dataType="Array" type="Duality.Component[]" id="3430527072" length="2">
                     <object dataType="ObjectRef">3309548432</object>
                     <object dataType="ObjectRef">2591400068</object>
-                    <object dataType="ObjectRef">765894221</object>
                   </values>
                 </body>
               </compMap>
@@ -8176,28 +8002,22 @@
                     <gameobj dataType="ObjectRef">3670790108</gameobj>
                     <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
                   </object>
-                  <object dataType="Class" type="DublinGamecraft4.Cloud" id="3487450829">
-                    <active dataType="Bool">true</active>
-                    <gameobj dataType="ObjectRef">3670790108</gameobj>
-                    <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
-                  </object>
+                  <object />
                   <object />
                 </_items>
-                <_size dataType="Int">3</_size>
-                <_version dataType="Int">3</_version>
+                <_size dataType="Int">2</_size>
+                <_version dataType="Int">4</_version>
               </compList>
               <compMap dataType="Class" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="2094662368" surrogate="true">
                 <header />
                 <body>
-                  <keys dataType="Array" type="System.Type[]" id="2046866896" length="3">
+                  <keys dataType="Array" type="System.Type[]" id="2046866896" length="2">
                     <object dataType="ObjectRef">665143522</object>
                     <object dataType="ObjectRef">3546841826</object>
-                    <object dataType="ObjectRef">3832113732</object>
                   </keys>
-                  <values dataType="Array" type="Duality.Component[]" id="1222468960" length="3">
+                  <values dataType="Array" type="Duality.Component[]" id="1222468960" length="2">
                     <object dataType="ObjectRef">1736137744</object>
                     <object dataType="ObjectRef">1017989380</object>
-                    <object dataType="ObjectRef">3487450829</object>
                   </values>
                 </body>
               </compMap>
@@ -8253,28 +8073,22 @@
                     <gameobj dataType="ObjectRef">885334575</gameobj>
                     <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
                   </object>
-                  <object dataType="Class" type="DublinGamecraft4.Cloud" id="701995296">
-                    <active dataType="Bool">true</active>
-                    <gameobj dataType="ObjectRef">885334575</gameobj>
-                    <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
-                  </object>
+                  <object />
                   <object />
                 </_items>
-                <_size dataType="Int">3</_size>
-                <_version dataType="Int">3</_version>
+                <_size dataType="Int">2</_size>
+                <_version dataType="Int">4</_version>
               </compList>
               <compMap dataType="Class" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="1748013798" surrogate="true">
                 <header />
                 <body>
-                  <keys dataType="Array" type="System.Type[]" id="3284851415" length="3">
+                  <keys dataType="Array" type="System.Type[]" id="3284851415" length="2">
                     <object dataType="ObjectRef">665143522</object>
                     <object dataType="ObjectRef">3546841826</object>
-                    <object dataType="ObjectRef">3832113732</object>
                   </keys>
-                  <values dataType="Array" type="Duality.Component[]" id="1920383886" length="3">
+                  <values dataType="Array" type="Duality.Component[]" id="1920383886" length="2">
                     <object dataType="ObjectRef">3245649507</object>
                     <object dataType="ObjectRef">2527501143</object>
-                    <object dataType="ObjectRef">701995296</object>
                   </values>
                 </body>
               </compMap>
@@ -8330,28 +8144,22 @@
                     <gameobj dataType="ObjectRef">1602822919</gameobj>
                     <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
                   </object>
-                  <object dataType="Class" type="DublinGamecraft4.Cloud" id="1419483640">
-                    <active dataType="Bool">true</active>
-                    <gameobj dataType="ObjectRef">1602822919</gameobj>
-                    <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
-                  </object>
+                  <object />
                   <object />
                 </_items>
-                <_size dataType="Int">3</_size>
-                <_version dataType="Int">3</_version>
+                <_size dataType="Int">2</_size>
+                <_version dataType="Int">4</_version>
               </compList>
               <compMap dataType="Class" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="2994090646" surrogate="true">
                 <header />
                 <body>
-                  <keys dataType="Array" type="System.Type[]" id="328606303" length="3">
+                  <keys dataType="Array" type="System.Type[]" id="328606303" length="2">
                     <object dataType="ObjectRef">665143522</object>
                     <object dataType="ObjectRef">3546841826</object>
-                    <object dataType="ObjectRef">3832113732</object>
                   </keys>
-                  <values dataType="Array" type="Duality.Component[]" id="407888430" length="3">
+                  <values dataType="Array" type="Duality.Component[]" id="407888430" length="2">
                     <object dataType="ObjectRef">3963137851</object>
                     <object dataType="ObjectRef">3244989487</object>
-                    <object dataType="ObjectRef">1419483640</object>
                   </values>
                 </body>
               </compMap>
@@ -8407,28 +8215,22 @@
                     <gameobj dataType="ObjectRef">3727671145</gameobj>
                     <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
                   </object>
-                  <object dataType="Class" type="DublinGamecraft4.Cloud" id="3544331866">
-                    <active dataType="Bool">true</active>
-                    <gameobj dataType="ObjectRef">3727671145</gameobj>
-                    <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
-                  </object>
+                  <object />
                   <object />
                 </_items>
-                <_size dataType="Int">3</_size>
-                <_version dataType="Int">3</_version>
+                <_size dataType="Int">2</_size>
+                <_version dataType="Int">4</_version>
               </compList>
               <compMap dataType="Class" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="3943889238" surrogate="true">
                 <header />
                 <body>
-                  <keys dataType="Array" type="System.Type[]" id="3373888273" length="3">
+                  <keys dataType="Array" type="System.Type[]" id="3373888273" length="2">
                     <object dataType="ObjectRef">665143522</object>
                     <object dataType="ObjectRef">3546841826</object>
-                    <object dataType="ObjectRef">3832113732</object>
                   </keys>
-                  <values dataType="Array" type="Duality.Component[]" id="87384494" length="3">
+                  <values dataType="Array" type="Duality.Component[]" id="87384494" length="2">
                     <object dataType="ObjectRef">1793018781</object>
                     <object dataType="ObjectRef">1074870417</object>
-                    <object dataType="ObjectRef">3544331866</object>
                   </values>
                 </body>
               </compMap>
@@ -8484,28 +8286,22 @@
                     <gameobj dataType="ObjectRef">2962943502</gameobj>
                     <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
                   </object>
-                  <object dataType="Class" type="DublinGamecraft4.Cloud" id="2779604223">
-                    <active dataType="Bool">true</active>
-                    <gameobj dataType="ObjectRef">2962943502</gameobj>
-                    <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
-                  </object>
+                  <object />
                   <object />
                 </_items>
-                <_size dataType="Int">3</_size>
-                <_version dataType="Int">3</_version>
+                <_size dataType="Int">2</_size>
+                <_version dataType="Int">4</_version>
               </compList>
               <compMap dataType="Class" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="1013462044" surrogate="true">
                 <header />
                 <body>
-                  <keys dataType="Array" type="System.Type[]" id="813746058" length="3">
+                  <keys dataType="Array" type="System.Type[]" id="813746058" length="2">
                     <object dataType="ObjectRef">665143522</object>
                     <object dataType="ObjectRef">3546841826</object>
-                    <object dataType="ObjectRef">3832113732</object>
                   </keys>
-                  <values dataType="Array" type="Duality.Component[]" id="3765416780" length="3">
+                  <values dataType="Array" type="Duality.Component[]" id="3765416780" length="2">
                     <object dataType="ObjectRef">1028291138</object>
                     <object dataType="ObjectRef">310142774</object>
-                    <object dataType="ObjectRef">2779604223</object>
                   </values>
                 </body>
               </compMap>
@@ -8712,6 +8508,64 @@
         <name dataType="String">Dolores</name>
         <parent />
         <prefabLink />
+      </object>
+      <object dataType="Class" type="Duality.GameObject" id="1451578776">
+        <active dataType="Bool">true</active>
+        <children />
+        <compList dataType="Class" type="System.Collections.Generic.List`1[[Duality.Component]]" id="2131269310">
+          <_items dataType="Array" type="Duality.Component[]" id="1856156884" length="4">
+            <object dataType="Class" type="Duality.Components.Transform" id="3811893708">
+              <active dataType="Bool">true</active>
+              <gameobj dataType="ObjectRef">1451578776</gameobj>
+              <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
+            </object>
+            <object dataType="Class" type="Duality.Components.Renderers.TextRenderer" id="3194207598">
+              <active dataType="Bool">false</active>
+              <gameobj dataType="ObjectRef">1451578776</gameobj>
+              <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
+            </object>
+            <object dataType="Class" type="DublinGamecraft4.GameOverScript" id="1019329415">
+              <active dataType="Bool">true</active>
+              <gameobj dataType="ObjectRef">1451578776</gameobj>
+              <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
+            </object>
+            <object />
+          </_items>
+          <_size dataType="Int">3</_size>
+          <_version dataType="Int">3</_version>
+        </compList>
+        <compMap dataType="Class" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="1237044316" surrogate="true">
+          <header />
+          <body>
+            <keys dataType="Array" type="System.Type[]" id="734754886" length="3">
+              <object dataType="ObjectRef">665143522</object>
+              <object dataType="Type" id="148084932" value="Duality.Components.Renderers.TextRenderer" />
+              <object dataType="Type" id="1964590520" value="DublinGamecraft4.GameOverScript" />
+            </keys>
+            <values dataType="Array" type="Duality.Component[]" id="941723308" length="3">
+              <object dataType="ObjectRef">3811893708</object>
+              <object dataType="ObjectRef">3194207598</object>
+              <object dataType="ObjectRef">1019329415</object>
+            </values>
+          </body>
+        </compMap>
+        <compTransform dataType="ObjectRef">3811893708</compTransform>
+        <identifier dataType="Struct" type="System.Guid" surrogate="true">
+          <header>
+            <data dataType="Array" type="System.Byte[]" id="1686057034" length="16">8hXkfmFlRECMP00tJG4FLg==</data>
+          </header>
+          <body />
+        </identifier>
+        <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
+        <name dataType="String">GameOver</name>
+        <parent />
+        <prefabLink dataType="Class" type="Duality.Resources.PrefabLink" id="1489791586">
+          <changes />
+          <obj dataType="ObjectRef">1451578776</obj>
+          <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
+            <contentPath dataType="String">Data\Prefabs\GameOver.Prefab.res</contentPath>
+          </prefab>
+        </prefabLink>
       </object>
       <object dataType="ObjectRef">3699806721</object>
       <object dataType="ObjectRef">1590281018</object>
