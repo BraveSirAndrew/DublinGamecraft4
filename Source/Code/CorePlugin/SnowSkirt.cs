@@ -18,6 +18,8 @@ namespace DublinGamecraft4
 		[NonSerialized]
 		private Vector3[] _points = new Vector3[MaxPoints];
 		[NonSerialized]
+		private float[] _forces = new float[MaxPoints / 2];
+		[NonSerialized]
 		private VertexC1P3T2[] _vertices = new VertexC1P3T2[MaxVertices];
 
 		public int SnowSpeed { get; set; }
@@ -69,6 +71,23 @@ namespace DublinGamecraft4
 				pointIndex += 2;
 				_points[pointIndex].Y -= heightDivider;
 			}
+
+			ApplyForces();
+			for (var i = 0; i < _forces.Length; i++)
+			{
+				_forces[i] *= 0.93f;
+			}
+		}
+
+		private void ApplyForces()
+		{
+			for (var i = 0; i < _forces.Length; i++)
+			{
+				_points[i * 2].Y += _forces[i] * (Time.LastDelta / 1000);
+				
+				if (_points[i * 2].Y > 0)
+					_points[i * 2].Y = 0;
+			}
 		}
 
 		public override void Draw(IDrawDevice device)
@@ -111,13 +130,45 @@ namespace DublinGamecraft4
 
 		public float GetSnowHeightAtPoint(float pos)
 		{
-			var normalizedPos = pos / (MaxPoints * DistanceBetweenPeaks);
-			var pointIndex = (int) (MaxPoints * normalizedPos);
+			var pointIndex = GetPointIndexFromPosition(pos);
 
-			if(pointIndex % 2 == 1 && pointIndex < _points.Length)
+			if (pointIndex % 2 == 1 && pointIndex < _points.Length)
 				pointIndex += 1;
 
 			return _points[pointIndex].Y;
+		}
+
+		private int GetPointIndexFromPosition(float pos)
+		{
+			var normalizedPos = pos / (MaxPoints * DistanceBetweenPeaks);
+			var pointIndex = (int) (MaxPoints * normalizedPos);
+
+			return pointIndex;
+		}
+
+		public void MeltSnow(float pos, float energy, float falloff, float radius)
+		{
+			var pointIndex = GetPointIndexFromPosition(pos) / 2;
+
+			_forces[pointIndex] += energy;
+
+			var startingPointIndex = pointIndex;
+			var heightDivider = energy;
+			while (pointIndex - 1 > 0 && startingPointIndex - pointIndex < DriftWidth)
+			{
+				heightDivider /= falloff;
+				pointIndex--;
+				_forces[pointIndex] += heightDivider;
+			}
+
+			pointIndex = startingPointIndex;
+			heightDivider = energy;
+			while (pointIndex + 1 < _forces.Length - 2 && pointIndex - startingPointIndex < DriftWidth)
+			{
+				heightDivider /= falloff;
+				pointIndex++;
+				_forces[pointIndex] += heightDivider;
+			}
 		}
 	}
 }

@@ -18,6 +18,19 @@ namespace GameRes
 				FirTree_Pixmap.MakeAvailable();
 			}
 		}
+		public static class Prefabs {
+			public static class Layers {
+				public static Duality.ContentRef<Duality.Resources.Prefab> TreeLayer_Prefab { get { return Duality.ContentProvider.RequestContent<Duality.Resources.Prefab>(@"Data\Prefabs\Layers\TreeLayer.Prefab.res"); }}
+				public static void LoadAll() {
+					TreeLayer_Prefab.MakeAvailable();
+				}
+			}
+			public static Duality.ContentRef<Duality.Resources.Prefab> Tree_Prefab { get { return Duality.ContentProvider.RequestContent<Duality.Resources.Prefab>(@"Data\Prefabs\Tree.Prefab.res"); }}
+			public static void LoadAll() {
+				Layers.LoadAll();
+				Tree_Prefab.MakeAvailable();
+			}
+		}
 		public static class Textures {
 			public static Duality.ContentRef<Duality.Resources.Texture> FirTree_Texture { get { return Duality.ContentProvider.RequestContent<Duality.Resources.Texture>(@"Data\Textures\FirTree.Texture.res"); }}
 			public static void LoadAll() {
@@ -28,6 +41,7 @@ namespace GameRes
 		public static void LoadAll() {
 			Material.LoadAll();
 			Pixmaps.LoadAll();
+			Prefabs.LoadAll();
 			Textures.LoadAll();
 			Scene_Scene.MakeAvailable();
 		}

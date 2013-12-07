@@ -30,6 +30,13 @@ namespace DublinGamecraft4
 		    var snowHeight = snowSkirt.GetSnowHeightAtPoint(GameObj.Transform.Pos.X);
 
 			_speedDamping = MathF.Clamp(1 - MathF.Abs(snowHeight) / 500, 0.3f, 1);
+
+		    if (DualityApp.Keyboard[Key.E])
+		    {
+			    snowSkirt.MeltSnow(GameObj.Transform.Pos.X, 3, 1.10f, 170);
+			    snowSkirt.MeltSnow(GameObj.Transform.Pos.X - 40, 3, 1.10f, 170);
+			    snowSkirt.MeltSnow(GameObj.Transform.Pos.X + 40, 3, 1.10f, 170);
+		    }
 	    }
     }
 }
