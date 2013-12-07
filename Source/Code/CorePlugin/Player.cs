@@ -19,6 +19,7 @@ namespace DublinGamecraft4
         private WoodComponent _woodComponent;
 
 		public float BaseSpeed { get; set; }
+        public int MaxLogs { get; set; }
 
 		public void OnInit(InitContext context)
 		{
@@ -56,9 +57,9 @@ namespace DublinGamecraft4
 				GameObj.ChildByName("AxeRight").Active = false;
             }
 
-		    if (DualityApp.Keyboard.KeyHit(Key.Space))
+		    if (DualityApp.Keyboard.KeyHit(Key.Space) && _woodComponent.CurrentWood < MaxLogs)
 		    {
-			    GameObj.GetComponentsInChildren<Axe>().First().Chop();
+			    GameObj.GetComponentsInChildren<Axe>().First(c => c.Active).Chop();
 		    }
 
 		    var snowSkirt = Scene.Current.FindGameObject("SnowSkirt").GetComponent<SnowSkirt>();
@@ -71,6 +72,7 @@ namespace DublinGamecraft4
 		        var log = GameRes.Data.Prefabs.BurningLog_Prefab.Res.Instantiate();
 		        log.Transform.Pos += GameObj.Transform.Pos;
                 Scene.Current.AddObject(log);
+		        _woodComponent.TakeWood();
 		    }
 	    }
 	}
