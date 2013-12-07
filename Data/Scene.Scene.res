@@ -5,7 +5,7 @@
       <X dataType="Float">0</X>
       <Y dataType="Float">33</Y>
     </globalGravity>
-    <serializeObj dataType="Array" type="Duality.GameObject[]" id="292984781" length="33">
+    <serializeObj dataType="Array" type="Duality.GameObject[]" id="292984781" length="34">
       <object dataType="Class" type="Duality.GameObject" id="4034207103">
         <active dataType="Bool">true</active>
         <children />
@@ -842,7 +842,7 @@
               <parent dataType="ObjectRef">440556761</parent>
               <prefabLink dataType="Class" type="Duality.Resources.PrefabLink" id="1699254513">
                 <changes dataType="Class" type="System.Collections.Generic.List`1[[Duality.Resources.PrefabLink+VarMod]]" id="3931498836">
-                  <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="705618888" length="1">
+                  <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="705618888" length="2">
                     <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                       <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="3187273712">
                         <_items dataType="Array" type="System.Int32[]" id="122098336" length="0" />
@@ -857,9 +857,24 @@
                         <Z dataType="Float">0</Z>
                       </val>
                     </object>
+                    <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
+                      <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="3377288464">
+                        <_items dataType="Array" type="System.Int32[]" id="3979584832" length="0" />
+                        <_size dataType="Int">0</_size>
+                        <_version dataType="Int">1</_version>
+                      </childIndex>
+                      <componentType dataType="ObjectRef">3546841826</componentType>
+                      <prop dataType="PropertyInfo" id="1227492800" value="P:Duality.Components.Renderers.SpriteRenderer:ColorTint" />
+                      <val dataType="Struct" type="Duality.ColorFormat.ColorRgba">
+                        <A dataType="Byte">255</A>
+                        <B dataType="Byte">255</B>
+                        <G dataType="Byte">255</G>
+                        <R dataType="Byte">255</R>
+                      </val>
+                    </object>
                   </_items>
-                  <_size dataType="Int">1</_size>
-                  <_version dataType="Int">1</_version>
+                  <_size dataType="Int">2</_size>
+                  <_version dataType="Int">32</_version>
                 </changes>
                 <obj dataType="ObjectRef">3825937547</obj>
                 <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
@@ -1106,7 +1121,47 @@
                 </childIndex>
                 <componentType />
                 <prop dataType="ObjectRef">2835508248</prop>
-                <val dataType="ObjectRef">1699254513</val>
+                <val dataType="Class" type="Duality.Resources.PrefabLink" id="3216578108">
+                  <changes dataType="Class" type="System.Collections.Generic.List`1[[Duality.Resources.PrefabLink+VarMod]]" id="1567304792">
+                    <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="3109176208" length="2">
+                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
+                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="4109461472">
+                          <_items dataType="ObjectRef">3979584832</_items>
+                          <_size dataType="Int">0</_size>
+                          <_version dataType="Int">0</_version>
+                        </childIndex>
+                        <componentType dataType="ObjectRef">665143522</componentType>
+                        <prop dataType="ObjectRef">3262826208</prop>
+                        <val dataType="Struct" type="OpenTK.Vector3">
+                          <X dataType="Float">2759.02734</X>
+                          <Y dataType="Float">-483.3334</Y>
+                          <Z dataType="Float">0</Z>
+                        </val>
+                      </object>
+                      <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
+                        <childIndex dataType="Class" type="System.Collections.Generic.List`1[[System.Int32]]" id="4279573952">
+                          <_items dataType="ObjectRef">3979584832</_items>
+                          <_size dataType="Int">0</_size>
+                          <_version dataType="Int">0</_version>
+                        </childIndex>
+                        <componentType dataType="ObjectRef">3546841826</componentType>
+                        <prop dataType="ObjectRef">1227492800</prop>
+                        <val dataType="Struct" type="Duality.ColorFormat.ColorRgba">
+                          <A dataType="Byte">255</A>
+                          <B dataType="Byte">255</B>
+                          <G dataType="Byte">255</G>
+                          <R dataType="Byte">255</R>
+                        </val>
+                      </object>
+                    </_items>
+                    <_size dataType="Int">2</_size>
+                    <_version dataType="Int">2</_version>
+                  </changes>
+                  <obj dataType="ObjectRef">3825937547</obj>
+                  <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
+                    <contentPath dataType="String">Data\Prefabs\Tree.Prefab.res</contentPath>
+                  </prefab>
+                </val>
               </object>
               <object dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
                 <childIndex />
@@ -1116,7 +1171,7 @@
               </object>
             </_items>
             <_size dataType="Int">3</_size>
-            <_version dataType="Int">215</_version>
+            <_version dataType="Int">467</_version>
           </changes>
           <obj dataType="ObjectRef">440556761</obj>
           <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
@@ -1612,9 +1667,9 @@
                           <active dataType="Bool">true</active>
                           <colorTint dataType="Struct" type="Duality.ColorFormat.ColorRgba">
                             <A dataType="Byte">255</A>
-                            <B dataType="Byte">185</B>
-                            <G dataType="Byte">186</G>
-                            <R dataType="Byte">152</R>
+                            <B dataType="Byte">110</B>
+                            <G dataType="Byte">110</G>
+                            <R dataType="Byte">93</R>
                           </colorTint>
                           <customMat />
                           <gameobj dataType="ObjectRef">3188394427</gameobj>
@@ -1706,9 +1761,9 @@
                           <active dataType="Bool">true</active>
                           <colorTint dataType="Struct" type="Duality.ColorFormat.ColorRgba">
                             <A dataType="Byte">255</A>
-                            <B dataType="Byte">185</B>
-                            <G dataType="Byte">186</G>
-                            <R dataType="Byte">152</R>
+                            <B dataType="Byte">110</B>
+                            <G dataType="Byte">110</G>
+                            <R dataType="Byte">93</R>
                           </colorTint>
                           <customMat />
                           <gameobj dataType="ObjectRef">3408278432</gameobj>
@@ -1800,9 +1855,9 @@
                           <active dataType="Bool">true</active>
                           <colorTint dataType="Struct" type="Duality.ColorFormat.ColorRgba">
                             <A dataType="Byte">255</A>
-                            <B dataType="Byte">185</B>
-                            <G dataType="Byte">186</G>
-                            <R dataType="Byte">152</R>
+                            <B dataType="Byte">110</B>
+                            <G dataType="Byte">110</G>
+                            <R dataType="Byte">93</R>
                           </colorTint>
                           <customMat />
                           <gameobj dataType="ObjectRef">1231984759</gameobj>
@@ -1894,9 +1949,9 @@
                           <active dataType="Bool">true</active>
                           <colorTint dataType="Struct" type="Duality.ColorFormat.ColorRgba">
                             <A dataType="Byte">255</A>
-                            <B dataType="Byte">185</B>
-                            <G dataType="Byte">186</G>
-                            <R dataType="Byte">152</R>
+                            <B dataType="Byte">110</B>
+                            <G dataType="Byte">110</G>
+                            <R dataType="Byte">93</R>
                           </colorTint>
                           <customMat />
                           <gameobj dataType="ObjectRef">4043306682</gameobj>
@@ -1988,9 +2043,9 @@
                           <active dataType="Bool">true</active>
                           <colorTint dataType="Struct" type="Duality.ColorFormat.ColorRgba">
                             <A dataType="Byte">255</A>
-                            <B dataType="Byte">185</B>
-                            <G dataType="Byte">186</G>
-                            <R dataType="Byte">152</R>
+                            <B dataType="Byte">110</B>
+                            <G dataType="Byte">110</G>
+                            <R dataType="Byte">93</R>
                           </colorTint>
                           <customMat />
                           <gameobj dataType="ObjectRef">1935924246</gameobj>
@@ -2082,9 +2137,9 @@
                           <active dataType="Bool">true</active>
                           <colorTint dataType="Struct" type="Duality.ColorFormat.ColorRgba">
                             <A dataType="Byte">255</A>
-                            <B dataType="Byte">185</B>
-                            <G dataType="Byte">186</G>
-                            <R dataType="Byte">152</R>
+                            <B dataType="Byte">110</B>
+                            <G dataType="Byte">110</G>
+                            <R dataType="Byte">93</R>
                           </colorTint>
                           <customMat />
                           <gameobj dataType="ObjectRef">3716666363</gameobj>
@@ -2176,9 +2231,9 @@
                           <active dataType="Bool">true</active>
                           <colorTint dataType="Struct" type="Duality.ColorFormat.ColorRgba">
                             <A dataType="Byte">255</A>
-                            <B dataType="Byte">185</B>
-                            <G dataType="Byte">186</G>
-                            <R dataType="Byte">152</R>
+                            <B dataType="Byte">110</B>
+                            <G dataType="Byte">110</G>
+                            <R dataType="Byte">93</R>
                           </colorTint>
                           <customMat />
                           <gameobj dataType="ObjectRef">2826807185</gameobj>
@@ -2467,9 +2522,9 @@
                           <active dataType="Bool">true</active>
                           <colorTint dataType="Struct" type="Duality.ColorFormat.ColorRgba">
                             <A dataType="Byte">255</A>
-                            <B dataType="Byte">253</B>
-                            <G dataType="Byte">247</G>
-                            <R dataType="Byte">225</R>
+                            <B dataType="Byte">109</B>
+                            <G dataType="Byte">106</G>
+                            <R dataType="Byte">95</R>
                           </colorTint>
                           <customMat />
                           <gameobj dataType="ObjectRef">1944678290</gameobj>
@@ -2561,9 +2616,9 @@
                           <active dataType="Bool">true</active>
                           <colorTint dataType="Struct" type="Duality.ColorFormat.ColorRgba">
                             <A dataType="Byte">255</A>
-                            <B dataType="Byte">253</B>
-                            <G dataType="Byte">247</G>
-                            <R dataType="Byte">225</R>
+                            <B dataType="Byte">109</B>
+                            <G dataType="Byte">106</G>
+                            <R dataType="Byte">95</R>
                           </colorTint>
                           <customMat />
                           <gameobj dataType="ObjectRef">3162008180</gameobj>
@@ -2655,9 +2710,9 @@
                           <active dataType="Bool">true</active>
                           <colorTint dataType="Struct" type="Duality.ColorFormat.ColorRgba">
                             <A dataType="Byte">255</A>
-                            <B dataType="Byte">253</B>
-                            <G dataType="Byte">247</G>
-                            <R dataType="Byte">225</R>
+                            <B dataType="Byte">109</B>
+                            <G dataType="Byte">106</G>
+                            <R dataType="Byte">95</R>
                           </colorTint>
                           <customMat />
                           <gameobj dataType="ObjectRef">3709608057</gameobj>
@@ -2749,9 +2804,9 @@
                           <active dataType="Bool">true</active>
                           <colorTint dataType="Struct" type="Duality.ColorFormat.ColorRgba">
                             <A dataType="Byte">255</A>
-                            <B dataType="Byte">253</B>
-                            <G dataType="Byte">247</G>
-                            <R dataType="Byte">225</R>
+                            <B dataType="Byte">109</B>
+                            <G dataType="Byte">106</G>
+                            <R dataType="Byte">95</R>
                           </colorTint>
                           <customMat />
                           <gameobj dataType="ObjectRef">1946483954</gameobj>
@@ -2843,9 +2898,9 @@
                           <active dataType="Bool">true</active>
                           <colorTint dataType="Struct" type="Duality.ColorFormat.ColorRgba">
                             <A dataType="Byte">255</A>
-                            <B dataType="Byte">253</B>
-                            <G dataType="Byte">247</G>
-                            <R dataType="Byte">225</R>
+                            <B dataType="Byte">109</B>
+                            <G dataType="Byte">106</G>
+                            <R dataType="Byte">95</R>
                           </colorTint>
                           <customMat />
                           <gameobj dataType="ObjectRef">3139721523</gameobj>
@@ -2960,6 +3015,104 @@
         </identifier>
         <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
         <name dataType="String">Background</name>
+        <parent />
+        <prefabLink />
+      </object>
+      <object dataType="Class" type="Duality.GameObject" id="113781697">
+        <active dataType="Bool">true</active>
+        <children />
+        <compList dataType="Class" type="System.Collections.Generic.List`1[[Duality.Component]]" id="700134575">
+          <_items dataType="Array" type="Duality.Component[]" id="3552830954" length="4">
+            <object dataType="Class" type="Duality.Components.Transform" id="2474096629">
+              <active dataType="Bool">true</active>
+              <angle dataType="Float">0</angle>
+              <angleAbs dataType="Float">0</angleAbs>
+              <angleVel dataType="Float">0</angleVel>
+              <angleVelAbs dataType="Float">0</angleVelAbs>
+              <deriveAngle dataType="Bool">true</deriveAngle>
+              <gameobj dataType="ObjectRef">113781697</gameobj>
+              <ignoreParent dataType="Bool">false</ignoreParent>
+              <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
+              <parentTransform />
+              <pos dataType="Struct" type="OpenTK.Vector3">
+                <X dataType="Float">0</X>
+                <Y dataType="Float">0</Y>
+                <Z dataType="Float">0</Z>
+              </pos>
+              <posAbs dataType="Struct" type="OpenTK.Vector3">
+                <X dataType="Float">0</X>
+                <Y dataType="Float">0</Y>
+                <Z dataType="Float">0</Z>
+              </posAbs>
+              <scale dataType="Float">1</scale>
+              <scaleAbs dataType="Float">1</scaleAbs>
+              <vel dataType="Struct" type="OpenTK.Vector3">
+                <X dataType="Float">0</X>
+                <Y dataType="Float">0</Y>
+                <Z dataType="Float">0</Z>
+              </vel>
+              <velAbs dataType="Struct" type="OpenTK.Vector3">
+                <X dataType="Float">0</X>
+                <Y dataType="Float">0</Y>
+                <Z dataType="Float">0</Z>
+              </velAbs>
+            </object>
+            <object dataType="Class" type="Duality.Components.SoundEmitter" id="2157673584">
+              <active dataType="Bool">true</active>
+              <gameobj dataType="ObjectRef">113781697</gameobj>
+              <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
+              <sources dataType="Class" type="System.Collections.Generic.List`1[[Duality.Components.SoundEmitter+Source]]" id="3383866588">
+                <_items dataType="Array" type="Duality.Components.SoundEmitter+Source[]" id="829963304" length="4">
+                  <object dataType="Class" type="Duality.Components.SoundEmitter+Source" id="823285392">
+                    <looped dataType="Bool">true</looped>
+                    <offset dataType="Struct" type="OpenTK.Vector3">
+                      <X dataType="Float">0</X>
+                      <Y dataType="Float">0</Y>
+                      <Z dataType="Float">0</Z>
+                    </offset>
+                    <paused dataType="Bool">false</paused>
+                    <pitch dataType="Float">1</pitch>
+                    <sound dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Sound]]">
+                      <contentPath dataType="String">Data\Music\05 - The Howdy Doody Christmas.Sound.res</contentPath>
+                    </sound>
+                    <volume dataType="Float">0.4</volume>
+                  </object>
+                  <object />
+                  <object />
+                  <object />
+                </_items>
+                <_size dataType="Int">1</_size>
+                <_version dataType="Int">1</_version>
+              </sources>
+            </object>
+            <object />
+            <object />
+          </_items>
+          <_size dataType="Int">2</_size>
+          <_version dataType="Int">2</_version>
+        </compList>
+        <compMap dataType="Class" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="3443940526" surrogate="true">
+          <header />
+          <body>
+            <keys dataType="Array" type="System.Type[]" id="1200719955" length="2">
+              <object dataType="ObjectRef">665143522</object>
+              <object dataType="Type" id="65726818" value="Duality.Components.SoundEmitter" />
+            </keys>
+            <values dataType="Array" type="Duality.Component[]" id="1190221398" length="2">
+              <object dataType="ObjectRef">2474096629</object>
+              <object dataType="ObjectRef">2157673584</object>
+            </values>
+          </body>
+        </compMap>
+        <compTransform dataType="ObjectRef">2474096629</compTransform>
+        <identifier dataType="Struct" type="System.Guid" surrogate="true">
+          <header>
+            <data dataType="Array" type="System.Byte[]" id="584082485" length="16">kmP91DXRsEiRAQPpFvVe4w==</data>
+          </header>
+          <body />
+        </identifier>
+        <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
+        <name dataType="String">05 - The Howdy Doody Christmas</name>
         <parent />
         <prefabLink />
       </object>
