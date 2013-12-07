@@ -1,5 +1,6 @@
 ﻿using System;
 using Duality;
+using Duality.Components.Renderers;
 using Duality.Resources;
 using DublinGamecraft4.Wood;
 using OpenTK;
@@ -30,13 +31,19 @@ namespace DublinGamecraft4
 
 	    public void OnUpdate()
 	    {
+		    ((AnimSpriteRenderer) GameObj.Renderer).AnimPaused = true;
+
 	        if (DualityApp.Keyboard[Key.D])
 	        {
 	            GameObj.Transform.Pos = new Vector3(GameObj.Transform.Pos.X + BaseSpeed * _speedDamping, GameObj.Transform.Pos.Y, GameObj.Transform.Pos.Z);
+		        ((AnimSpriteRenderer) GameObj.Renderer).AnimPaused = false;
+		        ((AnimSpriteRenderer) GameObj.Renderer).SharedMaterial = GameRes.Data.Material.HunterWalk_Material;
 	        }
             else if (DualityApp.Keyboard[Key.A])
             {
                 GameObj.Transform.Pos = new Vector3(GameObj.Transform.Pos.X - BaseSpeed * _speedDamping, GameObj.Transform.Pos.Y, GameObj.Transform.Pos.Z);
+				((AnimSpriteRenderer)GameObj.Renderer).AnimPaused = false;
+				((AnimSpriteRenderer)GameObj.Renderer).SharedMaterial = GameRes.Data.Material.HunterWalkLeft_Material;
             }
 
 		    var snowSkirt = Scene.Current.FindGameObject("SnowSkirt").GetComponent<SnowSkirt>();
