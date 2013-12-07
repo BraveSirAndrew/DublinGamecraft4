@@ -43,7 +43,7 @@ namespace DublinGamecraft4.Wood
                 return;
             }
 
-            if (!DualityApp.Keyboard.KeyHit(Key.Space))
+            if (!DualityApp.Keyboard.KeyHit(Key.Space) || _playerWood.CurrentWood >= _player.MaxLogs)
                 return;
 
             var seperation = _player.GameObj.Transform.Pos - GameObj.Transform.Pos;
