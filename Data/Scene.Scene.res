@@ -569,7 +569,7 @@
                   <_items dataType="Array" type="Duality.Component[]" id="2217996579" length="4">
                     <object dataType="ObjectRef">2491988534</object>
                     <object dataType="Class" type="DublinGamecraft4.Player" id="255751249">
-                      <__sbo__BaseSpeed__sbc__k__BackingField dataType="Float">10</__sbo__BaseSpeed__sbc__k__BackingField>
+                      <__sbo__BaseSpeed__sbc__k__BackingField dataType="Float">800</__sbo__BaseSpeed__sbc__k__BackingField>
                       <__sbo__MaxLogs__sbc__k__BackingField dataType="Int">8</__sbo__MaxLogs__sbc__k__BackingField>
                       <active dataType="Bool">true</active>
                       <gameobj dataType="ObjectRef">131673602</gameobj>

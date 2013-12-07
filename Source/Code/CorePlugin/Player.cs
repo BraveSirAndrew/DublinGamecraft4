@@ -41,9 +41,11 @@ namespace DublinGamecraft4
 	    {
 		    ((AnimSpriteRenderer) GameObj.Renderer).AnimPaused = true;
 
+			var elapsedTime = Time.TimeScale * (Time.LastDelta / 1000);
+
 	        if (DualityApp.Keyboard[Key.D])
 	        {
-	            GameObj.Transform.Pos = new Vector3(GameObj.Transform.Pos.X + BaseSpeed * _speedDamping, GameObj.Transform.Pos.Y, GameObj.Transform.Pos.Z);
+				GameObj.Transform.Pos = new Vector3(GameObj.Transform.Pos.X + BaseSpeed * _speedDamping * elapsedTime, GameObj.Transform.Pos.Y, GameObj.Transform.Pos.Z);
 		        ((AnimSpriteRenderer) GameObj.Renderer).AnimPaused = false;
 		        ((AnimSpriteRenderer) GameObj.Renderer).SharedMaterial = GameRes.Data.Material.HunterWalk_Material;
 
@@ -55,7 +57,7 @@ namespace DublinGamecraft4
 	        }
             else if (DualityApp.Keyboard[Key.A])
             {
-                GameObj.Transform.Pos = new Vector3(GameObj.Transform.Pos.X - BaseSpeed * _speedDamping, GameObj.Transform.Pos.Y, GameObj.Transform.Pos.Z);
+				GameObj.Transform.Pos = new Vector3(GameObj.Transform.Pos.X - BaseSpeed * _speedDamping * elapsedTime, GameObj.Transform.Pos.Y, GameObj.Transform.Pos.Z);
 				((AnimSpriteRenderer)GameObj.Renderer).AnimPaused = false;
 				((AnimSpriteRenderer)GameObj.Renderer).SharedMaterial = GameRes.Data.Material.HunterWalkLeft_Material;
 
