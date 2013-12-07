@@ -6,7 +6,9 @@
 namespace GameRes
 {
 	public static class Data {
+		public static Duality.ContentRef<Duality.Resources.Scene> Scene_Scene { get { return Duality.ContentProvider.RequestContent<Duality.Resources.Scene>(@"Data\Scene.Scene.res"); }}
 		public static void LoadAll() {
+			Scene_Scene.MakeAvailable();
 		}
 	}
 
