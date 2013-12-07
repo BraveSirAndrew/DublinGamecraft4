@@ -54,7 +54,7 @@
     <Compile Include="SnowFlake.cs" />
     <Compile Include="SnowSkirt.cs" />
     <Compile Include="SpringTracker.cs" />
-    <Compile Include="Wood\CampFire.cs" />
+    <Compile Include="Wood\BurningWood.cs" />
     <Compile Include="Wood\Tree.cs" />
     <Compile Include="Wood\WoodComponent.cs" />
   </ItemGroup>
