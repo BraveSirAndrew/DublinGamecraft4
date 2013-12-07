@@ -17,6 +17,9 @@ namespace DublinGamecraft4
 		private float _speedDamping = 1;
 	    [NonSerialized]
         private WoodComponent _woodComponent;
+		[NonSerialized]
+		private SoundInstance _footstepSound;
+
 
 		public float BaseSpeed { get; set; }
         public int MaxLogs { get; set; }
@@ -38,23 +41,31 @@ namespace DublinGamecraft4
 	    {
 		    ((AnimSpriteRenderer) GameObj.Renderer).AnimPaused = true;
 
+			var elapsedTime = Time.TimeScale * (Time.LastDelta / 1000);
+
 	        if (DualityApp.Keyboard[Key.D])
 	        {
-	            GameObj.Transform.Pos = new Vector3(GameObj.Transform.Pos.X + BaseSpeed * _speedDamping, GameObj.Transform.Pos.Y, GameObj.Transform.Pos.Z);
+				GameObj.Transform.Pos = new Vector3(GameObj.Transform.Pos.X + BaseSpeed * _speedDamping * elapsedTime, GameObj.Transform.Pos.Y, GameObj.Transform.Pos.Z);
 		        ((AnimSpriteRenderer) GameObj.Renderer).AnimPaused = false;
 		        ((AnimSpriteRenderer) GameObj.Renderer).SharedMaterial = GameRes.Data.Material.HunterWalk_Material;
 
 		        GameObj.ChildByName("AxeLeft").Active = false;
 		        GameObj.ChildByName("AxeRight").Active = true;
+
+				if(_footstepSound == null || _footstepSound.PlayTime > 0.9f)
+					_footstepSound = DualityApp.Sound.PlaySound(GameRes.Data.Sounds.footstep_snow_2_Sound);
 	        }
             else if (DualityApp.Keyboard[Key.A])
             {
-                GameObj.Transform.Pos = new Vector3(GameObj.Transform.Pos.X - BaseSpeed * _speedDamping, GameObj.Transform.Pos.Y, GameObj.Transform.Pos.Z);
+				GameObj.Transform.Pos = new Vector3(GameObj.Transform.Pos.X - BaseSpeed * _speedDamping * elapsedTime, GameObj.Transform.Pos.Y, GameObj.Transform.Pos.Z);
 				((AnimSpriteRenderer)GameObj.Renderer).AnimPaused = false;
 				((AnimSpriteRenderer)GameObj.Renderer).SharedMaterial = GameRes.Data.Material.HunterWalkLeft_Material;
 
 				GameObj.ChildByName("AxeLeft").Active = true;
 				GameObj.ChildByName("AxeRight").Active = false;
+
+				if (_footstepSound == null || _footstepSound.PlayTime > 0.9f)
+					_footstepSound = DualityApp.Sound.PlaySound(GameRes.Data.Sounds.footstep_snow_2_Sound);
             }
 
 		    if (DualityApp.Keyboard.KeyHit(Key.Space) && _woodComponent.CurrentWood < MaxLogs)
