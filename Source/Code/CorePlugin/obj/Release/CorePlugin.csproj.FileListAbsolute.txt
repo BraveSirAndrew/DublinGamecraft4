@@ -1,0 +1,14 @@
+C:\source\DublinGamecraft4\DublinGamecraft4\Source\Code\CorePlugin\bin\Release\GamePlugin.core.dll
+C:\source\DublinGamecraft4\DublinGamecraft4\Source\Code\CorePlugin\bin\Release\GamePlugin.core.pdb
+C:\source\DublinGamecraft4\DublinGamecraft4\Source\Code\CorePlugin\bin\Release\GamePlugin.core.xml
+C:\source\DublinGamecraft4\DublinGamecraft4\Source\Code\CorePlugin\bin\Release\Duality.dll
+C:\source\DublinGamecraft4\DublinGamecraft4\Source\Code\CorePlugin\bin\Release\OpenTK.dll
+C:\source\DublinGamecraft4\DublinGamecraft4\Source\Code\CorePlugin\bin\Release\FarseerOpenTK.dll
+C:\source\DublinGamecraft4\DublinGamecraft4\Source\Code\CorePlugin\bin\Release\NVorbis.dll
+C:\source\DublinGamecraft4\DublinGamecraft4\Source\Code\CorePlugin\bin\Release\Duality.pdb
+C:\source\DublinGamecraft4\DublinGamecraft4\Source\Code\CorePlugin\bin\Release\Duality.xml
+C:\source\DublinGamecraft4\DublinGamecraft4\Source\Code\CorePlugin\bin\Release\OpenTK.xml
+C:\source\DublinGamecraft4\DublinGamecraft4\Source\Code\CorePlugin\bin\Release\FarseerOpenTK.xml
+C:\source\DublinGamecraft4\DublinGamecraft4\Source\Code\CorePlugin\obj\Release\CorePlugin.csprojResolveAssemblyReference.cache
+C:\source\DublinGamecraft4\DublinGamecraft4\Source\Code\CorePlugin\obj\Release\GamePlugin.core.dll
+C:\source\DublinGamecraft4\DublinGamecraft4\Source\Code\CorePlugin\obj\Release\GamePlugin.core.pdb
