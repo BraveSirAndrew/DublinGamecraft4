@@ -149,14 +149,14 @@
               <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
               <parentTransform />
               <pos dataType="Struct" type="OpenTK.Vector3">
-                <X dataType="Float">218.508316</X>
-                <Y dataType="Float">-998.6075</Y>
-                <Z dataType="Float">-2499.999</Z>
+                <X dataType="Float">1533.7262</X>
+                <Y dataType="Float">-1004.04248</Y>
+                <Z dataType="Float">-2498.99878</Z>
               </pos>
               <posAbs dataType="Struct" type="OpenTK.Vector3">
-                <X dataType="Float">218.508316</X>
-                <Y dataType="Float">-998.6075</Y>
-                <Z dataType="Float">-2499.999</Z>
+                <X dataType="Float">1533.7262</X>
+                <Y dataType="Float">-1004.04248</Y>
+                <Z dataType="Float">-2498.99878</Z>
               </posAbs>
               <scale dataType="Float">1</scale>
               <scaleAbs dataType="Float">1</scaleAbs>
@@ -267,14 +267,14 @@
                               <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
                               <parentTransform />
                               <pos dataType="Struct" type="OpenTK.Vector3">
-                                <X dataType="Float">218.508286</X>
-                                <Y dataType="Float">-198.607559</Y>
-                                <Z dataType="Float">0</Z>
+                                <X dataType="Float">1533.72571</X>
+                                <Y dataType="Float">-204.042343</Y>
+                                <Z dataType="Float">1</Z>
                               </pos>
                               <posAbs dataType="Struct" type="OpenTK.Vector3">
-                                <X dataType="Float">218.508286</X>
-                                <Y dataType="Float">-198.607559</Y>
-                                <Z dataType="Float">0</Z>
+                                <X dataType="Float">1533.72571</X>
+                                <Y dataType="Float">-204.042343</Y>
+                                <Z dataType="Float">1</Z>
                               </posAbs>
                               <scale dataType="Float">1</scale>
                               <scaleAbs dataType="Float">1</scaleAbs>
@@ -290,14 +290,14 @@
                               </velAbs>
                             </parentTransform>
                             <pos dataType="Struct" type="OpenTK.Vector3">
-                              <X dataType="Float">5.17591858</X>
+                              <X dataType="Float">5.17590332</X>
                               <Y dataType="Float">60.4497223</Y>
                               <Z dataType="Float">-1</Z>
                             </pos>
                             <posAbs dataType="Struct" type="OpenTK.Vector3">
-                              <X dataType="Float">223.6842</X>
-                              <Y dataType="Float">-138.157837</Y>
-                              <Z dataType="Float">-1</Z>
+                              <X dataType="Float">1538.90161</X>
+                              <Y dataType="Float">-143.592621</Y>
+                              <Z dataType="Float">0</Z>
                             </posAbs>
                             <scale dataType="Float">1</scale>
                             <scaleAbs dataType="Float">1</scaleAbs>
@@ -399,14 +399,14 @@
                             <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
                             <parentTransform dataType="ObjectRef">2491988534</parentTransform>
                             <pos dataType="Struct" type="OpenTK.Vector3">
-                              <X dataType="Float">-119.824081</X>
+                              <X dataType="Float">-119.8241</X>
                               <Y dataType="Float">-71.12926</Y>
                               <Z dataType="Float">-1</Z>
                             </pos>
                             <posAbs dataType="Struct" type="OpenTK.Vector3">
-                              <X dataType="Float">98.6842041</X>
-                              <Y dataType="Float">-269.736816</Y>
-                              <Z dataType="Float">-1</Z>
+                              <X dataType="Float">1413.90161</X>
+                              <Y dataType="Float">-275.1716</Y>
+                              <Z dataType="Float">0</Z>
                             </posAbs>
                             <scale dataType="Float">1</scale>
                             <scaleAbs dataType="Float">1</scaleAbs>
@@ -653,10 +653,10 @@
               </velAbs>
             </object>
             <object dataType="Class" type="DublinGamecraft4.SnowSkirt" id="32472254">
-              <__sbo__DistanceBetweenPeaks__sbc__k__BackingField dataType="Int">20</__sbo__DistanceBetweenPeaks__sbc__k__BackingField>
-              <__sbo__DriftWidth__sbc__k__BackingField dataType="Int">30</__sbo__DriftWidth__sbc__k__BackingField>
-              <__sbo__SnowSpeed__sbc__k__BackingField dataType="Int">10</__sbo__SnowSpeed__sbc__k__BackingField>
-              <__sbo__SpringDivider__sbc__k__BackingField dataType="Float">1.7</__sbo__SpringDivider__sbc__k__BackingField>
+              <__sbo__DistanceBetweenPeaks__sbc__k__BackingField dataType="Int">40</__sbo__DistanceBetweenPeaks__sbc__k__BackingField>
+              <__sbo__DriftWidth__sbc__k__BackingField dataType="Int">50</__sbo__DriftWidth__sbc__k__BackingField>
+              <__sbo__SnowSpeed__sbc__k__BackingField dataType="Int">100</__sbo__SnowSpeed__sbc__k__BackingField>
+              <__sbo__SpringDivider__sbc__k__BackingField dataType="Float">1.5</__sbo__SpringDivider__sbc__k__BackingField>
               <active dataType="Bool">true</active>
               <colorTint dataType="Struct" type="Duality.ColorFormat.ColorRgba">
                 <A dataType="Byte">255</A>

@@ -52,25 +52,7 @@ namespace DublinGamecraft4
 			while (pointIndex == -1 || pointIndex % 2 == 1)
 				pointIndex = MathF.Rnd.Next(0, MaxPoints);
 
-			_points[pointIndex].Y -= SnowSpeed;
-
-			var startingPointIndex = pointIndex;
-			float heightDivider = SnowSpeed;
-			while (pointIndex - 2 > 0 && startingPointIndex - pointIndex < DriftWidth)
-			{
-				heightDivider /= SpringDivider;
-				pointIndex -= 2;
-				_points[pointIndex].Y -= heightDivider;
-			}
-
-			pointIndex = startingPointIndex;
-			heightDivider = SnowSpeed;
-			while (pointIndex + 2 < _points.Length - 2 && pointIndex - startingPointIndex < DriftWidth)
-			{
-				heightDivider /= SpringDivider;
-				pointIndex += 2;
-				_points[pointIndex].Y -= heightDivider;
-			}
+			MeltSnow(MathF.Rnd.NextFloat(0, (MaxPoints * DistanceBetweenPeaks)), -SnowSpeed, SpringDivider, DriftWidth);
 
 			ApplyForces();
 			for (var i = 0; i < _forces.Length; i++)
