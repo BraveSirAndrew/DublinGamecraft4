@@ -25,6 +25,7 @@ namespace DublinGamecraft4
             {
                 (GameObj.Renderer as TextRenderer).Active = true;
                 player.Active = false;
+                Active = false;
             }
         }
     }
