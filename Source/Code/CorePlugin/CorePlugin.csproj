@@ -52,6 +52,8 @@
     <Compile Include="Properties\GameRes.cs" />
     <Compile Include="SnowSkirt.cs" />
     <Compile Include="SpringTracker.cs" />
+    <Compile Include="Wood\Tree.cs" />
+    <Compile Include="Wood\WoodComponent.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
