@@ -112,3 +112,7 @@ UpgradeLog*.XML
 /logfile_editor_reloadfailure.txt
 /perflog.txt
 /perflog_editor.txt
+
+/Plugins/GamePlugin.editor.dll
+/Plugins/GamePlugin.core.dll
+/Plugins/GamePlugin.core.xml

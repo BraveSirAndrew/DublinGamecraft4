@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.InteropServices;
 using Duality;
 using Duality.ColorFormat;
 using Duality.Components;
@@ -106,6 +107,17 @@ namespace DublinGamecraft4
 		public override float BoundRadius
 		{
 			get { return float.MaxValue; }
+		}
+
+		public float GetSnowHeightAtPoint(float pos)
+		{
+			var normalizedPos = pos / (MaxPoints * DistanceBetweenPeaks);
+			var pointIndex = (int) (MaxPoints * normalizedPos);
+
+			if(pointIndex % 2 == 1 && pointIndex < _points.Length)
+				pointIndex += 1;
+
+			return _points[pointIndex].Y;
 		}
 	}
 }
