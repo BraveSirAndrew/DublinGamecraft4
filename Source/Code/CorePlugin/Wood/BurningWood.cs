@@ -88,6 +88,9 @@ namespace DublinGamecraft4.Wood
 
         private void MeltSnow()
         {
+            if (_currentWood <= 0)
+                return;
+
             _snowSkirt.MeltSnow(GameObj.Transform.Pos.X, SnowMeltEnergy, SnowMeltFalloff, SnowMeltRadius);
             _snowSkirt.MeltSnow(GameObj.Transform.Pos.X - 40, SnowMeltEnergy, SnowMeltFalloff, SnowMeltRadius);
             _snowSkirt.MeltSnow(GameObj.Transform.Pos.X + 40, SnowMeltEnergy, SnowMeltFalloff, SnowMeltRadius);

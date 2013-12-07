@@ -71,7 +71,7 @@
             <visibilityGroup dataType="Enum" type="Duality.VisibilityFlag" name="Group0" value="1" />
           </object>
           <object dataType="Class" type="DublinGamecraft4.Wood.Tree" id="140584855">
-            <__sbo__ChopRadius__sbc__k__BackingField dataType="Float">1024</__sbo__ChopRadius__sbc__k__BackingField>
+            <__sbo__ChopRadius__sbc__k__BackingField dataType="Float">500</__sbo__ChopRadius__sbc__k__BackingField>
             <active dataType="Bool">true</active>
             <gameobj dataType="ObjectRef">3482361300</gameobj>
             <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
