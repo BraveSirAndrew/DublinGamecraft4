@@ -59,7 +59,7 @@ namespace DublinGamecraft4
 
 		    if (DualityApp.Keyboard.KeyHit(Key.Space) && _woodComponent.CurrentWood < MaxLogs)
 		    {
-			    GameObj.GetComponentsInChildren<Axe>().First().Chop();
+			    GameObj.GetComponentsInChildren<Axe>().First(c => c.Active).Chop();
 		    }
 
 		    var snowSkirt = Scene.Current.FindGameObject("SnowSkirt").GetComponent<SnowSkirt>();
