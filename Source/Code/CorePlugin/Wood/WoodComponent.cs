@@ -11,6 +11,7 @@ namespace DublinGamecraft4.Wood
 
         public int StartingWoodCount { get; set; }
 
+        public int CurrentWood { get { return _currentWood; } }
         public bool HasAnyWood { get { return _currentWood > 0; } }
 
         public void OnInit(InitContext context)

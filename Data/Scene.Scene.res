@@ -404,9 +404,9 @@
               <active dataType="Bool">true</active>
               <colorTint dataType="Struct" type="Duality.ColorFormat.ColorRgba">
                 <A dataType="Byte">255</A>
-                <B dataType="Byte">32</B>
-                <G dataType="Byte">74</G>
-                <R dataType="Byte">87</R>
+                <B dataType="Byte">255</B>
+                <G dataType="Byte">255</G>
+                <R dataType="Byte">255</R>
               </colorTint>
               <customMat />
               <gameobj dataType="ObjectRef">2246392666</gameobj>
@@ -414,13 +414,13 @@
               <offset dataType="Int">0</offset>
               <rect dataType="Struct" type="Duality.Rect">
                 <H dataType="Float">1024</H>
-                <W dataType="Float">256</W>
-                <X dataType="Float">-128</X>
+                <W dataType="Float">682</W>
+                <X dataType="Float">-341</X>
                 <Y dataType="Float">-512</Y>
               </rect>
               <rectMode dataType="Enum" type="Duality.Components.Renderers.SpriteRenderer+UVMode" name="Stretch" value="0" />
               <sharedMat dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
-                <contentPath dataType="String">Default:Material:SolidWhite</contentPath>
+                <contentPath dataType="String">Data\Material\FirTree.Material.res</contentPath>
               </sharedMat>
               <visibilityGroup dataType="Enum" type="Duality.VisibilityFlag" name="Group0" value="1" />
             </object>
